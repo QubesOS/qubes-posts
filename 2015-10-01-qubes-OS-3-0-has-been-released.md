@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Qubes OS 3.0 has been released!
+title: "Qubes OS 3.0 has been released!"
 date: 2015-10-01
 categories: announcements partnerships purism
 download_url: /downloads/

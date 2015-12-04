@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Qubes OS 3.0 rc2 has been released!
+title: "Qubes OS 3.0 rc2 has been released!"
 date: 2015-07-31
 categories: releases
 download_url: /downloads/

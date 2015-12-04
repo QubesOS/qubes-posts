@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Article about Qubes OS in *Wired*
+title: "Article about Qubes OS in *Wired*"
 date: 2014-11-20
 categories: press
 author: Qubes OS

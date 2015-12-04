@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Article about Qubes OS in *Motherboard*
+title: "Article about Qubes OS in *Motherboard*"
 date: 2015-10-05
 categories: press
 author: Qubes OS

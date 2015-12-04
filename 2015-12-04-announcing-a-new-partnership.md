@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Announcing a new partnership
-date:   2015-12-03 20:49:57
+title: "Announcing a new partnership"
+date: 2015-12-03
 categories: announcements partnerships purism
 author: Qubes OS
 ---
