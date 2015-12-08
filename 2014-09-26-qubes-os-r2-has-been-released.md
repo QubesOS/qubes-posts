@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Qubes OS R2 has been released"
-date: 2014-08-26
+date: 2014-09-26
 categories: releases
 download_url: /downloads/
 author: Qubes OS

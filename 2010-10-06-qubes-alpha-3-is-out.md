@@ -2,7 +2,9 @@
 layout: post
 title: "Qubes Alpha 3 is out!"
 date: 2010-10-06
-categories: releases
+categories:
+  - releases
+  - 1-0
 download_url: /downloads/
 author: Qubes OS
 redirect_to:
