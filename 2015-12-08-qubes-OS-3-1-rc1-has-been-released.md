@@ -2,9 +2,10 @@
 layout: post
 title: "Qubes OS 3.1 rc1 has been released!"
 date: 2015-12-08
-categories: releases
+categories:
+  - releases
 download_url: /downloads/
-author: Qubes OS
+author: Marek Marczykowski
 ---
 Today we're releasing the first release candidate of Qubes 3.1. This release is
 focused on usability and hardware compatibility. As [previously
@@ -19,7 +20,7 @@ announced][qubes-30-announced], the most notable features include:
    keeping them up to date, modifying configuration files, etc).
 
    The 3.1 installer already uses this new mechanism for:
-   
+
    * Basic VMs creation (sys-net, sys-firewall, personal, vault, etc)
    * [Whonix][whonix] setup (both workstation and gateway, with all required
            settings)
@@ -30,7 +31,7 @@ announced][qubes-30-announced], the most notable features include:
 
 2. UEFI support: the same installation image can be started in UEFI or legacy
    mode. Depending on the mode in which the installer is running - the same mode
-   will be used for the installed system. This reduces the requirements to 
+   will be used for the installed system. This reduces the requirements to
    run Qubes (legacy boot), lowering the barrier of entry to use Qubes.
 
 3. A bunch of updates for improving hardware support further: Xen 4.6, updated X

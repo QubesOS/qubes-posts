@@ -2,9 +2,10 @@
 layout: post
 title: "Qubes 2 Beta 2 has been released!"
 date: 2013-02-28
-categories: releases
+categories:
+  - releases
 download_url: /downloads/
-author: Qubes OS
+author: Joanna Rutkowska
 redirect_to:
 - http://blog.invisiblethings.org/2013/02/28/qubes-2-beta-2-has-been-released.html
 ---
