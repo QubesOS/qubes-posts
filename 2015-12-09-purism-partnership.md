@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Partnering with Purism and the first Qubes-certified laptop
+date: 2015-12-09
+categories: announcements
 author: Michael Carbone
 ---
 
