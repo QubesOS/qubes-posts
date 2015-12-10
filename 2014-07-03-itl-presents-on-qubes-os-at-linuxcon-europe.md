@@ -2,7 +2,8 @@
 layout: post
 title: "ITL presents on Qubes OS at LinuxCon Europe"
 date: 2014-07-03
-categories: talks
+categories:
+  - talks
 author: Qubes OS
 ---
 

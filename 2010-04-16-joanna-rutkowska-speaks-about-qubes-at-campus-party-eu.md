@@ -2,7 +2,8 @@
 layout: post
 title: "Joanna Rutkowska speaks about Qubes at Campus Party EU"
 date: 2010-04-16
-categories: talks
+categories:
+  - talks
 author: Qubes OS
 ---
 

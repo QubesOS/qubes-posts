@@ -2,7 +2,8 @@
 layout: post
 title:  "LinuxCon EU 2014 slides"
 date: 2014-08-19
-categories: talks
+categories:
+  - talks
 author: Qubes OS
 ---
 

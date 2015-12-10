@@ -2,8 +2,9 @@
 layout: post
 title: "The Qubes website now uses a CA-signed SSL cert"
 date: 2014-07-16
-categories: announcements
-author: Qubes OS
+categories:
+  - announcements
+author: Joanna Rutkowska
 ---
 
 The Qubes website now uses a CA-signed SSL cert (but *note that this is mostly irrelevant*)
