@@ -65,6 +65,7 @@ And finally, some example configurations, taken from [default set][salt-configs]
 configuration of Whonix-Gateway:
 
 ~~~
+{% raw %}
 include:
   - qvm.template-whonix-gw
   - qvm.sys-firewall
@@ -102,6 +103,7 @@ require:
 {%- endload %}
 
 {{ load(template) }}
+{% endraw %}
 ~~~
 
 Enjoy!
