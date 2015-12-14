@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Salt management stack in Qubes
+date: 2015-12-14
 categories:
  - articles
 author: Marek Marczykowski-Górecki
