@@ -5,7 +5,7 @@ date: 2016-01-12
 categories:
   - releases
 download_url: /downloads/
-author: Marek Marczykowski
+author: Marek Marczykowski-Górecki
 ---
 Today we're releasing the second release candidate of Qubes 3.1, with many bug
 fixed over the [previous release candidate][qubes-31-rc1-announced], 

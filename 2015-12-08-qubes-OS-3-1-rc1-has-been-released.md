@@ -5,7 +5,7 @@ date: 2015-12-08
 categories:
   - releases
 download_url: /downloads/
-author: Marek Marczykowski
+author: Marek Marczykowski-Górecki
 ---
 Today we're releasing the first release candidate of Qubes 3.1. This release is
 focused on usability and hardware compatibility. As [previously
