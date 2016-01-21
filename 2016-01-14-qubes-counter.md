@@ -19,11 +19,11 @@ There are problems with gathering statistics. First and foremost, there are
 privacy implications to this kind of research and we are well aware that too
 invasive gathering or even publishing too granular metrics would violate the
 privacy rights of our users. At ITL, we believe that users' security depends
-on their privacy and our conscience would not let us „monetise” (that is,
+on their privacy and our conscience would not let us "monetise" (that is,
 exploit) our userbase. We would never exchange it even for much needed project
 funding.
 
-One commonly found solution is to provide some kind of „user choice”, through
+One commonly found solution is to provide some kind of "user choice", through
 which users could agree (or not) to being counted. This however would not
 provide reliable data, since we expect people would generally not enable that
 option. There are also many other problems with this approach: I personally
