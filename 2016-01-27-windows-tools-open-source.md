@@ -72,10 +72,12 @@ In the past, Qubes Windows Tools were mostly closed-source as its
 development was focused on business use. However we have decided that it
 is better to provide the full functionality of Qubes for all users, so
 we're doing just that -- please enjoy Qubes Windows Tools with the
-same confidence you use Qubes OS!
+same confidence you use Qubes OS! [1]
 
 What next? The main priority right now is adding support for Windows 8 and 10. Why is this a big problem? Without getting too technical, Windows 8 and later [requires](https://msdn.microsoft.com/en-us/library/windows/hardware/ff570593(v=vs.85).aspx) that video drivers use a totally different (and much more complex) architecture than what was still supported in Windows 7. The GUI agent in QWT relies on a custom video driver to provide the seamless experience for Windows VMs so said video driver needs to be ported to the new architecture. It's not simple, but progress is being made.
 
 Another thing is to solve the code duplication issue in the user-mode portion of the Xen PV drivers so we can stop having our forked versions. It would also be nice to convince Xen maintainers to accept the Windows libvchan port.
 
 And, last but not least, there is still a lot of work to be done to improve Qubes Windows Tools, like for example adding audio support. There are some problems with the Xen PV storage driver that we haven't had time to investigate in detail. The GUI agent could use an optimization pass. So, now that we are opening the source of QWT you can also help if you are a Windows developer! :)
+
+[1] The source code license for Qubes Windows Tools is GNU General Public License version 2.
