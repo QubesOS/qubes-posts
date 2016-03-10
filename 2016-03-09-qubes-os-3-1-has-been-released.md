@@ -6,6 +6,8 @@ date: 2016-03-09
 categories:
   - releases
 download_url: /downloads/
+redirect_from:
+  - /news/2016/03/09/qubes-31/
 ---
 
 I'm happy to announce that today we're releasing Qubes OS 3.1!
