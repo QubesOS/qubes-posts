@@ -41,11 +41,13 @@ already implemented, but not mature enough yet to be included in Qubes 3.1
 release.
 
 In R3.1 rc1 we have included configuration to setup:
+
  * [Whonix][whonix-template] VM (both gateway and workstation) - just one click!
  * USB VM, including [input proxy][input-proxy] configuration for USB mouse!
  * Basic VMs creation (sys-net, sys-firewall, personal, vault, etc)
 
 But in the near future we are planning more, for example:
+
  * Split GPG setup
  * Streamline system updates (dom0 and all the templates)
 
