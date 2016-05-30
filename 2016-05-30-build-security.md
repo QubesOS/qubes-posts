@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Security challenges for the Qubes build process
+categories:
+ - articles
+ - security
 author: Joanna Rutkowska
 ---
 
