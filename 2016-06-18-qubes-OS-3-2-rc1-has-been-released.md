@@ -8,12 +8,13 @@ download_url: /downloads/
 author: Marek Marczykowski-Górecki
 ---
 Today we're releasing the first release candidate of Qubes 3.2. This release,
-similar to 3.1, is mostly focused on hardware compatibility. But as usual,
-there are also some new features. Major highlights for this release are:
+similar to 3.1, is mostly focused on hardware compatibility and improved
+usability. But as usual, there are also some new features.  Major highlights
+for this release are:
 
 1. Major enhancements to management/pre-configuration. Now, it is not only
    possible to create VMs and set their properties, but you can also configure
-   the insides of systems! This enables many more interesting use cases, like
+   the insides of the VMs! This enables many more interesting use-cases, like
    setting up new customized templates automatically. We don't have any
    finished, out-of-the-box configurations using this new feature yet, but we
    already have some preliminary versions of some of them, for example:
@@ -24,8 +25,8 @@ there are also some new features. Major highlights for this release are:
 2. Dom0 updated to Fedora 23. This provides much newer graphics drivers.
    Together with Linux kernel 4.4.x in dom0, it should make Qubes OS much more
    compatible with new hardware. With Fedora 23 we were forced to upgrade KDE 4
-   to KDE 5. This is mostly done, but there are still some rough edges.
-   Hopefully, we'll sort this out before final Qubes 3.2 release.
+   to KDE 5. This is mostly done, but there are still some rough edges.  We aim
+   to iron out any remaining rough edges for the final Qubes 3.2 release.
 
 3. [USB passthrough][usb-passthrough]. For a long time it was only possible to
    attach the whole USB controller to a selected VM. With Qubes 3.2, we
