@@ -54,9 +54,9 @@ or wander aimlessly. Even worse, the project could be be misdirected into a
 blind avenue, whether due to lack of skill, naivety, or perhaps the intentional
 actions of those among whom we decide to distribute power.
 
-Consequently, we're not interested in decentrlization of the current leadership
+Consequently, we're not interested in decentralization of the current leadership
 (at least for fundamentally important matters, such as the general roadmap and
-architecture), but in bulding in various mechanisms to prevent any potential
+architecture), but in building in various mechanisms to prevent any potential
 corruption.
 
 [donations]: https://www.qubes-os.org/donate/
