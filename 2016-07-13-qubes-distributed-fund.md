@@ -50,7 +50,7 @@ single person having the capacity to compromise it.
 However, it is important to clarify that by "decentralization" we do not
 necessarily mean "democratization." If our goal were to democratize the project,
 there would be a risk that, without clear leadership, the project could stagnate
-or wander aimlessly. Even worse, the project could be be misdirected into a
+or wander aimlessly. Even worse, the project could be misdirected into a
 blind avenue, whether due to lack of skill, naivety, or perhaps the intentional
 actions of those among whom we decide to distribute power.
 
