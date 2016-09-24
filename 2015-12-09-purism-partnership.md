@@ -26,7 +26,7 @@ Librem laptops to ensure that they are compatible with Qubes.
 
 This begins with the certification of the
 [Librem 13](https://puri.sm/librem-13/). For existing Librem 13 users, we have
-[provided instructions](/doc/certified-laptops/#tocAnchor-1-1-1) on improving Qubes
+[provided instructions](/doc/certified-laptops/#purism-librem-13) on improving Qubes
 compatibility with the Librem 13. For users now who seek to buy a
 Librem 13, there will be an option  to have Qubes pre-installed on
 their Librem 13. This will include all the necessary tweaks for maximum
