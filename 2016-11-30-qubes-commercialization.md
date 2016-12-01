@@ -85,7 +85,7 @@ open source development of Qubes for much longer. We're running out of time.
 In an attempt to keep the open source development of Qubes going, we've teamed
 up with [Open Collective][oc], which makes it easier to donate to the Qubes
 project.  Now, in addition to our [Bitcoin fund][btc], we can also accept
-donations via credit card. ITL will not benefit from of any of the money donated
+donations via credit card. ITL will not benefit from any of the money donated
 through Open Collective. Instead, the funds will be paid directly to individual
 developers who have been hired to work on the open source edition of Qubes.
 With the help of our community, we hope eventually to build a nonprofit
