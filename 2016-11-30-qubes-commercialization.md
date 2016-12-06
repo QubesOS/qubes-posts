@@ -107,6 +107,77 @@ around to secure our digital lives for many years to come.
 
 --- [The Qubes team][team]
 
+--------------------------------------------------------------------------------
+
+## Q & A ##
+
+(Added 2016-12-05)
+
+Here are some of the questions we've received from the community regarding this
+announcement.
+
+**Q:** I'm concerned that large donors might weild undue influence over the
+direction of the Qubes project. Is this something users should worry about?
+
+**A:** No. Our position has always been --- and continues to be --- that donors
+do not have any special influence over the direction of the project. Making a
+donation does not entitle anyone to decide or vote on development priorities.
+
+**Q:** Will the process of receiving and spending donations be transparent?
+
+**A:** Yes. All donations received through Open Collective will be publicly
+visible, as will the way this money is spent. (You can view this on our [Open
+Collective page][oc].)
+
+**Q:** Can you give me an idea of how much money the project needs?
+
+**A:** I think some kind of measurement is that we've received $410k from OTF
+over the last year. During that time, we've got also received some much smaller 
+donations, but that doesn't change the above figure much. 
+This was enough to survive and release new versions, but not enough to 
+implement everything we've planned for. Some examples:
+
+ - Qubes 4.0 is delayed more and more, 
+ - We haven't managed to add Gnome support 
+ - Live USB is still in alpha phase and basically unmaintained 
+ - A lot of bugs are not fixed (see GitHub issues) 
+
+This is a lot of money. And we don't think it's realistic to collect it 
+just from public donations. This is why we're introducing a commercial 
+edition. But that doesn't mean we don't need your support. On the 
+contrary! We'd love to continue work on the open source edition as much as 
+possible! Not only as a base for commercial product, but also as a fully 
+usable and functional system on its own!
+
+**Q:** The announcement says that if I'm interested in supporting Qubes with
+"significant resources," I should contact you directly. How much is
+"significant"?
+
+**A:** I think anything >= $10k. We also have some internal overhead of 
+handling individual donations manually (mostly related to the number of 
+such donations, not necessarily the amount), so it's not really worth it for
+smaller amounts. That's why we have Open Collective to handle these.
+
+**Q:** Will any/all of the current ITL devs continue to work on the open source
+edition of Qubes?
+
+**A:** Probably, but it depends on how much of their time is demanded by
+corporate clients. (Remember, though, that any changes to core code will remain
+open source, so it's quite likely that the core devs will continue to contribute
+to the open source edition, at least indirectly.)
+
+**Q:** Will any/all of the current non-ITL devs continue to work on the open
+source edition of Qubes?
+
+**A:** Probably, but it depends on what they want to do, how much gets donated,
+and therefore how much money is available to pay them. 
+
+**Q:** If new developers are hired, will the quality of their code be reviewed
+to ensure the high standards of the Qubes project are maintained?
+
+**A:** Yes, absolutely.
+
+
 [alpha]: https://blog.invisiblethings.org/2010/04/07/introducing-qubes-os.html
 [itl]: https://invisiblethingslab.com
 [wni]: https://blog.invisiblethings.org/2014/01/15/shattering-myths-of-windows-security.html
