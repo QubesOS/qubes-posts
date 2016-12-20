@@ -4,7 +4,6 @@ title: "Qubes OS 3.0 rc2 LiveUSB (alpha) has been released!"
 date: 2015-08-10
 categories:
   - releases
-  - liveusb
 download_url: /downloads/
 author: Qubes OS
 redirect_to:

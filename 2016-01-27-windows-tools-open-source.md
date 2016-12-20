@@ -5,6 +5,7 @@ date: 2016-01-27
 author: Rafał Wojdyła
 categories:
   - announcements
+  - windows
 ---
 
 The state of Windows support within Qubes

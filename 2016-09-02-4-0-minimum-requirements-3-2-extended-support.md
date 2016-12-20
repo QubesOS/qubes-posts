@@ -4,8 +4,10 @@ title: "Minimum requirements for Qubes OS 4.x and extended support for Qubes OS 
 date: 2016-09-02
 categories:
   - announcements
+  - releases
 author: Andrew David Wong
 ---
+
 We previously announced the [new hardware certification requirements for Qubes
 4.x][hw-cert-q4]. Today, we're announcing the minimum requirements for this
 release series. In light of these new minimum requirements, we're also
