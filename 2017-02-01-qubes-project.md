@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing the new qubes-project mailing list"
-date: 2016-02-01
+date: 2017-02-01
 categories: announcements
 author: Michael Carbone
 ---
@@ -9,6 +9,7 @@ author: Michael Carbone
 We've just introduced a new mailing list: [qubes-project]
 
 This list is for non-technical discussion and coordination around the Qubes OS project. Examples of topics or question suitable for this list include:
+
 * Participation (talks, workshops, etc.) at upcoming events
 * Project funding applications and strategies
 * FOSS governance discussions
