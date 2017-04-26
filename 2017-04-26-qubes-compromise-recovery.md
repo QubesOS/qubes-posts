@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Compromise recovery on Qubes OS: individual VMs & full system cases"
+title: "Compromise recovery on Qubes OS"
 author: Joanna Rutkowska
 ---
 
