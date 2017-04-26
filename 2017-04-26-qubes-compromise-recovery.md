@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Compromise recovery on Qubes OS"
+categories:
+ - articles
+ - security
 author: Joanna Rutkowska
 ---
 
