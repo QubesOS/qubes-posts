@@ -181,7 +181,7 @@ code.
 The second method (Qubes inter-VM file copy) avoids this problem. But, of
 course, some method of sanitization or scanning of the files copied from the
 compromised machine will be needed (remember that the compromised AppVM might
-have sent _whatever_ if felt like sending!). Some users might want to run more
+have sent _whatever_ it felt like sending!). Some users might want to run more
 traditional, AV-like scanners, while others might want to employ approaches
 similar to e.g. one used by [Qubes PDF converters][qubes_pdf_converter]. Perhaps
 in some scenarios even better approaches could be used, e.g. verifying code
