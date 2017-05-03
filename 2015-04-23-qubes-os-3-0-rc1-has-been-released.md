@@ -7,5 +7,5 @@ categories:
 download_url: /downloads/
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2015/04/23/qubes-30rc1-and-roadmap.html
+- https://blog.invisiblethings.org/2015/04/23/qubes-30rc1-and-roadmap.html
 ---
