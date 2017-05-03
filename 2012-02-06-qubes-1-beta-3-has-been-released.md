@@ -7,5 +7,5 @@ categories:
 download_url: /downloads/
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2012/02/06/qubes-beta-3.html
+- https://blog.invisiblethings.org/2012/02/06/qubes-beta-3.html
 ---
