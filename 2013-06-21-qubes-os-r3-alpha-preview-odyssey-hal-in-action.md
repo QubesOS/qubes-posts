@@ -6,5 +6,5 @@ categories:
   - announcements
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2013/06/21/qubes-os-r3-alpha-preview-odyssey-hal.html
+- https://blog.invisiblethings.org/2013/06/21/qubes-os-r3-alpha-preview-odyssey-hal.html
 ---
