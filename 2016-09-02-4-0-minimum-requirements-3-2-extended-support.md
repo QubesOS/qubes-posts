@@ -101,7 +101,7 @@ the 4.x series.
 [EPT]: https://en.wikipedia.org/wiki/Second_Level_Address_Translation#Extended_Page_Tables
 [RVI]: https://en.wikipedia.org/wiki/Second_Level_Address_Translation#Rapid_Virtualization_Indexing
 [SLAT]: https://en.wikipedia.org/wiki/Second_Level_Address_Translation
-[Intel-list]: http://ark.intel.com/search/advanced?s=t&InstructionSet=64-bit&ExtendedPageTables=true&VTD=true&EM64=true
+[Intel-list]: https://ark.intel.com/search/advanced?s=t&InstructionSet=64-bit&ExtendedPageTables=true&VTD=true&EM64=true
 [IOMMU-list]: https://en.wikipedia.org/wiki/List_of_IOMMU-supporting_hardware
 [HCL]: https://www.qubes-os.org/hcl/
 [submitting an HCL report]: https://www.qubes-os.org/doc/hcl/#generating-and-submitting-new-reports
