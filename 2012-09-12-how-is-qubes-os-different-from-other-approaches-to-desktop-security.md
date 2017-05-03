@@ -6,5 +6,5 @@ categories:
   - articles
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2012/09/12/how-is-qubes-os-different-from.html
+- https://blog.invisiblethings.org/2012/09/12/how-is-qubes-os-different-from.html
 ---
