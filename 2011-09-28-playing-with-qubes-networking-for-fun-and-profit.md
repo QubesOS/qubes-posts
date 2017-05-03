@@ -6,5 +6,5 @@ categories:
   - articles
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2011/09/28/playing-with-qubes-networking-for-fun.html
+- https://blog.invisiblethings.org/2011/09/28/playing-with-qubes-networking-for-fun.html
 ---
