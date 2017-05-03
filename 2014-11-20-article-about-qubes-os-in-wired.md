@@ -6,5 +6,5 @@ categories:
   - press
 author: Qubes OS
 redirect_to:
-- http://www.wired.com/2014/11/protection-from-hackers/
+- https://www.wired.com/2014/11/protection-from-hackers/
 ---
