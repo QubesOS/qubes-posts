@@ -7,5 +7,5 @@ categories:
   - security
 author: Joanna Rutkowska
 redirect_to:
-- http://lists.xen.org/archives/html/xen-devel/2012-11/msg00821.html
+- https://lists.xen.org/archives/html/xen-devel/2012-11/msg00821.html
 ---
