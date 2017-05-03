@@ -7,5 +7,5 @@ categories:
 download_url: /downloads/
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2015/10/01/qubes-30.html
+- https://blog.invisiblethings.org/2015/10/01/qubes-30.html
 ---
