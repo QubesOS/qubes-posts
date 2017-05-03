@@ -6,5 +6,5 @@ categories:
   - releases
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2011/09/19/qubes-beta-2-released.html
+- https://blog.invisiblethings.org/2011/09/19/qubes-beta-2-released.html
 ---
