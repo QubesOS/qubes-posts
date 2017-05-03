@@ -69,7 +69,7 @@ which is located in our a newly redesigned website. This blog
 will be the place for announcements, releases and interesting
 things about Qubes OS.
 
-[qubes-30-announced]: http://blog.invisiblethings.org/2015/10/01/qubes-30.html
+[qubes-30-announced]: https://blog.invisiblethings.org/2015/10/01/qubes-30.html
 [whonix]: https://www.qubes-os.org/doc/templates/whonix/
 [pv-grub-doc]: https://www.qubes-os.org/doc/managing-vm-kernel/#tocAnchor-1-3
 [release-notes]: https://www.qubes-os.org/doc/releases/3.1/release-notes/
