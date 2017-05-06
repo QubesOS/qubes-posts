@@ -51,7 +51,7 @@ number to grow and further skew the statistics.
 The statistics are available at
 [https://www.qubes-os.org/counter/](https://www.qubes-os.org/counter/):
 
-![Estimated Qubes OS userbase graph](http://tools.qubes-os.org/counter/stats.png)
+![Estimated Qubes OS userbase graph](https://tools.qubes-os.org/counter/stats.png)
 
 What is currently missing:
 
