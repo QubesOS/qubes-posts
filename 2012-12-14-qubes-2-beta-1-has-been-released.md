@@ -8,5 +8,5 @@ categories:
 download_url: /downloads/
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2012/12/14/qubes-2-beta-1-with-initial-windows.html
+- https://blog.invisiblethings.org/2012/12/14/qubes-2-beta-1-with-initial-windows.html
 ---
