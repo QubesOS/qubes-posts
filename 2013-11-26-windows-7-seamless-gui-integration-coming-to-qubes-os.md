@@ -7,5 +7,5 @@ categories:
   - windows
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2013/11/26/windows-7-seamless-gui-integration.html
+- https://blog.invisiblethings.org/2013/11/26/windows-7-seamless-gui-integration.html
 ---
