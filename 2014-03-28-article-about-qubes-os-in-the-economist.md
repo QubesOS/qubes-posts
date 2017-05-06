@@ -6,5 +6,5 @@ categories:
   - press
 author: Qubes OS
 redirect_to:
-- http://www.economist.com/blogs/babbage/2014/03/computer-security
+- https://www.economist.com/blogs/babbage/2014/03/computer-security
 ---
