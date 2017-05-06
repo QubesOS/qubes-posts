@@ -7,5 +7,5 @@ categories:
 download_url: /downloads/
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2014/04/20/qubes-os-r2-rc1-has-been-released.html
+- https://blog.invisiblethings.org/2014/04/20/qubes-os-r2-rc1-has-been-released.html
 ---
