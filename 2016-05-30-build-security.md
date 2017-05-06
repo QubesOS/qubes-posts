@@ -188,8 +188,8 @@ this so that it can be implemented before the upcoming Qubes 3.2 release.
 [qubes_builder]: https://www.qubes-os.org/doc/qubes-builder/
 [qubes_builder_dispvm]: https://github.com/marmarek/qubes-builder/blob/master/doc/TemplateDispVMBuild.md
 [qubes_builder_repo]: https://github.com/QubesOS/qubes-builder/
-[xen_critique]: http://lists.xen.org/archives/html/xen-devel/2015-11/msg00601.html
-[30rc1_post]: http://blog.invisiblethings.org/2015/04/23/qubes-30rc1-and-roadmap.html
+[xen_critique]: https://lists.xen.org/archives/html/xen-devel/2015-11/msg00601.html
+[30rc1_post]: https://blog.invisiblethings.org/2015/04/23/qubes-30rc1-and-roadmap.html
 [builder_fix]: https://github.com/QubesOS/qubes-vmm-xen/commit/b48118b8ca59f1bd4208560adf044d35c10fa50b
 [pungi_marek_pr]: https://pagure.io/pungi/pull-request/63
 [qubes_deterministic_builds]: https://github.com/QubesOS/qubes-issues/issues/816
