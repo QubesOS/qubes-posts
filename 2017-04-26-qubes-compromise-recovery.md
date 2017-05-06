@@ -492,7 +492,7 @@ equivalent to... just using a standard AppVM.
 [dispvms]: https://blog.invisiblethings.org/2010/06/01/disposable-vms.html
 [x86_harmful]: https://blog.invisiblethings.org/papers/2015/x86_harmful.pdf
 [stateless_laptop]: https://blog.invisiblethings.org/papers/2015/state_harmful.pdf
-[qubes_isolation_paper]: http://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf
+[qubes_isolation_paper]: https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf
 [paranoid_backups_ticket]: https://github.com/QubesOS/qubes-issues/issues/2737
 [qubes_backups]: https://github.com/QubesOS/qubes-issues/issues/2768
 [qubes_core_admin]: https://qubes-core-admin.readthedocs.io/en/latest/
