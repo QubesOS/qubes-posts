@@ -7,5 +7,5 @@ categories:
 download_url: /downloads/
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2013/02/28/qubes-2-beta-2-has-been-released.html
+- https://blog.invisiblethings.org/2013/02/28/qubes-2-beta-2-has-been-released.html
 ---
