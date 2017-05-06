@@ -7,5 +7,5 @@ categories:
 download_url: /downloads/
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2010/07/01/qubes-alpha-2-released.html
+- https://blog.invisiblethings.org/2010/07/01/qubes-alpha-2-released.html
 ---
