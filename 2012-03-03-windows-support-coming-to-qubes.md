@@ -7,5 +7,5 @@ categories:
   - windows
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2012/03/03/windows-support-coming-to-qubes.html
+- https://blog.invisiblethings.org/2012/03/03/windows-support-coming-to-qubes.html
 ---
