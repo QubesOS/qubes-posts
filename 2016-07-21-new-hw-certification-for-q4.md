@@ -81,13 +81,13 @@ the way for even more ambitious solutions, such as the stateless laptop.
 [original_announcement]: https://www.qubes-os.org/news/2015/12/09/purism-partnership/
 [Qubes-certified laptops program]: https://www.qubes-os.org/doc/certified-laptops/
 [SLAT]: https://en.wikipedia.org/wiki/Second_Level_Address_Translation
-[EPT-enabled CPUs]: http://ark.intel.com/search/advanced?ExtendedPageTables=true&MarketSegment=MBL
-[XSA 148]: http://xenbits.xen.org/xsa/advisory-148.html
+[EPT-enabled CPUs]: https://ark.intel.com/search/advanced?ExtendedPageTables=true&MarketSegment=MBL
+[XSA 148]: https://xenbits.xen.org/xsa/advisory-148.html
 [QSB 22]: https://github.com/QubesOS/qubes-secpack/blob/master/QSBs/qsb-022-2015.txt
 [pvh_ticket]: https://github.com/QubesOS/qubes-issues/issues/2185
 [coreboot]: https://www.coreboot.org/
 [Intel FSP]: https://firmware.intel.com/learn/fsp/about-intel-fsp
-[Intel ME]: http://www.apress.com/9781430265719
-[x86_harmful]: http://blog.invisiblethings.org/papers/2015/x86_harmful.pdf
-[stateless laptop]: http://blog.invisiblethings.org/papers/2015/state_harmful.pdf
+[Intel ME]: https://www.apress.com/9781430265719
+[x86_harmful]: https://blog.invisiblethings.org/papers/2015/x86_harmful.pdf
+[stateless laptop]: https://blog.invisiblethings.org/papers/2015/state_harmful.pdf
 [audio_modem]: https://github.com/romanz/amodem/
