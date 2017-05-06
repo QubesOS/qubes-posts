@@ -7,5 +7,5 @@ categories:
 download_url: /downloads/
 author: Joanna Rutkowska
 redirect_to:
-- http://blog.invisiblethings.org/2014/08/06/qubes-os-r2-rc2-debian-template-ssled.html
+- https://blog.invisiblethings.org/2014/08/06/qubes-os-r2-rc2-debian-template-ssled.html
 ---
