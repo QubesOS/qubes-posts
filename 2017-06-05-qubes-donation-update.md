@@ -26,7 +26,7 @@ the Qubes developers each year. If you'd like to start [supporting][donations]
 the development of Qubes, or continue to do so, there's no better time than
 now!
 
-Thank you,
+Thank you,  
 The Qubes OS Team
 
 [donations]: https://www.qubes-os.org/donate/
