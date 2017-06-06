@@ -5,9 +5,6 @@ date: 2017-06-05
 categories: announcements
 ---
 
-Qubes OS Donation Update
-========================
-
 Thank you to everyone who has [donated][donations] to the Qubes OS Project!
 As many of you know, there are two ways to donate: through our [Bitcoin fund]
 and through [Open Collective]. Some of you may have noticed that we
