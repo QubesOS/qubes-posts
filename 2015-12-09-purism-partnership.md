@@ -15,7 +15,7 @@ operating system. A common barrier of entry to Qubes for new users is
 uncertainty whether their hardware can take advantage of all of Qubes'
 security features.
 
-With the [Qubes-certification program](/doc/certified-laptops), we will
+With the [Qubes-certification program](/doc/hardware/#qubes-certified-laptops), we will
 partner with a few select computer makers to ensure that Qubes is
 compatible with them, so that new users have clear path towards getting
 started with Qubes if they desire. We aim for these makers to be as
@@ -26,7 +26,7 @@ Librem laptops to ensure that they are compatible with Qubes.
 
 This begins with the certification of the
 [Librem 13](https://puri.sm/librem-13/). For existing Librem 13 users, we have
-[provided instructions](/doc/certified-laptops/#purism-librem-13) on improving Qubes
+[provided instructions](/doc/hardware/#purism-librem-13) on improving Qubes
 compatibility with the Librem 13. For users now who seek to buy a
 Librem 13, there will be an option  to have Qubes pre-installed on
 their Librem 13. This will include all the necessary tweaks for maximum
