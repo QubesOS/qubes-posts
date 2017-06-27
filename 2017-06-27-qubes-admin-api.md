@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Introducing the Qubes Admin API"
+categories:
+ - articles
+ - security
 author: Joanna Rutkowska
 ---
 
