@@ -6,9 +6,9 @@ categories: talks
 author: Andrew David Wong
 ---
 
-Joanna Rutkowska recently gave a presentation titled "Reasonably Secure
-Computing in the Decentralized World (An Operating System Architect's
-Perspective)" at a public event hosted by
+[Joanna Rutkowska](/team/#joanna-rutkowska) recently gave a presentation titled
+"Reasonably Secure Computing in the Decentralized World (An Operating System
+Architect's Perspective)" at a public event hosted by
 [The Golem Project](https://golem.network/) in Berlin, Germany
 called "Golem and Friends: Data, Security, Scaling and More...."
 The slides from her presentation are available
