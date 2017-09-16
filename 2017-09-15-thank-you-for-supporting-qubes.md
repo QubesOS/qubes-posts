@@ -25,7 +25,7 @@ Top Donors of 2017
 We'd like to take this opportunity to thank the top donors of 2017 (so
 far!):
 
- - 50,000 EUR from **Mullvad**!
+ - 50,000 EUR from the VPN service **[Mullvad]**!
  - 10 BTC from an anonymous donor!
  - 10,000 USD from **zby**, angel investor!
  - 1,000 USD recurring annual donation from **Eric Grosse**!
@@ -59,6 +59,7 @@ Sincerely,
 The Qubes OS Team
 
 [statistics]: /statistics/
+[Mullvad]: https://www.mullvad.net/
 [OC]: https://opencollective.com/qubes-os
 [BTC]: /news/2016/07/13/qubes-distributed-fund/
 [4.0-rc1]: /news/2017/07/31/qubes-40-rc1/
