@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Introducing the Qubes Admin API"
+image: /attachment/wiki/posts/admin-api.png
 categories:
  - articles
  - security
