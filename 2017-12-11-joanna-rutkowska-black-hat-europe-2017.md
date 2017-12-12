@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Joanna Rutkowska presents 'Security through Distrusting' at Black Hat Europe 2017"
+title: "Joanna Rutkowska gives keynote 'Security through Distrusting' at Black Hat Europe 2017"
 date: 2017-12-11
 categories: talks
 author: Andrew David Wong
 image: /attachment/wiki/posts/security-through-distrusting.png
 ---
 
-[Joanna Rutkowska] recently presented [Security through Distrusting] at [Black Hat Europe 2017].
-The slides from the presentation are avaialble here:
+[Joanna Rutkowska] recently gave a keynote address at [Black Hat Europe 2017].
+The slides from the presentation, [Security through Distrusting], are avaialble here:
 [![Security through Distrusting slides](/attachment/wiki/posts/security-through-distrusting.png)][slides]
 
 ### Abstract of "Security through Distrusting" ###
