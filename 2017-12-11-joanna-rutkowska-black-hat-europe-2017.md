@@ -28,4 +28,4 @@ The slides from the presentation, [Security through Distrusting], are avaialble 
 [Joanna Rutkowska]: https://www.blackhat.com/eu-17/speakers/Joanna-Rutkowska.html
 [Security through Distrusting]: https://www.blackhat.com/eu-17/briefings.html#security-through-distrusting
 [Black Hat Europe 2017]: https://www.blackhat.com/eu-17/
-[slides]: https://www.blackhat.com/docs/eu-17/materials/eu-17-Rutkowska-Security-Through-Distrusting.pdf
+[slides]: /attachment/wiki/slides/Security-Through-Distrusting.pdf
