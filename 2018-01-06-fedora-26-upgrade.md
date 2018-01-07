@@ -27,6 +27,11 @@ Standard Fedora 26 TemplateVM:
 
     $ sudo qubes-dom0-update qubes-template-fedora-26-minimal
 
+Afterward, you must update the template with the following command
+(in the template):
+
+    $ sudo dnf update --best --allowerasing
+
 After upgrading to a Fedora 26 TemplateVM, please remember to set all
 qubes that were using the old template to use the new one. The
 instructions to do this can be found in the [upgrade instructions]
