@@ -43,8 +43,8 @@ supported.
 
 
 [end-of-life]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
-[upgrade instructions]: /doc/template/fedora/upgrade-25-to-26/
-[Supported TemplateVM Versions]: /doc/supported-versions/#templatevms
-[Minimal]: /doc/templates/fedora-minimal/
-[Note on dom0 and EOL]: /doc/supported-versions/#note-on-dom0-and-eol
+[upgrade instructions]: https://www.qubes-os.org/doc/template/fedora/upgrade-25-to-26/
+[Supported TemplateVM Versions]: https://www.qubes-os.org/doc/supported-versions/#templatevms
+[Minimal]: https://www.qubes-os.org/doc/templates/fedora-minimal/
+[Note on dom0 and EOL]: https://www.qubes-os.org/doc/supported-versions/#note-on-dom0-and-eol
 
