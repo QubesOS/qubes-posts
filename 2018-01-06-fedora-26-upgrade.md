@@ -30,7 +30,7 @@ Standard Fedora 26 TemplateVM:
 Afterward, you must update the template with the following command
 (in the template):
 
-    $ sudo dnf update --best --allowerasing
+    $ sudo dnf upgrade --best --allowerasing
 
 After upgrading to a Fedora 26 TemplateVM, please remember to set all
 qubes that were using the old template to use the new one. The
