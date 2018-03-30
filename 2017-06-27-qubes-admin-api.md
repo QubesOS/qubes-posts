@@ -146,7 +146,7 @@ instead of performing a very complex package installation operation (i.e. `rpm
 -i some-community-template.rpm`). (In Qubes 4.0, we switched to using LVM
 storage by default for all VM images; more details in an upcoming post.) 
 
-Needles to say, not every VM would be able to request template installation in
+Needless to say, not every VM would be able to request template installation in
 dom0.  For this to work, the [qrexec] policy would need to allow the set of
 Admin API calls needed for this (see below for practical examples).
 
