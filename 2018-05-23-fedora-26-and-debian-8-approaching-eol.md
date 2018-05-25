@@ -9,12 +9,13 @@ author: Andrew David Wong
 Fedora 26 will reach EOL ([end-of-life]) on 2018-06-01, and Debian 8
 (["Jessie" full, not LTS][debian-releases]) will reach EOL on
 2018-06-06. We strongly recommend that all Qubes users upgrade their
-Fedora 26 and Debian 8 TemplateVMs and StandaloneVMs to Fedora 27 and
-Debian 9 or higher, respectively, by these EOL dates. We provide
-step-by-step upgrade instructions for upgrading from [Fedora 26 to 27],
-[Fedora 27 to 28], and [Debian 8 to 9]. For a complete list of
-TemplateVM versions supported for your specific version of Qubes, see
-[Supported TemplateVM Versions].
+Fedora 26 TemplateVMs and StandaloneVMs to Fedora 27 or higher by
+2018-06-01. Debian 8 users may choose to rely on Debian 8 LTS updates
+until approximately 2020-06-06 or upgrade to Debian 9 at their
+discretion. We provide step-by-step upgrade instructions for upgrading
+from [Fedora 26 to 27], [Fedora 27 to 28], and [Debian 8 to 9]. For a
+complete list of TemplateVM versions supported for your specific version
+of Qubes, see [Supported TemplateVM Versions].
 
 We also provide fresh Fedora 27, Fedora 28, and Debian 9 TemplateVM
 packages through the official Qubes repositories, which you can install
