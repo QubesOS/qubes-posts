@@ -6,7 +6,7 @@ categories: announcements
 author: Andrew David Wong
 ---
 
-Fedora 26 will reach EOL ([end-of-life]) on 2018-06-01, and Debian 8
+Fedora 26 will reach EOL ([end-of-life]) on 2018-05-29, and Debian 8
 (["Jessie" full, not LTS][debian-releases]) will reach EOL on
 2018-06-06. We strongly recommend that all Qubes users upgrade their
 Fedora 26 TemplateVMs and StandaloneVMs to Fedora 27 or higher by
