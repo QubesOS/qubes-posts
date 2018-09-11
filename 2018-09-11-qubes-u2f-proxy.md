@@ -6,7 +6,7 @@ date: 2018-09-11
 categories:
 - articles
 - security
-image: /attachment/wiki/posts/u2f.svg
+image: /attachment/wiki/posts/u2f.png
 ---
 
 Today we'd like to announce the [Qubes U2F Proxy]. It is a secure proxy intended
