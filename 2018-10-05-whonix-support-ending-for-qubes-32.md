@@ -44,7 +44,7 @@ Difference from EOL
 -------------------
 
 [Whonix 13 recently reached EOL (end-of-life) on
-2018-09-30][whonix-13-eol]. When a an OS or TemplateVM version reaches
+2018-09-30][whonix-13-eol]. When an OS or TemplateVM version reaches
 EOL, it no longer receives support from its maintainer. In this
 announcement, however, nothing is reaching EOL. Whonix is ending support
 for Qubes 3.2 2018-11-15, but the Qubes OS Project will continue to
