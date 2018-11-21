@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "XSA-276, XSA-277, and XSA-279 do not affect the security of Qubes OS"
-date: 2018-11-19
+date: 2018-11-20
 categories: security
 author: Andrew David Wong
 ---
