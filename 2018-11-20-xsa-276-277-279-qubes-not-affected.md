@@ -4,6 +4,7 @@ title: "XSA-276, XSA-277, and XSA-279 do not affect the security of Qubes OS"
 date: 2018-11-20
 categories: security
 author: Andrew David Wong
+redirect_from: /news/2018/11/19/xsa-276-277-279-qubes-not-affected/
 ---
 
 The Xen Project has published Xen Security Advisories 276, 277, and 279
