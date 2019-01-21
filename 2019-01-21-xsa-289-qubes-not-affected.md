@@ -24,5 +24,5 @@ This XSA has been added to the [XSA Tracker]:
 
 
 [XSA Tracker]: https://www.qubes-os.org/security/xsa/
-[QSB #43]: http://localhost:4000/news/2018/09/02/qsb-43/
+[QSB #43]: https://www.qubes-os.org/news/2018/09/02/qsb-43/
 
