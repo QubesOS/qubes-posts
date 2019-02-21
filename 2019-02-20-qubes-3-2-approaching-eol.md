@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Qubes OS 3.2 approaching EOL on 2019-03-28"
-date: 2019-02-19
+date: 2019-02-20
 categories:
   - announcements
   - releases
