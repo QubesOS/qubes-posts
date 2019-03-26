@@ -8,7 +8,7 @@ author: Andrew David Wong
 Update (2019-03-25)
 -------------------
 
-[Unman] has has generously agreed to bring the Qubes Tor onion services
+[Unman] has generously agreed to bring the Qubes Tor onion services
 back and maintain them. He has considerable experience in hosting and
 infrastructure management, including running onion services. He is
 working on it now. We'll have another update for you soon. Thank you,
