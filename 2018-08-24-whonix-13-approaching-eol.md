@@ -18,9 +18,8 @@ repositories, which you can install in dom0 by following the [Whonix
 installation guide]. If you encounter any difficulties when attempting to
 upgrade or install Whonix templates, please consult the [Whonix Support page].
 
-After upgrading your TemplateVMs, please remember to set all qubes that were
-using the old template to use the new one. There are instructions to do this for
-[Qubes 3.2][switching-3.2] and [Qubes 4.0][switching-4.0].
+After upgrading your TemplateVMs, please remember to [switch] all qubes that
+were using the old template to use the new one.
 
 If you're using an older version of Qubes than 3.2, we strongly recommend that
 you upgrade to 3.2, as older versions are no longer supported.
@@ -34,6 +33,5 @@ you upgrade to 3.2, as older versions are no longer supported.
 [Supported TemplateVM Versions]: https://www.qubes-os.org/doc/supported-versions/#templatevms
 [Whonix installation guide]: https://www.whonix.org/wiki/Qubes/Install
 [Whonix Support page]: https://www.whonix.org/wiki/Support
-[switching-3.2]: /doc/templates/#how-to-switch-templates-32
-[switching-4.0]: /doc/templates/#how-to-switch-templates-40
+[switch]: /doc/templates/#how-to-switch-templates
 
