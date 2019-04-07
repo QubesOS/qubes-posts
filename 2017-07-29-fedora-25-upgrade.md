@@ -44,7 +44,7 @@ you upgrade to 3.2, as older versions are no longer supported.
 
 [TemplateVM versions]: /doc/supported-versions/#templatevms
 [fedora-maintenance-schedule]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
-[upgrade]: /doc/template/fedora/upgrade-24-to-25/
+[upgrade]: /doc/templates/fedora/#upgrading
 [Minimal]: /doc/templates/fedora-minimal/
 [dom0]: /doc/supported-versions/#dom0
 

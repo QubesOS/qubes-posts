@@ -34,5 +34,5 @@ Manager (in qube settings) or with the `qvm-prefs` command-line tool.
 
 [TemplateVM version]: /doc/supported-versions/#templatevms
 [fedora-maintenance-schedule]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
-[Upgrade]: /doc/fedora-template-upgrade-23/
+[Upgrade]: /doc/templates/fedora/#upgrading
 [minimal]: /doc/templates/fedora-minimal/
