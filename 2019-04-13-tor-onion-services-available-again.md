@@ -28,7 +28,7 @@ edit your repository definitions by following the instructions below.
 You must ensure that **every** line that contains an onion address uses
 the appropriate **new** address above. We'll go through this for dom0,
 Fedora templates, and Debian templates. Whonix templates do not require
-any action; their onions addresses are still the same as before. For
+any action; their onion addresses are still the same as before. For
 additional information, see [Onionizing Repositories] on the Whonix
 wiki.
 
