@@ -26,17 +26,17 @@ edit your repository definitions by following the instructions below.
 ## Instructions
 
 Follow these instructions **only if** you wish to update dom0 and your
-TemplateVMs over Tor (via `sys-whonix`). This is an opt-in feature.
-If, instead, you wish to update over your regular network connection
-(aka "clearnet"), **or if you are not sure**, then **do not** follow these instructions.
+TemplateVMs over Tor (via `sys-whonix`). This is an opt-in feature. If,
+instead, you wish to update over your regular network connection (aka
+"clearnet"), **or if you are not sure**, then **do not** follow these
+instructions.
 
 In order to use the new onion services, you must ensure that **every**
-line that contains an onion address uses
-the appropriate **new** address above. We'll go through this for dom0,
-Fedora templates, and Debian templates. Whonix templates do not require
-any action; their onion addresses are still the same as before. For
-additional information, see [Onionizing Repositories] on the Whonix
-wiki.
+line that contains an onion address uses the appropriate **new** address
+above. We'll go through this for dom0, Fedora templates, and Debian
+templates. Whonix templates do not require any action; their onion
+addresses are still the same as before. For additional information, see
+[Onionizing Repositories] on the Whonix wiki.
 
 ### dom0
 
@@ -58,7 +58,8 @@ wiki.
 
 ### Fedora TemplateVMs
 
-1. In the TemplateVM, open `/etc/yum.repos.d/qubes-r4.repo` in a text editor.
+1. In the TemplateVM, open `/etc/yum.repos.d/qubes-r4.repo` in a text
+   editor.
 2. Comment out all the `baseurl = https://yum.qubes-os.org/[...]` lines.
 3. Uncomment all the `baseurl = [...].onion` lines.
 4. Update every `.onion` address to
@@ -68,14 +69,16 @@ wiki.
    #baseurl = https://yum.qubes-os.org/r4.0/current/vm/fc$releasever
    baseurl = http://yum.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/r4.0/current/vm/fc$releasever
    ```
-5. In dom0, ensure that the first non-comment line in `/etc/qubes-rpc/policy/qubes.UpdatesProxy` is:
+5. In dom0, ensure that the first non-comment line in
+   `/etc/qubes-rpc/policy/qubes.UpdatesProxy` is:
    ```
    $type:TemplateVM    $default    allow,target=sys-whonix
    ```
 
 ### Debian TemplateVMs
 
-1. In the TemplateVM, open `/etc/sources.list.d/qubes-r4.list` in a text editor.
+1. In the TemplateVM, open `/etc/sources.list.d/qubes-r4.list` in a text
+   editor.
 2. Find the section titled `Qubes Tor updates repositories`.
 3. Update every `.onion` address to `deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion`.
    The `Qubes Tor updates repositories` section should look like this:
@@ -85,7 +88,8 @@ wiki.
    deb [arch=amd64] http://deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/r4.0/vm stretch main
    #deb-src http://deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/r4.0/vm stretch main
    ```
-4. In dom0, ensure that the first non-comment line in `/etc/qubes-rpc/policy/qubes.UpdatesProxy` is:
+4. In dom0, ensure that the first non-comment line in
+   `/etc/qubes-rpc/policy/qubes.UpdatesProxy` is:
    ```
    $type:TemplateVM    $default    allow,target=sys-whonix
    ```
