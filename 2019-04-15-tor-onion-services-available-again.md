@@ -60,8 +60,8 @@ addresses are still the same as before. For additional information, see
 
 1. In the TemplateVM, open `/etc/yum.repos.d/qubes-r4.repo` in a text
    editor.
-2. Comment out all the `baseurl = https://yum.qubes-os.org/[...]` lines.
-3. Uncomment all the `baseurl = [...].onion` lines.
+2. Comment out every line that contains `yum.qubes-os.org`.
+3. Uncomment every line that contains `.onion`.
 4. Update every `.onion` address to
    `yum.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion`.
    The affected lines should look like this:
@@ -77,18 +77,26 @@ addresses are still the same as before. For additional information, see
 
 ### Debian TemplateVMs
 
-1. In the TemplateVM, open `/etc/sources.list.d/qubes-r4.list` in a text
+1. In the TemplateVM, open `/etc/apt/sources.list.d/qubes-r4.list` in a text
    editor.
-2. Find the section titled `Qubes Tor updates repositories`.
-3. Update every `.onion` address to `deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion`.
-   The `Qubes Tor updates repositories` section should look like this:
+2. Comment out every line that contains `deb.qubes-os.org`.
+3. Uncomment every line that contains `.onion`.
+4. Update every `.onion` address to
+   `deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion`.
+   The affected lines should look like this:
+   ```
+   # Main qubes updates repository
+   #deb [arch=amd64] https://deb.qubes-os.org/r4.0/vm stretch main
+   #deb-src https://deb.qubes-os.org/r4.0/vm stretch main
+
+   ```
    ```
    # Qubes Tor updates repositories
    # Main qubes updates repository
    deb [arch=amd64] http://deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/r4.0/vm stretch main
    #deb-src http://deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/r4.0/vm stretch main
    ```
-4. In dom0, ensure that the first non-comment line in
+5. In dom0, ensure that the first non-comment line in
    `/etc/qubes-rpc/policy/qubes.UpdatesProxy` is:
    ```
    $type:TemplateVM    $default    allow,target=sys-whonix
