@@ -41,9 +41,12 @@ addresses are still the same as before. For additional information, see
 ### dom0
 
 1. In dom0, open `/etc/yum.repos.d/qubes-dom0.repo` in a text editor.
+
 2. Comment out all the `baseurl = https://yum.qubes-os.org/[...]` and
    `metalink` lines.
+
 3. Uncomment all the `baseurl = [...].onion` lines.
+
 4. Update every `.onion` address to
    `yum.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion`.
    The affected lines should look like this:
@@ -52,16 +55,21 @@ addresses are still the same as before. For additional information, see
    baseurl = http://yum.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/r$releasever/current/dom0/fc25
    #metalink = https://yum.qubes-os.org/r$releasever/current/dom0/fc25/repodata/repomd.xml.metalink
    ```
+
 5. Open `/etc/yum.repos.d/qubes-templates.repo` in a text editor and
    repeat steps 2-4.
+
 6. In **Qubes Global Settings**, set **Dom0 UpdateVM** to `sys-whonix`.
 
 ### Fedora TemplateVMs
 
 1. In the TemplateVM, open `/etc/yum.repos.d/qubes-r4.repo` in a text
    editor.
+
 2. Comment out every line that contains `yum.qubes-os.org`.
+
 3. Uncomment every line that contains `.onion`.
+
 4. Update every `.onion` address to
    `yum.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion`.
    The affected lines should look like this:
@@ -69,6 +77,7 @@ addresses are still the same as before. For additional information, see
    #baseurl = https://yum.qubes-os.org/r4.0/current/vm/fc$releasever
    baseurl = http://yum.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/r4.0/current/vm/fc$releasever
    ```
+
 5. In dom0, ensure that the first non-comment line in
    `/etc/qubes-rpc/policy/qubes.UpdatesProxy` is:
    ```
@@ -77,10 +86,13 @@ addresses are still the same as before. For additional information, see
 
 ### Debian TemplateVMs
 
-1. In the TemplateVM, open `/etc/apt/sources.list.d/qubes-r4.list` in a text
-   editor.
+1. In the TemplateVM, open `/etc/apt/sources.list.d/qubes-r4.list` in a
+   text editor.
+
 2. Comment out every line that contains `deb.qubes-os.org`.
+
 3. Uncomment every line that contains `.onion`.
+
 4. Update every `.onion` address to
    `deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion`.
    The affected lines should look like this:
@@ -96,6 +108,7 @@ addresses are still the same as before. For additional information, see
    deb [arch=amd64] http://deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/r4.0/vm stretch main
    #deb-src http://deb.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/r4.0/vm stretch main
    ```
+
 5. In dom0, ensure that the first non-comment line in
    `/etc/qubes-rpc/policy/qubes.UpdatesProxy` is:
    ```
