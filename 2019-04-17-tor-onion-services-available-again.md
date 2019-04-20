@@ -33,10 +33,9 @@ instructions.
 
 In order to use the new onion services, you must ensure that **every**
 line that contains an onion address uses the appropriate **new** address
-above. We'll go through this for dom0, Fedora templates, and Debian
-templates. Whonix templates do not require any action; their onion
-addresses are still the same as before. For additional information, see
-[Onionizing Repositories] on the Whonix wiki.
+above. We'll go through this for dom0, Fedora templates, Debian, and
+Whonix templates. For additional information, see [Onionizing
+Repositories] on the Whonix wiki.
 
 ### dom0
 
@@ -84,7 +83,7 @@ addresses are still the same as before. For additional information, see
    $type:TemplateVM    $default    allow,target=sys-whonix
    ```
 
-### Debian TemplateVMs
+### Debian & Whonix TemplateVMs
 
 1. In the TemplateVM, open `/etc/apt/sources.list.d/qubes-r4.list` in a
    text editor.
