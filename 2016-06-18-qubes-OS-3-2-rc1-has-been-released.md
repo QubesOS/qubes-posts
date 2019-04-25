@@ -51,6 +51,6 @@ drive/partition).
 [release-notes]: https://www.qubes-os.org/doc/releases/3.2/release-notes/
 [download]: https://www.qubes-os.org/downloads/
 [salt-martus]: https://gist.github.com/marmarek/29f9a4a1f3a7a457cf2b449ab0b0e2f4
-[template-update]: https://article.gmane.org/gmane.os.qubes.user/784
+[template-update]: https://groups.google.com/d/msg/qubes-users/UG1OiPXWrhs/LqYoSC2WBgAJ
 [usb-passthrough]: https://www.qubes-os.org/doc/usb/#tocAnchor-1-1-5
 [usb-challenges]: https://blog.invisiblethings.org/2011/05/31/usb-security-challenges.html
