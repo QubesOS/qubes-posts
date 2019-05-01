@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qubes OS accepted into 2019 Google Season of Docs, technical writers please apply!"
+title: "Qubes OS accepted into 2019 Google Season of Docs. Technical writers, please apply!"
 categories: announcements
 author: Michael Carbone
 ---
