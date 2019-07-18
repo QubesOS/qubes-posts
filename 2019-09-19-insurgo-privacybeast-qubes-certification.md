@@ -5,7 +5,7 @@ categories: announcements
 author: Andrew David Wong
 ---
 
-We are pleased to announced that the [Insurgo PrivacyBeast X230] has passed Qubes 4.0
+We are very pleased to announce that the [Insurgo PrivacyBeast X230] has passed Qubes 4.0
 Hardware Certification and is now a [Qubes-certified Laptop][laptop]!
 
 ## What is Qubes Certified Hardware?
