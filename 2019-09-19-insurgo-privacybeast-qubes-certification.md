@@ -36,8 +36,8 @@ The [Insurgo PrivacyBeast X230] is a custom refurbished [ThinkPad X230] that not
 *meets* all Qubes Hardware Certification [requirements] but also
 *exceeds* them thanks to its unique configuration, including:
 
-  - [Coreboot] initialization for the x230, including
-    native graphic initialization, is binary-blob-free. Built with the
+  - [Coreboot] initialization for the x230 is binary-blob-free, including
+    native graphic initialization. Built with the
     [Heads] payload, it delivers an [Anti Evil Maid (AEM)]-like solution
     built into the firmware. (Even though our [requirements] provide an
     exception for CPU-vendor-provided blobs for silicon and memory
