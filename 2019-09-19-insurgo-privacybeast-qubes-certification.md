@@ -79,7 +79,7 @@ Special thanks goes to:
 [Coreboot]: https://www.coreboot.org/
 [Heads]: https://github.com/osresearch/heads/
 [Anti Evil Maid (AEM)]: /doc/anti-evil-maid/
-[Intel ME]: https://en.wikipedia.org/wiki/Intel_Management_Engine
+[Intel ME]: https://libreboot.org/faq.html#intelme
 [intel-me-deleted]: https://github.com/osresearch/heads-wiki/blob/master/Clean-the-ME-firmware.md#how-to-disabledeactive-most-of-it
 [interdiction]: https://en.wikipedia.org/wiki/Interdiction
 [Insurgo website]: https://insurgo.ca
