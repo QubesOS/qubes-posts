@@ -3,6 +3,7 @@ layout: post
 title: "Insurgo PrivacyBeast X230 Laptop meets and exceeds Qubes 4.0 hardware certification"
 categories: announcements
 author: Andrew David Wong
+image: /attachment/site/insurgo-privacybeast-x230.png
 ---
 
 We are very pleased to announce that the [Insurgo PrivacyBeast X230] has
