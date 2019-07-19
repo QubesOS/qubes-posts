@@ -15,7 +15,7 @@ operating system. A common barrier of entry to Qubes for new users is
 uncertainty whether their hardware can take advantage of all of Qubes'
 security features.
 
-With the [Qubes-certification program](/doc/certified-hardware/#qubes-certified-laptops), we will
+With the [Qubes-certification program](/doc/certified-hardware/), we will
 partner with a few select computer makers to ensure that Qubes is
 compatible with them, so that new users have clear path towards getting
 started with Qubes if they desire. We aim for these makers to be as
