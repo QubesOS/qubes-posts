@@ -33,6 +33,8 @@ team mitigates this risk.)
 
 ## About the Insurgo PrivacyBeast X230 Laptop
 
+[![insurgo-privacybeast-x230.png](/attachment/site/insurgo-privacybeast-x230.png)](/attachment/site/insurgo-privacybeast-x230.png)
+
 The [Insurgo PrivacyBeast X230] is a custom refurbished [ThinkPad X230]
 that not only *meets* all Qubes Hardware Certification [requirements]
 but also *exceeds* them thanks to its unique configuration, including:
@@ -78,7 +80,7 @@ Special thanks go to:
 
 
 [Insurgo PrivacyBeast X230]: https://insurgo.ca/produit/qubesos-certified-privacybeast_x230-reasonably-secured-laptop/
-[laptop]: https://www.qubes-os.org/doc/certified-hardware/#qubes-certified-laptops
+[laptop]: https://www.qubes-os.org/doc/certified-hardware/#qubes-certified-laptop-insurgo-privacybeast-x230
 [Qubes Certified Hardware]: https://www.qubes-os.org/doc/certified-hardware/
 [requirements]: https://www.qubes-os.org/doc/certified-hardware/#hardware-certification-requirements
 [ThinkPad X230]: https://www.thinkwiki.org/wiki/Category:X230
