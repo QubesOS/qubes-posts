@@ -60,7 +60,7 @@ but also *exceeds* them thanks to its unique configuration, including:
 
 ## How to get one
 
-Please visit the [Insurgo PrivacyBeast X230] on the [Insurgo website]
+Please see the [Insurgo PrivacyBeast X230] on the [Insurgo website]
 for more information.
 
 ## Acknowledgements
@@ -69,10 +69,13 @@ Special thanks go to:
 
   - [Thierry Laurion], Director of Insurgo, Technologies Libres (Open
     Technologies), for spearheading this effort and making Heads+Qubes
-    laptops more broadly accessible
-  - [Trammell Hudson], for creating [Heads]
+    laptops more broadly accessible.
+
+  - [Trammell Hudson], for creating [Heads].
+
   - [Purism], for greatly improving the UX of [Heads], including the GUI
-    menu, and for adding [Nitrokey] and [Librem Key] support
+    menu, and for adding [Nitrokey] and [Librem Key] support.
+
 
 [Insurgo PrivacyBeast X230]: https://insurgo.ca/produit/qubesos-certified-privacybeast_x230-reasonably-secured-laptop/
 [laptop]: https://www.qubes-os.org/doc/certified-hardware/#qubes-certified-laptops
