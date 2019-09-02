@@ -33,5 +33,5 @@ you upgrade to 3.2, as older versions are no longer supported.
 [Supported TemplateVM Versions]: https://www.qubes-os.org/doc/supported-versions/#templatevms
 [Whonix installation guide]: https://www.whonix.org/wiki/Qubes/Install
 [Whonix Support page]: https://www.whonix.org/wiki/Support
-[switch]: /doc/templates/#how-to-switch-templates
+[switch]: /doc/templates/#switching
 
