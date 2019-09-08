@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Compromise recovery on Qubes OS"
+title: "Compromise recovery in Qubes OS"
 categories:
  - articles
  - security
