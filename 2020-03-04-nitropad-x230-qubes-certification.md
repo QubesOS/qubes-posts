@@ -34,6 +34,7 @@ hardware is modified (whether maliciously or otherwise) *en route* to
 the user. (However, see below for information about how the Insurgo team
 mitigates this risk.)
 
+
 ## About the NitroPad X230
 
 [![nitropad-x230.jpg](/attachment/site/nitropad-x230.jpg)][NitroPad X230]
@@ -42,7 +43,7 @@ The [NitroPad X230] offers users unprecedented control over the security
 of their hardware. Key features include:
 
   - Tamper detection through measured boot with [Coreboot], [Heads], and
-    Nitrokey USB hardware, including support for [Anti Evil Maid (AEM)].
+    Nitrokey USB hardware, including support for [Anti Evil Maid (AEM)]
 
   - Deactivated [Intel Management Engine]
 
@@ -56,6 +57,7 @@ of their hardware. Key features include:
     [interdiction].
 
 For further details, please see the original [NitroPad announcement].
+
 
 ## How to get one
 
