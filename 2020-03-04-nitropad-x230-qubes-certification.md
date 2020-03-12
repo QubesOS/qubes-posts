@@ -47,7 +47,7 @@ of their hardware. Key features include:
 
   - Deactivated [Intel Management Engine]
 
-  - User-replaceable cryptogrpahic keys
+  - User-replaceable cryptographic keys
 
   - Included Nitrokey USB key
 
