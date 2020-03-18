@@ -3,6 +3,7 @@ layout: post
 title: "Qubes Architecture Next Steps: The GUI Domain"
 categories: articles
 author: Marek Marczykowski-Górecki, Marta Marczykowska-Górecka
+image: /attachment/wiki/posts/guivm-hybrid.png
 ---
 
 It has been some time since the last design post about Qubes. There have been some [big changes happened](https://www.qubes-os.org/news/2018/10/25/thank-you-joanna/), and it took us a little while to find people best suited to write these articles. But, as you can see, the ~~victims~~ volunteers have been found. The team has been hard at work on the changes that are coming in 4.1, and we want to tell you more about them.
