@@ -88,7 +88,7 @@ As far as system architecture goes, audio systems are a completely separate set 
 
 While audio drivers and tools are not nearly as bloated and sprawling as GUI tools, keeping them in dom0 is still suboptimal, and with the move toward a GUI domain, it will become increasingly impossible. Our first step was to see how we could move audio away from dom0: Connect it together with the GPU to the GUI domain and see what breaks. Surprisingly, few things did, and while some hard-coded "connect to dom0 for all of your audio needs" configurations needed to be updated, those changes are already done in Qubes 4.1.
 
-This is not the final solution we would like, though; it would be best to truly decouple audio and GUI, creating a dedicated and separate audio aomain.
+This is not the final solution we would like, though; it would be best to truly decouple audio and GUI, creating a dedicated and separate audio domain.
 
 ### Audio Domain
 
