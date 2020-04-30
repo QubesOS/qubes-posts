@@ -9,8 +9,8 @@ This announcement includes several updates regarding Fedora TemplateVMs.
 
 ## Fedora 30 approaching EOL
 
-With the release of Fedora 32 on April 21, Fedora 30 is expected to
-reach EOL ([end-of-life]) on approximately May 21, 2020.
+With the release of Fedora 32 on April 28, Fedora 30 is expected to
+reach EOL ([end-of-life]) on May 26, 2020.
 
 ## Fedora 31 TemplateVM available
 
