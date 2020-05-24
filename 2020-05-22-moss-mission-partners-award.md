@@ -3,6 +3,7 @@ layout: post
 title: "Qubes wins MOSS Mission Partners award!"
 categories: announcements
 author: Andrew David Wong
+redirect_from: /news/2020/05/22/moss-mission-partners-grant/
 ---
 
 We're proud to announce that the Qubes OS Project has won a
