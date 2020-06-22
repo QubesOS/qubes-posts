@@ -2,7 +2,7 @@
 layout: post
 title: "Qubes Architecture Next Steps: The New Qrexec Policy System"
 categories: articles
-author: Marta Marczykowska-Górecka
+author: Marek Marczykowski-Górecki, Marta Marczykowska-Górecka
 ---
 
 This is the second article in the "What's new in Qubes 4.1?" series. You can find the previous one (about GUI Domains) [here](https://www.qubes-os.org/news/2020/03/18/gui-domain/). While the introduction of GUI domains is a big, singular feature, the changes to qrexec are more complex and varied --- but also very important.
@@ -210,10 +210,10 @@ Creating a qrexec policy daemon opened another convenient opportunity: adding no
 
 [![Screenshot of an allow and a deny notifications](/attachment/wiki/posts/qrexec1.png)](/attachment/wiki/posts/qrexec1.png)
  
-For example, this rule will cause notifications to be shown whenever a `VM.exec` service call is made from the `work` qube to the `personal` qube:
+For example, this rule will cause notifications to be shown whenever a `qubes.VMExec` service call is made from the `work` qube to the `personal` qube:
 
 ```
-qubes.VM.exec * work personal allow notify=yes
+qubes.VMExec * work personal allow notify=yes
 ```
 
 And the above screenshot could be accomplished with:
