@@ -227,10 +227,10 @@ line:
 * * work personal deny
 ```
 
-You could also deny all calls from `work` except for calls to dom0:
+You could also deny all calls from `work` except for calls to `work-pub`:
 
 ```
-* * work dom0 allow
+* * work work-pub allow
 * * work * deny
 ```
 
