@@ -47,13 +47,13 @@ you to decide where and how you want to join the conversation.
 
 Many open-source projects (such as Fedora and Debian) have both mailing
 lists and forums (and additional discussion venues). In fact, Qubes
-already has non-mailing-list discussion venues such as IRC and Reddit.
-We believe that this additional venue will foster the continued growth
-of community participation and improve everyone's experience. In
-addition, we fully expect that many community members -- especially the
-most active ones -- will choose to participate in both venues. (Again,
-for those who still prefer interacting via email, Discourse supports
-that too!)
+already has non-mailing-list discussion venues such as [IRC] and
+[Reddit]. We believe that this additional venue will foster the
+continued growth of community participation and improve everyone's
+experience. In addition, we fully expect that many community members --
+especially the most active ones -- will choose to participate in both
+venues. (Again, for those who still prefer interacting via email,
+Discourse supports that too!)
 
 -----
 
@@ -64,4 +64,6 @@ much of the legwork to help get it looking good and working well!
 [Discourse]: https://www.discourse.org/
 [free hosting for open source projects]: https://blog.discourse.org/2018/11/free-hosting-for-open-source-v2/
 [mailing lists]: https://www.qubes-os.org/support/
+[IRC]: https://www.qubes-os.org/support/#unofficial-chat-channels
+[Reddit]: https://www.reddit.com/r/Qubes/
 
