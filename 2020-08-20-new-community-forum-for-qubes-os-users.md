@@ -63,7 +63,7 @@ much of the legwork to help get it looking good and working well!
 
 [Discourse]: https://www.discourse.org/
 [free hosting for open source projects]: https://blog.discourse.org/2018/11/free-hosting-for-open-source-v2/
-[mailing lists]: https://www.qubes-os.org/support/
+[mailing lists]: https://www.qubes-os.org/support/#mailing-lists
 [IRC]: https://www.qubes-os.org/support/#unofficial-chat-channels
 [Reddit]: https://www.reddit.com/r/Qubes/
 
