@@ -2,7 +2,7 @@
 layout: post
 title: "New Gentoo templates and maintenance infrastructure"
 categories: articles
-author: Frédéric Pierret, Marek Marczykowski-Górecki
+author: Frédéric Pierret
 ---
 
 _This is the third article in the "What's new in Qubes 4.1?" series.
@@ -96,4 +96,6 @@ that we test automatically. This helps not only with increasing the
 quality of software we deliver, but also with saving developers' time,
 since more automated testing means less need for time-consuming manual
 testing.
+
+_Thank you to Marek Marczykowski-Górecki for contributing to this article._
 
