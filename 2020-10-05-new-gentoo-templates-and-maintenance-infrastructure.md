@@ -30,7 +30,7 @@ in Qubes is that it allows one to create highly customized and hardened
 TemplateVMs (or StandaloneVMs). For example, one could customize the
 Gentoo Qubes Builder to create a [ClipOS](https://clip-os.org/en/) build.
 
-The new Gentoo templates are available in tree flavors. The [default
+The new Gentoo templates are available in three flavors. The [default
 (Gnome)](https://www.qubes-os.org/doc/templates/gentoo/),
 [minimal](https://www.qubes-os.org/doc/templates/minimal/), and
 [XFCE](https://www.qubes-os.org/doc/templates/xfce/). Currently, they
