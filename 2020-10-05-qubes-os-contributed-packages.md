@@ -43,5 +43,5 @@ In a Debian-based template, use `apt`:
 [skeleton repository]: https://github.com/QubesOS-contrib/qubes-skeleton/
 [Qubes Builder]: https://www.qubes-os.org/doc/qubes-builder/
 [qubes-tunnel]: https://github.com/QubesOS-contrib/qubes-tunnel
-[qvm-screenshot-tool]: https://github.com/QubesOS-contrib/qvm-screenshot-tool
+[qvm-screenshot-tool]: https://github.com/QubesOS-contrib/qubes-qvm-screenshot-tool
 [qmenu]: https://github.com/QubesOS-contrib/qmenu
