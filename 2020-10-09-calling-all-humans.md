@@ -5,7 +5,7 @@ categories: announcements
 author: Nina Eleanor Alter
 ---
 
-Greetings, Qubes community! We are running our first ever survey of current, former, and future Qubes OS users. We invite you all to lend us 10-15min of your time, to participate. 
+Greetings, Qubes community! We are running our first ever survey of current, former, and future Qubes OS users. We invite you all to lend us 10-15min of your time, to participate. Of note: we've had reports that in Firefox on Android devices, it does not work. FYI.
 
 <https://survey.qubes-os.org/index.php?r=survey/index&sid=791682&lang=en>
 
