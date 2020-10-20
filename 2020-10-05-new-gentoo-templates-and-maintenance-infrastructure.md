@@ -36,6 +36,8 @@ The new Gentoo templates are available in three flavors. The [default
 [XFCE](https://www.qubes-os.org/doc/templates/xfce/). Currently, they
 are available in the `qubes-templates-community-testing` repo, and
 they'll soon be in the `qubes-templates-community` repo.
+(**Update:** As of 2020-10-20, they are now available in the stable
+`qubes-templates-community` repo.)
 
 Maintenance infrastructure
 --------------------------
