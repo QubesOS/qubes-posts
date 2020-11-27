@@ -54,7 +54,7 @@ Among Linux users, the range of distributions wasn't very surprising, with Debia
 We also asked about the distribution you would prefer as the default template for AppVMs.
 Debian got over twice as many votes (686) as the runner-up, Fedora (336). 
 Sounds like a good moment to mention that in Qubes 4.1 you can choose the default template at install (currently between Fedora and Debian). 
-Arch Linux (third place, with 74 people writing it in as 'Other') is also available a community template and is well-maintained. 
+Arch Linux (third place, with 74 people writing it in as 'Other') is also available as a community template and is well-maintained. 
 Interestingly enough, just using a distribution doesn't mean someone wants to use it as the default template in Qubes, with some distributions having much more ardent supporters. 
 82% of people who use Debian want it as the default template, which is not that surprising, as Debian was one of the options explicitly offered in the "default distro" question.
 But also almost 50% of NixOS users want it as the default template, which even from a purely methodological point of view is a lot, as they had to explicitly write this distribution down in the second question. 
