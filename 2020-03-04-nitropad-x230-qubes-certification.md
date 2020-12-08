@@ -67,13 +67,13 @@ more information.
 
 [NitroPad X230]: https://shop.nitrokey.com/shop/product/nitropad-x230-67
 [Nitrokey]: https://www.nitrokey.com/
-[laptop]: https://www.qubes-os.org/doc/certified-hardware/#qubes-certified-laptop-insurgo-privacybeast-x230
-[Qubes Certified Hardware]: https://www.qubes-os.org/doc/certified-hardware/
-[requirements]: https://www.qubes-os.org/doc/certified-hardware/#hardware-certification-requirements
+[laptop]: /doc/certified-hardware/#qubes-certified-laptop-insurgo-privacybeast-x230
+[Qubes Certified Hardware]: /doc/certified-hardware/
+[requirements]: /doc/certified-hardware/#hardware-certification-requirements
 [ThinkPad X230]: https://www.thinkwiki.org/wiki/Category:X230
 [Coreboot]: https://www.coreboot.org/
 [Heads]: https://github.com/osresearch/heads/
-[Anti Evil Maid (AEM)]: https://www.qubes-os.org/doc/anti-evil-maid/
+[Anti Evil Maid (AEM)]: /doc/anti-evil-maid/
 [Intel Management Engine]: https://libreboot.org/faq.html#intelme
 [interdiction]: https://en.wikipedia.org/wiki/Interdiction
 [NitroPad announcement]: https://www.nitrokey.com/news/2020/nitropad-secure-laptop-unique-tamper-detection

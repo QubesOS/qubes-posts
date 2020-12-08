@@ -28,8 +28,8 @@ done in dom0 either with the [Qubes Template Manager] or with the
 [`qvm-prefs`] command-line tool.
 
 
-[Fedora 28 reached EOL]: https://www.qubes-os.org/news/2019/05/29/fedora-28-eol/
-[upgrading from Fedora 29 to 30]: https://www.qubes-os.org/doc/template/fedora/upgrade-29-to-30/
-[Minimal]: https://www.qubes-os.org/doc/templates/fedora-minimal/
-[Qubes Template Manager]: https://www.qubes-os.org/doc/templates/#how-to-switch-templates
+[Fedora 28 reached EOL]: /news/2019/05/29/fedora-28-eol/
+[upgrading from Fedora 29 to 30]: /doc/template/fedora/upgrade-29-to-30/
+[Minimal]: /doc/templates/fedora-minimal/
+[Qubes Template Manager]: /doc/templates/#how-to-switch-templates
 [`qvm-prefs`]: https://dev.qubes-os.org/projects/core-admin-client/en/latest/manpages/qvm-prefs.html

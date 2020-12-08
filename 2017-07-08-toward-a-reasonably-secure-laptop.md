@@ -60,7 +60,7 @@ a Reasonably Secure Laptop a reality, but the need is too great to ignore.
 
 
 [cert-laptops]: /news/2015/12/09/purism-partnership/
-[cert-q4]: https://www.qubes-os.org/news/2016/07/21/new-hw-certification-for-q4/
+[cert-q4]: /news/2016/07/21/new-hw-certification-for-q4/
 [state]: https://blog.invisiblethings.org/papers/2015/state_harmful.pdf
-[hcl]: https://www.qubes-os.org/hcl/
+[hcl]: /hcl/
 

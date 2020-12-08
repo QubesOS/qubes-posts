@@ -10,15 +10,15 @@ Earlier this year, I decided to take a sabbatical. I wanted to reflect on my
 infosec work and decide what I would like to focus on in the coming years. As
 you probably know, I've spent the last nine years mostly fighting the battle to
 secure the endpoint, more specifically creating, developing, architecting, and
-promoting [Qubes OS](https://www.qubes-os.org/), as well as the more general
+promoting [Qubes OS](/), as well as the more general
 concept of ["Security through
 Distrusting"](https://www.blackhat.com/eu-17/briefings.html#security-through-distrusting).
 
 Over these past nine years, Qubes OS has grown from a research-inspired
 proof-of-concept into a reasonably mature, large open-source project with
-dozens of [contributors](https://www.qubes-os.org/team/) and tens of thousands
-of [users](https://www.qubes-os.org/statistics/), including some high-profile
-security [experts](https://www.qubes-os.org/experts/).
+dozens of [contributors](/team/) and tens of thousands
+of [users](/statistics/), including some high-profile
+security [experts](/experts/).
 
 There are still many challenges ahead for Qubes, however. The primary two are
 improving hardware compatibility and UX. I think addressing these challenges
@@ -83,7 +83,7 @@ conclude they might be very much inline with my own.
 
 As for the future of Qubes, I don't think much will change here. In recent
 years, [Marek
-Marczykowski-Górecki](https://www.qubes-os.org/team/#marek-marczykowski-górecki)
+Marczykowski-Górecki](/team/#marek-marczykowski-górecki)
 has been effectively leading most of the day-to-day efforts with Qubes OS
 development, while I've focused mostly on long-term architecture planning and
 various research activities, such as our SGX-related work. Marek will continue

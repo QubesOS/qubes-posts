@@ -78,8 +78,8 @@ We hope these updated hardware requirements will encourage the development of
 more secure and trustworthy devices capable of running Qubes OS and also pave
 the way for even more ambitious solutions, such as the stateless laptop.
 
-[original_announcement]: https://www.qubes-os.org/news/2015/12/09/purism-partnership/
-[Qubes-certified laptops program]: https://www.qubes-os.org/doc/certified-laptops/
+[original_announcement]: /news/2015/12/09/purism-partnership/
+[Qubes-certified laptops program]: /doc/certified-laptops/
 [SLAT]: https://en.wikipedia.org/wiki/Second_Level_Address_Translation
 [EPT-enabled CPUs]: https://ark.intel.com/Search/FeatureFilter?productType=processors&ExtendedPageTables=true&MarketSegment=Mobile
 [XSA 148]: https://xenbits.xen.org/xsa/advisory-148.html

@@ -20,9 +20,9 @@ the security of updated Qubes OS installations.
 
 This XSA has been added to the [XSA Tracker]:
 
-<https://www.qubes-os.org/security/xsa/#289>
+[https://www.qubes-os.org/security/xsa/#289](/security/xsa/#289)
 
 
-[XSA Tracker]: https://www.qubes-os.org/security/xsa/
-[QSB #43]: https://www.qubes-os.org/news/2018/09/02/qsb-43/
+[XSA Tracker]: /security/xsa/
+[QSB #43]: /news/2018/09/02/qsb-43/
 

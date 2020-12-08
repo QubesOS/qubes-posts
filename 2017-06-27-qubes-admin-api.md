@@ -637,13 +637,13 @@ Xen-specific. This is aligned with our long-term vision of making Qubes work
 seamlessly on many different platforms: different hypervisors, container
 technologies, and possibly even more!
 
-[Salt Stack integration]: https://www.qubes-os.org/doc/salt/
-[AdminAPI]: https://www.qubes-os.org/doc/admin-api/
-[qrexec]: https://www.qubes-os.org/doc/qrexec3/
-[qrexec policy]: https://www.qubes-os.org/doc/qrexec3/#qubes-rpc-administration
-[qrexec tags]: https://www.qubes-os.org/doc/qrexec3/#extra-keywords-available-in-qubes-40-and-later
-[qrexec argument]: https://www.qubes-os.org/doc/qrexec3/#qubes-rpc-administration
-[paranoid backups]: https://www.qubes-os.org/news/2017/04/26/qubes-compromise-recovery/
-[xsa_tracker]: https://www.qubes-os.org/security/xsa/
+[Salt Stack integration]: /doc/salt/
+[AdminAPI]: /doc/admin-api/
+[qrexec]: /doc/qrexec3/
+[qrexec policy]: /doc/qrexec3/#qubes-rpc-administration
+[qrexec tags]: /doc/qrexec3/#extra-keywords-available-in-qubes-40-and-later
+[qrexec argument]: /doc/qrexec3/#qubes-rpc-administration
+[paranoid backups]: /news/2017/04/26/qubes-compromise-recovery/
+[xsa_tracker]: /security/xsa/
 [qubes.InstallPackage ticket]: https://github.com/QubesOS/qubes-issues/issues/2867
-[backup profiles]: https://www.qubes-os.org/doc/admin-api/#backup-profile
+[backup profiles]: /doc/admin-api/#backup-profile

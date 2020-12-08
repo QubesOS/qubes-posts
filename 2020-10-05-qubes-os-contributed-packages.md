@@ -35,13 +35,13 @@ In a Debian-based template, use `apt`:
 
 
 [QubesOS-contrib]: https://github.com/QubesOS-contrib/
-[package-contrib]: https://www.qubes-os.org/doc/package-contributions/
-[review process]: https://www.qubes-os.org/doc/package-contributions/#review-procedure
-[Frédéric Pierret]: https://www.qubes-os.org/team/#fr%C3%A9d%C3%A9ric-pierret
-[Qubes build security]: https://www.qubes-os.org/news/2016/05/30/build-security/
-[package contributions]: https://www.qubes-os.org/doc/package-contributions/
+[package-contrib]: /doc/package-contributions/
+[review process]: /doc/package-contributions/#review-procedure
+[Frédéric Pierret]: /team/#fr%C3%A9d%C3%A9ric-pierret
+[Qubes build security]: /news/2016/05/30/build-security/
+[package contributions]: /doc/package-contributions/
 [skeleton repository]: https://github.com/QubesOS-contrib/qubes-skeleton/
-[Qubes Builder]: https://www.qubes-os.org/doc/qubes-builder/
+[Qubes Builder]: /doc/qubes-builder/
 [qubes-tunnel]: https://github.com/QubesOS-contrib/qubes-tunnel
 [qvm-screenshot-tool]: https://github.com/QubesOS-contrib/qubes-qvm-screenshot-tool
 [qmenu]: https://github.com/QubesOS-contrib/qmenu

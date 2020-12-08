@@ -16,12 +16,12 @@ In this blogspot we dive deep into Windows support in Qubes, announce opening th
 What are Qubes Windows Tools?
 =============================
 
-[Qubes OS](https://qubes-os.org/) supports [Windows AppVMs](https://www.qubes-os.org/doc/windows-appvms/) and starting from Release 2 Beta 3 it includes special [Windows guest tools](https://www.qubes-os.org/doc/windows-tools-3/) that provide better integration of the guest OS with the host system. Qubes Windows Tools (QWT for short) consist of many components:
+[Qubes OS](https://qubes-os.org/) supports [Windows AppVMs](/doc/windows-appvms/) and starting from Release 2 Beta 3 it includes special [Windows guest tools](/doc/windows-tools-3/) that provide better integration of the guest OS with the host system. Qubes Windows Tools (QWT for short) consist of many components:
 
 - Base drivers for accessing various Xen-provided interfaces like event channels, memory sharing and XenStore.
 - Xen paravirtualization (PV) drivers for virtual disk and ethernet devices. These provide better performance (benchmarks show a read throughput increase of 5x compared to emulated disks) and more features (dynamic attaching of external block devices for example).
-- Qubes [`qrexec`](https://www.qubes-os.org/en/doc/qrexec/) agent that is responsible for communication with dom0 and handles command and service requests from other domains (remote execution, secure file transfer, clipboard sharing etc).
-- Qubes GUI agent that is responsible for managing the guest virtual display and implementing a [seamless GUI experience](https://www.qubes-os.org/screenshots/).
+- Qubes [`qrexec`](/en/doc/qrexec/) agent that is responsible for communication with dom0 and handles command and service requests from other domains (remote execution, secure file transfer, clipboard sharing etc).
+- Qubes GUI agent that is responsible for managing the guest virtual display and implementing a [seamless GUI experience](/screenshots/).
 - Miscellaneous other small components like services for managing network configuration or HVM's private disk if it's template-based.
 
 Qubes Windows Tools and Xen PV drivers
@@ -32,9 +32,9 @@ Windows Xen PV drivers are needed for QWT to function because `libvchan`, our in
 History
 -------
 
-Qubes OS R2 used [GPL Windows PV drivers](https://wiki.xenproject.org/wiki/XenWindowsGplPv) written by James Harper with [additions by Chris Smowton](https://github.com/smowton/xen-pv-windows-evtchn) (user mode interfaces). In Qubes OS R2 [qrexec](https://www.qubes-os.org/en/doc/qrexec2-implementation/), our high-level protocol for inter-VM command/service execution, required that all data pass through dom0, even in case of a VM-VM connection. This detail is important because the GPLPV drivers didn't implement the client side of Xen interfaces (event channels and memory mapping). Windows guests could only open unbound event channels and grant memory to other domains. They couldn't bind to event channels in other domains or map memory from other domains.
+Qubes OS R2 used [GPL Windows PV drivers](https://wiki.xenproject.org/wiki/XenWindowsGplPv) written by James Harper with [additions by Chris Smowton](https://github.com/smowton/xen-pv-windows-evtchn) (user mode interfaces). In Qubes OS R2 [qrexec](/en/doc/qrexec2-implementation/), our high-level protocol for inter-VM command/service execution, required that all data pass through dom0, even in case of a VM-VM connection. This detail is important because the GPLPV drivers didn't implement the client side of Xen interfaces (event channels and memory mapping). Windows guests could only open unbound event channels and grant memory to other domains. They couldn't bind to event channels in other domains or map memory from other domains.
 
-In Qubes OS R3 the qrexec protocol was [redesigned](https://www.qubes-os.org/en/doc/qrexec3-implementation/) to allow direct VM to VM connections (after prior dom0 arbitration of course). This fact meant that the GPLPV drivers wouldn't work: as mentioned, they lacked the client-side side implementation of needed Xen APIs.
+In Qubes OS R3 the qrexec protocol was [redesigned](/en/doc/qrexec3-implementation/) to allow direct VM to VM connections (after prior dom0 arbitration of course). This fact meant that the GPLPV drivers wouldn't work: as mentioned, they lacked the client-side side implementation of needed Xen APIs.
 
 Transition to the new PV drivers
 --------------------------------

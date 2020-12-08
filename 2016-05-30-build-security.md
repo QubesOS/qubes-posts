@@ -185,7 +185,7 @@ this so that it can be implemented before the upcoming Qubes 3.2 release.
 
 [xen_repo]: https://github.com/QubesOS/qubes-vmm-xen
 [kernel_repo]: https://github.com/QubesOS/qubes-linux-kernel
-[qubes_builder]: https://www.qubes-os.org/doc/qubes-builder/
+[qubes_builder]: /doc/qubes-builder/
 [qubes_builder_dispvm]: https://github.com/marmarek/qubes-builder/blob/master/doc/TemplateDispVMBuild.md
 [qubes_builder_repo]: https://github.com/QubesOS/qubes-builder/
 [xen_critique]: https://lists.xen.org/archives/html/xen-devel/2015-11/msg00601.html
@@ -193,6 +193,6 @@ this so that it can be implemented before the upcoming Qubes 3.2 release.
 [builder_fix]: https://github.com/QubesOS/qubes-vmm-xen/commit/b48118b8ca59f1bd4208560adf044d35c10fa50b
 [pungi_marek_pr]: https://pagure.io/pungi/pull-request/63
 [qubes_deterministic_builds]: https://github.com/QubesOS/qubes-issues/issues/816
-[qubes_howto_contribute]: https://www.qubes-os.org/doc/source-code/
-[qubes_tor]: https://www.qubes-os.org/doc/whonix/
+[qubes_howto_contribute]: /doc/source-code/
+[qubes_tor]: /doc/whonix/
 [qubes_appendlog_ticket]: https://github.com/QubesOS/qubes-issues/issues/2023

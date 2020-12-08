@@ -11,10 +11,10 @@ affect the security of Qubes OS, and no user action is necessary.
 
 These XSAs have been added to the [XSA Tracker]:
 
-<https://www.qubes-os.org/security/xsa/#307>  
-<https://www.qubes-os.org/security/xsa/#308>  
-<https://www.qubes-os.org/security/xsa/#309>
+[https://www.qubes-os.org/security/xsa/#307](/security/xsa/#307)  
+[https://www.qubes-os.org/security/xsa/#308](/security/xsa/#308)  
+[https://www.qubes-os.org/security/xsa/#309](/security/xsa/#309)
 
 
-[XSA Tracker]: https://www.qubes-os.org/security/xsa/
+[XSA Tracker]: /security/xsa/
 

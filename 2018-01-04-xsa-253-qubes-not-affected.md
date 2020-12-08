@@ -10,7 +10,7 @@ The Xen Project has published Xen Security Advisory 253 (XSA-253).
 This XSA does **not** affect the security of Qubes OS, and no user
 action is necessary.
 
-This XSA has been added to the [XSA Tracker](https://www.qubes-os.org/security/xsa/):
+This XSA has been added to the [XSA Tracker](/security/xsa/):
 
-<https://www.qubes-os.org/security/xsa/#253>
+[https://www.qubes-os.org/security/xsa/#253](/security/xsa/#253)
 

@@ -115,7 +115,7 @@ Repositories] on the Whonix wiki.
    ```
 
 
-[Unman]: https://www.qubes-os.org/team/#unman
-[orig-onion-ann]: https://www.qubes-os.org/news/2018/01/23/qubes-whonix-next-gen-tor-onion-services/
+[Unman]: /team/#unman
+[orig-onion-ann]: /news/2018/01/23/qubes-whonix-next-gen-tor-onion-services/
 [Onionizing Repositories]: https://www.whonix.org/wiki/Onionizing_Repositories
 

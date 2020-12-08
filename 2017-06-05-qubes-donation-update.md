@@ -26,7 +26,7 @@ now!
 Thank you,  
 The Qubes OS Team
 
-[donations]: https://www.qubes-os.org/donate/
+[donations]: /donate/
 [Open Collective]: https://opencollective.com/qubes-os
-[Bitcoin fund]: https://www.qubes-os.org/news/2016/07/13/qubes-distributed-fund/
+[Bitcoin fund]: /news/2016/07/13/qubes-distributed-fund/
 

@@ -22,7 +22,7 @@ that this award will enable.
 
 
 [Mozilla Open Source Support (MOSS)]: https://www.mozilla.org/en-US/moss/
-[Frédéric Pierret]: https://www.qubes-os.org/team/#frédéric-pierret
-[Nina Alter]: https://www.qubes-os.org/team/#nina-eleanor-alter
+[Frédéric Pierret]: /team/#frédéric-pierret
+[Nina Alter]: /team/#nina-eleanor-alter
 [Mission Partners]: https://www.mozilla.org/en-US/moss/mission-partners/
 

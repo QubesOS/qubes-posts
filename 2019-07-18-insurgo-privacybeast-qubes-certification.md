@@ -81,13 +81,13 @@ Special thanks go to:
 
 
 [Insurgo PrivacyBeast X230]: https://insurgo.ca/produit/qubesos-certified-privacybeast_x230-reasonably-secured-laptop/
-[laptop]: https://www.qubes-os.org/doc/certified-hardware/#qubes-certified-laptop-insurgo-privacybeast-x230
-[Qubes Certified Hardware]: https://www.qubes-os.org/doc/certified-hardware/
-[requirements]: https://www.qubes-os.org/doc/certified-hardware/#hardware-certification-requirements
+[laptop]: /doc/certified-hardware/#qubes-certified-laptop-insurgo-privacybeast-x230
+[Qubes Certified Hardware]: /doc/certified-hardware/
+[requirements]: /doc/certified-hardware/#hardware-certification-requirements
 [ThinkPad X230]: https://www.thinkwiki.org/wiki/Category:X230
 [Coreboot]: https://www.coreboot.org/
 [Heads]: https://github.com/osresearch/heads/
-[Anti Evil Maid (AEM)]: https://www.qubes-os.org/doc/anti-evil-maid/
+[Anti Evil Maid (AEM)]: /doc/anti-evil-maid/
 [Intel ME]: https://libreboot.org/faq.html#intelme
 [intel-me-deleted]: https://github.com/osresearch/heads-wiki/blob/master/Clean-the-ME-firmware.md#how-to-disabledeactive-most-of-it
 [interdiction]: https://en.wikipedia.org/wiki/Interdiction

@@ -41,7 +41,7 @@ We're very interested in the hardware people are using and want to use with Qube
 This intuition was well confirmed by the survey: hardware compatibility was something a lot of people mentioned in the "reasons for not using Qubes/reasons for stopping using Qubes" questions.
 
 Following the common trend in modern hardware, most people use laptops or laptops and desktops equally (only 22% of our respondents use mostly a desktop computer), and most Qubes users tend to use it on a laptop (63% of them in the survey). 
-A lot of people use external monitors with their laptops (over 55% of laptop users), and we know an external monitor can be tricky to use with Qubes, leading to all sorts of annoying problems with layout or input detection. (If you haven't yet tried it, take a look here: [Qubes GUI Troubleshooting](https://www.qubes-os.org/doc/gui-troubleshooting/)). 
+A lot of people use external monitors with their laptops (over 55% of laptop users), and we know an external monitor can be tricky to use with Qubes, leading to all sorts of annoying problems with layout or input detection. (If you haven't yet tried it, take a look here: [Qubes GUI Troubleshooting](/doc/gui-troubleshooting/)). 
 A significant number of respondents also say they use cameras (36%) and microphones (60%). It makes me wonder what the responses to this question would be a year ago, before so many of us started working remotely. 
 
 As far as desired Qubes localization goes, there were few surprises, with the overwhelming majority preferring English (for a survey in English, it's hard to be shocked by this result), and the next places being taken by German (over 200 votes), French (over 120 votes), Spanish (over 80) and Russian (over 70). 

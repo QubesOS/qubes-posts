@@ -59,7 +59,7 @@ Consequently, we're not interested in decentralization of the current leadership
 architecture), but in building in various mechanisms to prevent any potential
 corruption.
 
-[donations]: https://www.qubes-os.org/donate/
+[donations]: /donate/
 [Qubes Security Pack]: https://github.com/QubesOS/qubes-secpack
 [verify]: /doc/security-pack/
-[growing]: https://www.qubes-os.org/counter/
+[growing]: /counter/

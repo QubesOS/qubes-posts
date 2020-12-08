@@ -31,9 +31,9 @@ dom0. For details, please see our [note on dom0 and EOL].
 [Fedora Release Life Cycle]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle
 [2020-11-24]: https://www.timeanddate.com/date/dateadded.html?m1=10&d1=27&y1=2020&type=add&ay=&am=&aw=4&ad=&rec=
 [end-of-life]: https://fedoraproject.org/wiki/End_of_life
-[upgrading Fedora TemplateVMs]: https://www.qubes-os.org/doc/template/fedora/upgrade/
-[Supported TemplateVM Versions]: https://www.qubes-os.org/doc/supported-versions/#templatevms
-[installation instructions]: https://www.qubes-os.org/doc/templates/fedora/#installing
-[switching]: https://www.qubes-os.org/doc/templates/#switching
-[note on dom0 and EOL]: https://www.qubes-os.org/doc/supported-versions/#note-on-dom0-and-eol
+[upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
+[Supported TemplateVM Versions]: /doc/supported-versions/#templatevms
+[installation instructions]: /doc/templates/fedora/#installing
+[switching]: /doc/templates/#switching
+[note on dom0 and EOL]: /doc/supported-versions/#note-on-dom0-and-eol
 

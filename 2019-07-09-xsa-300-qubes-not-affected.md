@@ -11,8 +11,8 @@ action is necessary.
 
 This XSA has been added to the [XSA Tracker]:
 
-<https://www.qubes-os.org/security/xsa/#300>
+[https://www.qubes-os.org/security/xsa/#300](/security/xsa/#300)
 
 
-[XSA Tracker]: https://www.qubes-os.org/security/xsa/
+[XSA Tracker]: /security/xsa/
 

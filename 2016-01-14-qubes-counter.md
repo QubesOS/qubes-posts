@@ -49,7 +49,7 @@ Whonix Gateway as updatevm by the preconfiguration subsystem, so we expect that
 number to grow and further skew the statistics.
 
 The statistics are available at
-[https://www.qubes-os.org/counter/](https://www.qubes-os.org/counter/):
+[https://www.qubes-os.org/counter/](/counter/):
 
 ![Estimated Qubes OS userbase graph](https://tools.qubes-os.org/counter/stats.png)
 
