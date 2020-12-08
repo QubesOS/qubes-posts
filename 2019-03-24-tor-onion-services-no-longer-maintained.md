@@ -33,6 +33,6 @@ We recommend that users who currently rely on any Qubes onion addresses
 transition to the corresponding clearnet addresses immediately.
 
 
-[Unman]: https://www.qubes-os.org/team/#unman
-[orig-onion-ann]: https://www.qubes-os.org/news/2018/01/23/qubes-whonix-next-gen-tor-onion-services/
+[Unman]: /team/#unman
+[orig-onion-ann]: /news/2018/01/23/qubes-whonix-next-gen-tor-onion-services/
 

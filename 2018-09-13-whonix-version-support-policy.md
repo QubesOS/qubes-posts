@@ -36,9 +36,9 @@ We aim to announce both types of events one month in advance in order to remind
 users to upgrade.
 
 
-[recent release of Whonix 14]: https://www.qubes-os.org/news/2018/08/07/whonix-14-has-been-released/
-[whonix-13-eol]: https://www.qubes-os.org/news/2018/08/24/whonix-13-approaching-eol/
-[Supported Versions]: https://www.qubes-os.org/doc/supported-versions/
-[new section]: https://www.qubes-os.org/doc/supported-versions/#whonix
+[recent release of Whonix 14]: /news/2018/08/07/whonix-14-has-been-released/
+[whonix-13-eol]: /news/2018/08/24/whonix-13-approaching-eol/
+[Supported Versions]: /doc/supported-versions/
+[new section]: /doc/supported-versions/#note-on-whonix-support
 [Whonix]: /doc/whonix/
 

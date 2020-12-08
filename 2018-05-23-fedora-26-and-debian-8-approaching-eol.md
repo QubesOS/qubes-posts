@@ -39,11 +39,11 @@ supported.
 
 [end-of-life]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
 [debian-releases]: https://wiki.debian.org/DebianReleases
-[Fedora 26 to 27]: https://www.qubes-os.org/doc/template/fedora/upgrade-26-to-27/
-[Fedora 27 to 28]: https://www.qubes-os.org/doc/template/fedora/upgrade-27-to-28/
-[Debian 8 to 9]: https://www.qubes-os.org/doc/template/debian/upgrade-8-to-9/
-[Supported TemplateVM Versions]: https://www.qubes-os.org/doc/supported-versions/#templatevms
-[Fedora]: https://www.qubes-os.org/doc/templates/fedora/#installing
-[Debian]: https://www.qubes-os.org/doc/templates/debian/#installing
-[Note on dom0 and EOL]: https://www.qubes-os.org/doc/supported-versions/#note-on-dom0-and-eol
+[Fedora 26 to 27]: /doc/template/fedora/upgrade-26-to-27/
+[Fedora 27 to 28]: /doc/template/fedora/upgrade-27-to-28/
+[Debian 8 to 9]: /doc/template/debian/upgrade-8-to-9/
+[Supported TemplateVM Versions]: /doc/supported-versions/#templatevms
+[Fedora]: /doc/templates/fedora/#installing
+[Debian]: /doc/templates/debian/#installing
+[Note on dom0 and EOL]: /doc/supported-versions/#note-on-dom0-and-eol
 

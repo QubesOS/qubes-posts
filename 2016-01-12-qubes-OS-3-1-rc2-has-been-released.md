@@ -39,8 +39,8 @@ not yet finished, most of core changes are already done. So if you are
 a developer willing to work on some Qubes feature, we heartily 
 recommend taking a look at this version. 
 
-[qubes-31-rc1-announced]: https://www.qubes-os.org/news/2015/12/08/qubes-OS-3-1-rc1-has-been-released/
+[qubes-31-rc1-announced]: /news/2015/12/08/qubes-OS-3-1-rc1-has-been-released/
 [qubes-40-tp-release]: https://groups.google.com/d/msgid/qubes-devel/20151224015122.GA14873%40invisiblethingslab.com
-[pv-grub-doc]: https://www.qubes-os.org/doc/managing-vm-kernel/#tocAnchor-1-3
-[release-notes]: https://www.qubes-os.org/doc/releases/3.1/release-notes/
-[download]: https://www.qubes-os.org/downloads/
+[pv-grub-doc]: /doc/managing-vm-kernel/
+[release-notes]: /doc/releases/3.1/release-notes/
+[download]: /downloads/

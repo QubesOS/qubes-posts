@@ -31,9 +31,9 @@ After installing or upgrading a TemplateVM, please remember to [update]
 old template to use the new one][switching].
 
 
-[upgrading Fedora TemplateVMs]: https://www.qubes-os.org/doc/template/fedora/upgrade/
-[Fedora]: https://www.qubes-os.org/doc/templates/fedora/
-[Minimal]: https://www.qubes-os.org/doc/templates/minimal/
-[update]: https://www.qubes-os.org/doc/software-update-domu/
-[switching]: https://www.qubes-os.org/doc/templates/#switching
+[upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
+[Fedora]: /doc/templates/fedora/
+[Minimal]: /doc/templates/minimal/
+[update]: /doc/software-update-domu/
+[switching]: /doc/templates/#switching
 

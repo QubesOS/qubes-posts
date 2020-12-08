@@ -7,9 +7,9 @@ author: Frédéric Pierret
 
 _This is the third article in the "What's new in Qubes 4.1?" series.
 Previously: [The New Qrexec Policy
-System](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/)
+System](/news/2020/06/22/new-qrexec-policy-system/)
 and
-[The GUI Domain](https://www.qubes-os.org/news/2020/03/18/gui-domain/)._
+[The GUI Domain](/news/2020/03/18/gui-domain/)._
 
 New Gentoo templates
 --------------------
@@ -31,9 +31,9 @@ TemplateVMs (or StandaloneVMs). For example, one could customize the
 Gentoo Qubes Builder to create a [ClipOS](https://clip-os.org/en/) build.
 
 The new Gentoo templates are available in three flavors. The [default
-(Gnome)](https://www.qubes-os.org/doc/templates/gentoo/),
-[minimal](https://www.qubes-os.org/doc/templates/minimal/), and
-[XFCE](https://www.qubes-os.org/doc/templates/xfce/). Currently, they
+(Gnome)](/doc/templates/gentoo/),
+[minimal](/doc/templates/minimal/), and
+[XFCE](/doc/templates/xfce/). Currently, they
 are available in the `qubes-templates-community-testing` repo, and
 they'll soon be in the `qubes-templates-community` repo.
 (**Update:** As of 2020-10-20, they are now available in the stable

@@ -6,7 +6,7 @@ author: Marek Marczykowski-Górecki, Marta Marczykowska-Górecka
 image: /attachment/wiki/posts/guivm-hybrid.png
 ---
 
-It has been some time since the last design post about Qubes. There have been some [big changes happened](https://www.qubes-os.org/news/2018/10/25/thank-you-joanna/), and it took us a little while to find people best suited to write these articles. But, as you can see, the ~~victims~~ volunteers have been found. The team has been hard at work on the changes that are coming in 4.1, and we want to tell you more about them.
+It has been some time since the last design post about Qubes. There have been some [big changes happened](/news/2018/10/25/thank-you-joanna/), and it took us a little while to find people best suited to write these articles. But, as you can see, the ~~victims~~ volunteers have been found. The team has been hard at work on the changes that are coming in 4.1, and we want to tell you more about them.
 
 One of the Big Things coming soon, in Qubes 4.1, is the first public version of the GUI domain: the next step in decoupling the graphical hardware, the display and management, and the host system. Very briefly, the GUI domain is a qube separate from dom0 that handles all the display-related tasks and some system management.
 
@@ -30,13 +30,13 @@ There were two big issues in the previous Qubes architecture that needed to be h
 
 ### GUI Protocol
 
-Detailed documentation of the current GUI protocol is available [here](https://www.qubes-os.org/doc/gui/). In brief, it consists of a GUI agent and a GUI daemon. The GUI agent runs in a qube and connects to the GUI daemon in dom0, passing a list of memory addresses of window buffers. As the GUI daemon is running in dom0, with privileged access to, well, everything, it can just map any page of any qube's memory. You can see why this might be a bit worrying: Access to memory is power, thus dom0 is all-powerful. It would be far worse if we tried to duplicate this architecture and make our GUI domain a qube with the same memory-related privileges. It would just result in two dom0s. Rather than being reduced, the attack surface would be increased.
+Detailed documentation of the current GUI protocol is available [here](/doc/gui/). In brief, it consists of a GUI agent and a GUI daemon. The GUI agent runs in a qube and connects to the GUI daemon in dom0, passing a list of memory addresses of window buffers. As the GUI daemon is running in dom0, with privileged access to, well, everything, it can just map any page of any qube's memory. You can see why this might be a bit worrying: Access to memory is power, thus dom0 is all-powerful. It would be far worse if we tried to duplicate this architecture and make our GUI domain a qube with the same memory-related privileges. It would just result in two dom0s. Rather than being reduced, the attack surface would be increased.
 
 The upcoming 4.1 release changes this protocol to a more flexible form. It will no longer use direct memory addresses, but an abstract mechanism in which the qube has to explicitly allow access to a particular memory page. In our current implementation --- under Xen --- we use the grant tables mechanism, which provides a separate memory allocation API and allows working on grants and not directly on memory pages. Other implementations will also be possible: whether for another hypervisor (e.g. KVM) or for a completely different architecture not based on shared memory (e.g. directly sending frames to another machine).
 
 ### Managing the system
 
-The second problem --- system management --- is actually partially solved already in Qubes 4.0. Administrative actions such as creating, changing or starting qubes can be handled via qrexec calls and controlled via qrexec policy. You can read more about the Admin API, one of the big changes in Qubes 4.0 that made all this possible [here](https://www.qubes-os.org/news/2017/06/27/qubes-admin-api/).
+The second problem --- system management --- is actually partially solved already in Qubes 4.0. Administrative actions such as creating, changing or starting qubes can be handled via qrexec calls and controlled via qrexec policy. You can read more about the Admin API, one of the big changes in Qubes 4.0 that made all this possible [here](/news/2017/06/27/qubes-admin-api/).
 
 Currently, in Qubes 4.0, dom0 handles all these administrative actions. However, in order to avoid unpleasant surprises and to prepare the architecture for the GUI domain, we already always perform them via Admin API. At the design level, dom0 is no longer a special and different case: It makes qrexec calls like any other qube.
 
@@ -110,8 +110,8 @@ Currently, many parts of the Qubes architecture assume a singular target GUI dom
 
 Introducing the GUI domain opens up a lot of interesting new possibilities. First and foremost, even in the middle-of-the-road, painful-compromise solution, dom0 will still be much, much smaller (no desktop managers or huge graphical libraries), thus it can be much more easily ported to another distribution.
 
-A smaller dom0 could also be placed completely in RAM, making the whole disk controller and storage subsystem independent from it and possibly isolated in its own storage domain, as described in the [Qubes Architecture Specification](https://www.qubes-os.org/attachment/wiki/QubesArchitecture/arch-spec-0.3.pdf) only 10 years ago. Now we're finally moving closer to this goal!
+A smaller dom0 could also be placed completely in RAM, making the whole disk controller and storage subsystem independent from it and possibly isolated in its own storage domain, as described in the [Qubes Architecture Specification](/attachment/wiki/QubesArchitecture/arch-spec-0.3.pdf) only 10 years ago. Now we're finally moving closer to this goal!
 
-Finally, decoupling support for VNC and other remote desktop capabilities opens the door to various server-based solutions in which Qubes can run on a remote server, and we can delegate some or all of our domains to other machines (potentially with faster harder and more resources). This is a another step toward [Qubes Air](https://www.qubes-os.org/news/2018/01/22/qubes-air/).
+Finally, decoupling support for VNC and other remote desktop capabilities opens the door to various server-based solutions in which Qubes can run on a remote server, and we can delegate some or all of our domains to other machines (potentially with faster harder and more resources). This is a another step toward [Qubes Air](/news/2018/01/22/qubes-air/).
 
 

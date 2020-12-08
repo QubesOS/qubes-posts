@@ -70,8 +70,8 @@ will be the place for announcements, releases and interesting
 things about Qubes OS.
 
 [qubes-30-announced]: https://blog.invisiblethings.org/2015/10/01/qubes-30.html
-[whonix]: https://www.qubes-os.org/doc/templates/whonix/
-[pv-grub-doc]: https://www.qubes-os.org/doc/managing-vm-kernel/#tocAnchor-1-3
-[release-notes]: https://www.qubes-os.org/doc/releases/3.1/release-notes/
-[download]: https://www.qubes-os.org/downloads/
-[template-upgrade]: https://www.qubes-os.org/doc/fedora-template-upgrade-21/
+[whonix]: /doc/templates/whonix/
+[pv-grub-doc]: /doc/managing-vm-kernel/
+[release-notes]: /doc/releases/3.1/release-notes/
+[download]: /downloads/
+[template-upgrade]: /doc/templates/fedora/#upgrading

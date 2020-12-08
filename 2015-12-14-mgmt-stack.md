@@ -110,9 +110,9 @@ require:
 
 Enjoy!
 
-[whonix-install-doc]: https://www.qubes-os.org/doc/privacy/install-whonix/
+[whonix-install-doc]: /doc/privacy/install-whonix/
 [saltstack]: https://saltstack.com/
-[whonix-template]: https://www.qubes-os.org/doc/templates/whonix/
+[whonix-template]: /doc/templates/whonix/
 [input-proxy]: https://github.com/qubesos/qubes-app-linux-input-proxy
-[salt-doc]: https://www.qubes-os.org/doc/salt/
+[salt-doc]: /doc/salt/
 [salt-configs]: https://github.com/QubesOS/qubes-mgmt-salt-dom0-virtual-machines

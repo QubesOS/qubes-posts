@@ -65,4 +65,4 @@ The ISO can be downloaded [here](/downloads/). As usual, we encourage people to
 verify the integrity of the downloaded images as explained
 [here](/doc/verifying-signatures/).
 
-Existing users of the 3.0 and 3.1-rcX can upgrade using [these instructions](https://www.qubes-os.org/doc/upgrade-to-r3.1/). Enjoy!
+Existing users of the 3.0 and 3.1-rcX can upgrade using [these instructions](/doc/upgrade-to-r3.1/). Enjoy!

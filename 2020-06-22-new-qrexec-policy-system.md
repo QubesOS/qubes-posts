@@ -7,7 +7,7 @@ author: Marek Marczykowski-Górecki, Marta Marczykowska-Górecka
 
 This is the second article in the "What's new in Qubes 4.1?" series. You
 can find the previous one (about GUI Domains)
-[here](https://www.qubes-os.org/news/2020/03/18/gui-domain/). While the
+[here](/news/2020/03/18/gui-domain/). While the
 introduction of GUI domains is a big, singular feature, the changes to
 qrexec are more complex and varied --- but also very important.
 
@@ -248,7 +248,7 @@ qubes.ConnectTCP * mytcp-client @default allow target=mytcp-server
 
 The old policy format used the `$` character in multiple keywords, such
 as `$default` and `$dispvm`. Due to a potential issue described in
-[Qubes Security Bulletin #38](https://www.qubes-os.org/news/2018/02/20/qsb-38/),
+[Qubes Security Bulletin #38](/news/2018/02/20/qsb-38/),
 we have been getting rid of `$`. (In brief, interaction between Bash
 shell parameter expansion and `$` characters in policy files could
 theoretically lead to security problems.) For backward compatibility,
@@ -337,7 +337,7 @@ control, as the policy can allow only certain commands, not everything
 that can be executed in a shell. Moreover, all the arguments are
 explicitly defined and unambiguous, freeing the user from quotation mark
 purgatory. (The syntax is described
-[here](https://www.qubes-os.org/doc/vm-interface/#qubes-rpc).) Other
+[here](/doc/vm-interface/#qubes-rpc).) Other
 services will also benefit, such as the U2F implementation that, due to
 previous limitations, required some awkward wrangling of the public key
 hash. (Details can be found
@@ -365,7 +365,7 @@ qrexec and is managed by a policy (which allows for blocking copy or
 paste for certain qubes), needed 300 ms for each operation, which can be
 a bit of a problem for particularly fast typists. The biggest problem
 was, however, the Admin API. The whole idea of an Admin API (read more
-[here](https://www.qubes-os.org/news/2017/06/27/qubes-admin-api/))
+[here](/news/2017/06/27/qubes-admin-api/))
 requires a lot of qrexec calls. If we want to implement a GUI domain
 that manages certain parts of the system instead of having the user
 directly access dom0, we need the Admin API to be much, much faster. For

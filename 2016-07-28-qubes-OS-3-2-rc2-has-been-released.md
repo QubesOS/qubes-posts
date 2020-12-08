@@ -21,7 +21,7 @@ instructions. The installation image can be downloaded from [here][download].
 Thank you to all the users testing release candidates and submitting bug
 reports! Your feedback helps us to make the final release as stable as possible.
 
-[qubes-32-rc1-announced]: https://www.qubes-os.org/news/2016/06/18/qubes-OS-3-2-rc1-has-been-released/
+[qubes-32-rc1-announced]: /news/2016/06/18/qubes-OS-3-2-rc1-has-been-released/
 [qsb-24]: https://github.com/QubesOS/qubes-secpack/blob/master/QSBs/qsb-024-2016.txt
-[release-notes]: https://www.qubes-os.org/doc/releases/3.2/release-notes/
-[download]: https://www.qubes-os.org/downloads/
+[release-notes]: /doc/releases/3.2/release-notes/
+[download]: /downloads/

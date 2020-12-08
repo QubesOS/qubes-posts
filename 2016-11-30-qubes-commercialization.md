@@ -183,11 +183,11 @@ to ensure the high standards of the Qubes project are maintained?
 [wni]: https://blog.invisiblethings.org/2014/01/15/shattering-myths-of-windows-security.html
 [otf]: https://www.opentech.fund/
 [otf-qubes]: https://www.opentech.fund/project/qubes-os
-[counter]: https://www.qubes-os.org/counter/
-[donations]: https://www.qubes-os.org/donate/
+[counter]: /counter/
+[donations]: /donate/
 [oc]: https://opencollective.com/qubes-os
-[salt]: https://www.qubes-os.org/news/2015/12/14/mgmt-stack/
-[btc]: https://www.qubes-os.org/news/2016/07/13/qubes-distributed-fund/
-[partners]: https://www.qubes-os.org/partners/
+[salt]: /news/2015/12/14/mgmt-stack/
+[btc]: /news/2016/07/13/qubes-distributed-fund/
+[partners]: /partners/
 [business]: mailto:business@qubes-os.org
-[team]: https://www.qubes-os.org/team/
+[team]: /team/

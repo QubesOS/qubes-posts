@@ -12,9 +12,9 @@ affect the security of Qubes OS, and no user action is necessary.
 
 These XSAs have been added to the [XSA Tracker]:
 
-<https://www.qubes-os.org/security/xsa/#258>  
-<https://www.qubes-os.org/security/xsa/#259>
+[https://www.qubes-os.org/security/xsa/#258](/security/xsa/#258)  
+[https://www.qubes-os.org/security/xsa/#259](/security/xsa/#259)
 
 
-[XSA Tracker]: https://www.qubes-os.org/security/xsa/
+[XSA Tracker]: /security/xsa/
 

@@ -217,13 +217,13 @@ collaboration, we've also developed another piece of software, which we intend
 to announce in the near future. Stay tuned.
 
 [Qubes U2F Proxy]: https://github.com/QubesOS/qubes-app-u2f
-[USB]: /doc/usb/
+[USB]: /doc/usb-devices/
 [U2F]: https://en.wikipedia.org/wiki/U2F
 [krebs]: https://krebsonsecurity.com/2018/07/google-security-keys-neutralized-employee-phishing/
 [u2f-details]: https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/fido-u2f-overview-v1.2-ps-20170411.html#site-specific-public-private-key-pairs
 [wired]: https://www.wired.com/story/chrome-yubikey-phishing-webusb/
 [BadUSB]: https://www.blackhat.com/us-14/briefings.html#badusb-on-accessories-that-turn-evil
-[qrexec]: /doc/qrexec3/
+[qrexec]: /doc/qrexec/
 [Split GPG]: /doc/split-gpg/
 [Qubes firewall]: /doc/firewall/
 [Advanced usage]: #advanced-usage-per-qube-key-access

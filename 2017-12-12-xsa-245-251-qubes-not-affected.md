@@ -9,10 +9,10 @@ author: Andrew David Wong
 The Xen Project has published Xen Security Advisories 248 through 251 (XSA-248 through XSA-251).
 These XSAs do **not** affect the security of Qubes OS, and no user action is necessary.
 
-These XSAs have been added to the [XSA Tracker](https://www.qubes-os.org/security/xsa/):
+These XSAs have been added to the [XSA Tracker](/security/xsa/):
 
-- <https://www.qubes-os.org/security/xsa/#248>
-- <https://www.qubes-os.org/security/xsa/#249>
-- <https://www.qubes-os.org/security/xsa/#250>
-- <https://www.qubes-os.org/security/xsa/#251>
+- [https://www.qubes-os.org/security/xsa/#248](/security/xsa/#248)
+- [https://www.qubes-os.org/security/xsa/#249](/security/xsa/#249)
+- [https://www.qubes-os.org/security/xsa/#250](/security/xsa/#250)
+- [https://www.qubes-os.org/security/xsa/#251](/security/xsa/#251)
 

@@ -39,8 +39,8 @@ regarding this template.
 
 
 [end-of-life]: https://fedoraproject.org/wiki/End_of_life
-[upgrading Fedora TemplateVMs]: https://www.qubes-os.org/doc/template/fedora/upgrade/
-[Standard]: https://www.qubes-os.org/doc/templates/fedora/
-[Minimal]: https://www.qubes-os.org/doc/templates/minimal/
-[switching]: https://www.qubes-os.org/doc/templates/#switching
-[testing and feedback]: https://www.qubes-os.org/doc/testing/#providing-feedback
+[upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
+[Standard]: /doc/templates/fedora/
+[Minimal]: /doc/templates/minimal/
+[switching]: /doc/templates/#switching
+[testing and feedback]: /doc/testing/#providing-feedback

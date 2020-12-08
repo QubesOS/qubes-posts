@@ -478,17 +478,17 @@ back _and_ sanitize user files before a DispVM shuts down, for later use of
 these files in another DispVM. And without sanitization, the solution becomes
 equivalent to... just using a standard AppVM.
 
-[qubes_templates]: https://www.qubes-os.org/doc/templates/
-[appvm_blkdevs]: https://www.qubes-os.org/doc/template-implementation/
-[security model]: https://www.qubes-os.org/security/goals/
+[qubes_templates]: /doc/templates/
+[appvm_blkdevs]: /doc/template-implementation/
+[security model]: /security/goals/
 [evil_maid_attack]: https://blog.invisiblethings.org/2009/10/15/evil-maid-goes-after-truecrypt.html
-[appvm_scripts]: https://www.qubes-os.org/doc/config-files/
+[appvm_scripts]: /doc/config-files/
 [appvm_disarming]: https://groups.google.com/forum/#!msg/qubes-users/AghENQx00Pk/5qYPguBHAwAJ
 [qubes_pdf_converter]: https://blog.invisiblethings.org/2013/02/21/converting-untrusted-pdfs-into-trusted.html
-[qubes_filecopy]: https://www.qubes-os.org/doc/copying-files/
-[admin_api]: https://www.qubes-os.org/doc/mgmt/
-[qsbs]: https://www.qubes-os.org/security/bulletins/
-[xsa_tracker]: https://www.qubes-os.org/security/xsa/
+[qubes_filecopy]: /doc/copying-files/
+[admin_api]: /doc/mgmt/
+[qsbs]: /security/bulletins/
+[xsa_tracker]: /security/xsa/
 [dispvms]: https://blog.invisiblethings.org/2010/06/01/disposable-vms.html
 [x86_harmful]: https://blog.invisiblethings.org/papers/2015/x86_harmful.pdf
 [stateless_laptop]: https://blog.invisiblethings.org/papers/2015/state_harmful.pdf

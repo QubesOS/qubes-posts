@@ -69,17 +69,17 @@ Marek trust him with the responsibilities of this important role. We are pleased
 to announce Simon's new role as a QST member. Congratulations, Simon, and thank
 you for working to keep Qubes secure!
 
-[Joanna Rutkowska]: https://www.qubes-os.org/team/#joanna-rutkowska
-[Marek Marczykowski-Górecki]: https://www.qubes-os.org/team/#marek-marczykowski-g%C3%B3recki
-[Joanna's Announcement]: https://www.qubes-os.org/news/2018/10/25/the-next-chapter/
-[Marek's announcement]: https://www.qubes-os.org/news/2018/10/25/thank-you-joanna/
-[Qubes Security Team (QST)]: https://www.qubes-os.org/security/#the-qubes-security-team
-[Qubes Team]: https://www.qubes-os.org/team/
-[reported security issues]: https://www.qubes-os.org/security/#reporting-security-issues-in-qubes-os
-[Xen Security Advisories (XSAs)]: https://www.qubes-os.org/security/xsa/
-[Qubes Security Bulletins (QSBs)]: https://www.qubes-os.org/security/bulletins/
-[Qubes Canaries]: https://www.qubes-os.org/security/canaries/
+[Joanna Rutkowska]: /team/#joanna-rutkowska
+[Marek Marczykowski-Górecki]: /team/#marek-marczykowski-g%C3%B3recki
+[Joanna's Announcement]: /news/2018/10/25/the-next-chapter/
+[Marek's announcement]: /news/2018/10/25/thank-you-joanna/
+[Qubes Security Team (QST)]: /security/#the-qubes-security-team
+[Qubes Team]: /team/
+[reported security issues]: /security/#reporting-security-issues-in-qubes-os
+[Xen Security Advisories (XSAs)]: /security/xsa/
+[Qubes Security Bulletins (QSBs)]: /security/bulletins/
+[Qubes Canaries]: /security/canaries/
 [PGP keys]: https://keys.qubes-os.org/keys/
-[Qubes Master Signing Key (QMSK)]: https://www.qubes-os.org/security/verifying-signatures/#1-get-the-qubes-master-signing-key-and-verify-its-authenticity
-[Simon]: https://www.qubes-os.org/team/#simon-gaiser-aka-hw42
+[Qubes Master Signing Key (QMSK)]: /security/verifying-signatures/#1-get-the-qubes-master-signing-key-and-verify-its-authenticity
+[Simon]: /team/#simon-gaiser-aka-hw42
 

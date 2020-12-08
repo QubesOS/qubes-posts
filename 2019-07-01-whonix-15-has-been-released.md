@@ -21,6 +21,6 @@ Therefore, all current Whonix users are urged to [upgrade from Whonix 14 to Whon
 
 [Whonix Project]: https://www.whonix.org/
 [Whonix 15]: https://forums.whonix.org/t/whonix-15-has-been-released/7616
-[Patrick Schleizer]: https://www.qubes-os.org/team/#patrick-schleizer
+[Patrick Schleizer]: /team/#patrick-schleizer
 [Whonix Support Schedule]: https://www.whonix.org/wiki/About#Support_Schedule
 [upgrade from Whonix 14 to Whonix 15]: https://www.whonix.org/wiki/Upgrading_Whonix_14_to_Whonix_15

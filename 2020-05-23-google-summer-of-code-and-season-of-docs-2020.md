@@ -29,7 +29,7 @@ UTC, and the deadline is July 9, 2020 at 18:00 UTC.
 [Google Summer of Code]: https://summerofcode.withgoogle.com/
 [Google Season of Docs]: https://developers.google.com/season-of-docs
 [Template Manager and Package Handling Improvements]: https://summerofcode.withgoogle.com/projects/#6190965460566016
-[Marek Marczykowski-Górecki]: https://www.qubes-os.org/team/#marek-marczykowski-górecki
-[gsoc]: https://www.qubes-os.org/gsoc/
+[Marek Marczykowski-Górecki]: /team/#marek-marczykowski-górecki
+[gsoc]: /gsoc/
 [technical writer exploration phase]: https://developers.google.com/season-of-docs/docs/timeline
-[gsod]: https://www.qubes-os.org/gsod/
+[gsod]: /gsod/

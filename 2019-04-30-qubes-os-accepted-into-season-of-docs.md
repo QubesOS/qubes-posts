@@ -10,5 +10,5 @@ We are pleased to announce Qubes OS has been accepted into the [2019 Google Seas
 If you are a technical writer, feel free to explore [our Season of Docs page][qubes-gsod] which provides an overview of potential documentation ideas we are excited about, and follow the [Season of Docs process][process-apply] to apply to collaborate with us!
 
 [gsod]: https://developers.google.com/season-of-docs/
-[qubes-gsod]: https://www.qubes-os.org/gsod/
+[qubes-gsod]: /gsod/
 [process-apply]: https://developers.google.com/season-of-docs/docs/tech-writer-guide

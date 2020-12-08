@@ -23,6 +23,6 @@ with information about patching.
 [Meltdown]: https://meltdownattack.com/
 [Spectre]: https://spectreattack.com/
 [Xen predisclosure list]: https://www.xenproject.org/security-policy.html
-[XSA Tracker]: https://www.qubes-os.org/security/xsa/
-[Qubes Security Bulletin]: https://www.qubes-os.org/security/bulletins/
+[XSA Tracker]: /security/xsa/
+[Qubes Security Bulletin]: /security/bulletins/
 

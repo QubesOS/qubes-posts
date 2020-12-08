@@ -89,10 +89,10 @@ provided by the extended 3.2 support period, will help to ease the transition to
 the 4.x series.
 
 
-[hw-cert-q4]: https://www.qubes-os.org/news/2016/07/21/new-hw-certification-for-q4/
-[Version Scheme]: https://www.qubes-os.org/doc/version-scheme/
-[Supported Versions]: https://www.qubes-os.org/doc/supported-versions/
-[Hardware certification]: https://www.qubes-os.org/hardware-certification/
+[hw-cert-q4]: /news/2016/07/21/new-hw-certification-for-q4/
+[Version Scheme]: /doc/version-scheme/
+[Supported Versions]: /doc/supported-versions/
+[Hardware certification]: /hardware-certification/
 [sys-req]:https://www.qubes-os.org/doc/system-requirements/
 [Intel VT-x]: https://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_.28VT-x.29
 [AMD-V]: https://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_.28AMD-V.29
@@ -103,6 +103,6 @@ the 4.x series.
 [SLAT]: https://en.wikipedia.org/wiki/Second_Level_Address_Translation
 [Intel-list]: https://ark.intel.com/Search/FeatureFilter?productType=processors&InstructionSet=64-bit&ExtendedPageTables=true&VTD=true&EM64=true
 [IOMMU-list]: https://en.wikipedia.org/wiki/List_of_IOMMU-supporting_hardware
-[HCL]: https://www.qubes-os.org/hcl/
-[submitting an HCL report]: https://www.qubes-os.org/doc/hcl/#generating-and-submitting-new-reports
+[HCL]: /hcl/
+[submitting an HCL report]: /doc/hcl/#generating-and-submitting-new-reports
 

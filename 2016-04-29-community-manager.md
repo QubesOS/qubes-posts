@@ -176,7 +176,7 @@ Thanks for reading!
 [sig]: https://raw.githubusercontent.com/QubesOS/qubes-posts/master/_2016-04-29-community-manager.md.sig
 [web-repo]: https://github.com/QubesOS/qubesos.github.io
 [doc-repo]: https://github.com/QubesOS/qubes-doc
-[mailing lists]: https://www.qubes-os.org/mailing-lists/
+[mailing lists]: /mailing-lists/
 [Keybase]: https://keybase.io/adw
 [adw-email]: mailto:adw@andrewdavidwong.com
 [adw-xmpp]: xmpp:adw@andrewdavidwong.com

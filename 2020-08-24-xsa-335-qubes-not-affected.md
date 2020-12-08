@@ -11,8 +11,8 @@ necessary.
 
 This XSA has been added to the [XSA Tracker]:
 
-<https://www.qubes-os.org/security/xsa/#335>
+[https://www.qubes-os.org/security/xsa/#335](/security/xsa/#335)
 
 
-[XSA Tracker]: https://www.qubes-os.org/security/xsa/
+[XSA Tracker]: /security/xsa/
 
