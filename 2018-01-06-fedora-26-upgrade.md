@@ -48,7 +48,7 @@ supported.
 
 
 [end-of-life]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
-[upgrade instructions]: /doc/template/fedora/upgrade-25-to-26/
+[upgrade instructions]: /doc/templates/fedora/#upgrading
 [Supported TemplateVM Versions]: /doc/supported-versions/#templatevms
 [Minimal]: /doc/templates/fedora-minimal/
 [Note on dom0 and EOL]: /doc/supported-versions/#note-on-dom0-and-eol

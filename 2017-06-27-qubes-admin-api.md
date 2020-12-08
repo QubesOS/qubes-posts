@@ -639,10 +639,10 @@ technologies, and possibly even more!
 
 [Salt Stack integration]: /doc/salt/
 [AdminAPI]: /doc/admin-api/
-[qrexec]: /doc/qrexec3/
-[qrexec policy]: /doc/qrexec3/#qubes-rpc-administration
-[qrexec tags]: /doc/qrexec3/#extra-keywords-available-in-qubes-40-and-later
-[qrexec argument]: /doc/qrexec3/#qubes-rpc-administration
+[qrexec]: /doc/qrexec/
+[qrexec policy]: /doc/qrexec/
+[qrexec tags]: /doc/qrexec/
+[qrexec argument]: /doc/qrexec/
 [paranoid backups]: /news/2017/04/26/qubes-compromise-recovery/
 [xsa_tracker]: /security/xsa/
 [qubes.InstallPackage ticket]: https://github.com/QubesOS/qubes-issues/issues/2867

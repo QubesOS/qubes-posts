@@ -71,7 +71,7 @@ things about Qubes OS.
 
 [qubes-30-announced]: https://blog.invisiblethings.org/2015/10/01/qubes-30.html
 [whonix]: /doc/templates/whonix/
-[pv-grub-doc]: /doc/managing-vm-kernel/#tocAnchor-1-3
+[pv-grub-doc]: /doc/managing-vm-kernel/
 [release-notes]: /doc/releases/3.1/release-notes/
 [download]: /downloads/
-[template-upgrade]: /doc/fedora-template-upgrade-21/
+[template-upgrade]: /doc/templates/fedora/#upgrading

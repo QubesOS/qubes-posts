@@ -21,7 +21,7 @@ As always, the latest release is available on the [downloads] page.
 
 [supported]: /doc/supported-versions/
 [major or minor release]: /doc/version-scheme/
-[system requirements]: /doc/system-requirements/#qubes-release-4x
+[system requirements]: /doc/system-requirements/
 [extending]: /news/2016/09/02/4-0-minimum-requirements-3-2-extended-support/#extended-support-for-qubes-os-32
 [released]: /news/2018/03/28/qubes-40/
 [extended until 2019-03-28]: /news/2018/03/28/qubes-40/#the-past-and-the-future

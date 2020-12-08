@@ -67,7 +67,7 @@ more information.
 
 [NitroPad X230]: https://shop.nitrokey.com/shop/product/nitropad-x230-67
 [Nitrokey]: https://www.nitrokey.com/
-[laptop]: /doc/certified-hardware/#qubes-certified-laptop-insurgo-privacybeast-x230
+[laptop]: /doc/certified-hardware/#qubes-certified-laptops
 [Qubes Certified Hardware]: /doc/certified-hardware/
 [requirements]: /doc/certified-hardware/#hardware-certification-requirements
 [ThinkPad X230]: https://www.thinkwiki.org/wiki/Category:X230

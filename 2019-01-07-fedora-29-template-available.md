@@ -32,5 +32,5 @@ done in dom0 either with the [Qubes Template Manager] or with the
 [Fedora 27 reached EOL]: /news/2018/11/30/fedora-27-eol/
 [upgrading from Fedora 28 to 29]: /doc/template/fedora/upgrade-28-to-29/
 [Minimal]: /doc/templates/fedora-minimal/
-[Qubes Template Manager]: /doc/templates/#how-to-switch-templates-40
+[Qubes Template Manager]: /doc/templates/-40
 [`qvm-prefs`]: https://dev.qubes-os.org/projects/core-admin-client/en/latest/manpages/qvm-prefs.html

@@ -39,6 +39,6 @@ users to upgrade.
 [recent release of Whonix 14]: /news/2018/08/07/whonix-14-has-been-released/
 [whonix-13-eol]: /news/2018/08/24/whonix-13-approaching-eol/
 [Supported Versions]: /doc/supported-versions/
-[new section]: /doc/supported-versions/#whonix
+[new section]: /doc/supported-versions/#note-on-whonix-support
 [Whonix]: /doc/whonix/
 
