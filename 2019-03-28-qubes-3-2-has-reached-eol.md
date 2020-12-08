@@ -24,5 +24,5 @@ Previous announcements:
 [Downloads]: /downloads/
 [Extended Support for Qubes OS 3.2]: /news/2016/09/02/4-0-minimum-requirements-3-2-extended-support/#extended-support-for-qubes-os-32
 [Qubes 4.0: The Past and the Future]: /news/2018/03/28/qubes-40/#the-past-and-the-future
-[Qubes 3.2 Approaching EOL on 2019-03-28]: /news/2018/02/20/qubes-3-2-approaching-eol
+[Qubes 3.2 Approaching EOL on 2019-03-28]: /news/2019/02/20/qubes-3-2-approaching-eol
 
