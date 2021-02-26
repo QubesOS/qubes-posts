@@ -1,9 +1,16 @@
 ---
 layout: post
-title: "GitLab-CI and reproducible builds progress"
+title: "Improvements in testing and building: GitLab CI and reproducible builds"
 categories: articles
 author: Marek Marczykowski-Górecki
 ---
+
+Over the last couple of months, we had made some significant changed to two important parts of Qubes development process: testing and building. If terms like CI or reproducible builds are clear and obvious to you, you can jump to detailed technical explanations below - this introduction will give a little more context to those of our readers who may be encountering those terms for the first time.
+
+Automated testing is a huge part of the software development process. It may not be very visible on the outside, but in practice, it is crucial and spares developers many, many hours of manual tests that would still often miss bugs and problems. In Qubes development, we're using an approach called Continuous Integration (CI) - local changes made by the developers are uploaded and tested remotely, using dedicated CI solutions. This is very important for both maintaining consistent code quality (all changes will be tested) and for making development easier for the developers (testing Qubes is not easy - it's a whole operating system, and doing the testing on the same system you're developing in is a bit like building a rocket landing system en route to Mars... perhaps not impossible, but very stressful).
+
+The second part we made improvements in is the build process. The idea of 'reproducible builds' may sound quite silly at first - it just means that the same source code results in exactly the same executable program, and what exactly would be difficult here? After all, computers are not random - right? Unfortunately, nothing is simple. There are thousands of variables influencing the way programs are built, ranging from time of day to availability of remote servers and locale settings. Ensuring that programs are built the same way every time is surprising difficult, but it's a great way of establishing a chain of trust in which you, the end user, can be certain the program you're running is the same program the developer compiled, and that it doesn't have any malicious additional content added at some point in distribution.
+
 
 GitLab-CI migration
 --------------------
