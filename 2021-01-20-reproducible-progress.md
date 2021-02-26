@@ -72,10 +72,10 @@ I'd like also to thank GitLab for granting us a free GitLab Gold license, which 
 [reproducible builds]: https://reproducible-builds.org/
 [`debrebuild.pl`]: https://salsa.debian.org/debian/devscripts/-/blob/master/scripts/debrebuild.pl
 [debrebuild]: https://github.com/fepitre/debrebuild
-[rebuilder orchestrator]: https://github.com/fepitre/qubes-rebuilder/
+[rebuilder orchestrator]: https://github.com/fepitre/package-rebuilder/
 [in-toto]: https://in-toto.io/
 [apt-transport-in-toto]: https://github.com/in-toto/apt-transport-in-toto/
-[Frédéric's rebuilder site]: https://mirror.notset.fr/qubes/rebuild/deb/r4.1/sources/
+[Frédéric's rebuilder site]: https://mirror.notset.fr/qubes/rebuild/deb/r4.1/vm/sources/
 [RPM support to the `reprotest` tool]: https://salsa.debian.org/reproducible-builds/reprotest/-/merge_requests/10
 [moss-award]: /news/2020/05/22/moss-mission-partners-award/
 [Mozilla Open Source Support (MOSS)]: https://www.mozilla.org/en-US/moss/
