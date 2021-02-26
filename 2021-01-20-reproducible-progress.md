@@ -51,8 +51,25 @@ To ease the rebuilder setup, we are also in the process of creating a simple [re
 
 When the package rebuild is done, and it matches the official package, the next step is to announce this result so other users can take it into account when deciding whether to install the package or not. For this purpose, we are using the [in-toto] framework with its APT integration, [apt-transport-in-toto]. This step requires publishing signed hashes of rebuilt packages in a specific format (so-called "link" files). We have integrated this into our `debrebuild` tool (and the original `debrebuild.pl` too). The result can be seen at [Frédéric's rebuilder site].
 
-The next step is to configure `apt-transport-in-toto` to actually use these proofs, but this step depends on the user to decide who to trust. We will provide some sensible defaults, as well as instructions for how to configure one's own trust policies.
+The next step is to configure `apt-transport-in-toto` to actually use these proofs, but this step depends on the user to decide who to trust. The configuration process is currently described in the README of [rebuilder orchestrator] - it includes steps to use both Frédéric's rebuilder, as well as to create custom configuration. When enabled, every installed package is checked if a rebuilder confirms it really comes from the source code it claims. For example with `tzdata` package it looks like this:
 
+```
+root@debian-11:~# apt-get install tzdata
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages will be upgraded:
+  tzdata
+1 upgraded, 0 newly installed, 0 to remove and 842 not upgraded.
+Need to get 284 kB of archives.
+After this operation, 4,096 B of additional disk space will be used.
+Get:1 intoto://deb.debian.org/debian bullseye/main amd64 tzdata all 2021a-1 [284 kB]
+(...)
+In-toto verification for '/var/cache/apt/archives/partial/tzdata_2021a-1_all.deb' passed! :)
+Fetched 284 kB in 15s (19.3 kB/s)
+Reading changelogs... Done
+(...)
+```
 
 Next steps, RPM support
 ------------------------
