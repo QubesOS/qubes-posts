@@ -7,8 +7,7 @@ author: Andrew David Wong
 
 New Fedora 33 TemplateVMs are now available for both Qubes 4.0 and 4.1.
 
-**Important:** If you wish to use the Qubes Update widget to update a Fedora 33 template, you must first [switch][switching] the `default-mgmt-dvm` qube to a Fedora 33 template. (Alternatively, you
-can create a separate management DisposableVM Template based on a Fedora 33 template for the purpose of updating Fedora 33 templates.) This does not affect updating internally using `dnf`.
+**Important:** If you wish to use the Qubes Update widget to update a Fedora 33 template, you must first [switch][switching] the `default-mgmt-dvm` qube to a Fedora 33 template. (Alternatively, you can create a separate management DisposableVM Template based on a Fedora 33 template for the purpose of updating Fedora 33 templates.) This does not affect updating internally using `dnf`.
 
 Instructions are available for [upgrading Fedora TemplateVMs]. We also provide fresh Fedora 33 TemplateVM packages through the official Qubes repositories, which you can get with the following commands (in dom0).
 
