@@ -71,12 +71,62 @@ Reading changelogs... Done
 (...)
 ```
 
-Next steps, RPM support
-------------------------
+Reproducible RPM
+-----------------
+
+While we have started with Debian, our goal is to have all of our packages reproducibly built and independently verified. Reproducible builds support in RPM ecosystem is mainly driven by OpenSUSE, but Fedora and other RPM-based distributions benefit from this too. In some cases it means Fedora needs just some configuration to be adjusted to achieve a reproducible build, in other cases it requires developing missing tools.
+
+First of all, there is a set of tools very helpful while working on reproducible builds, specifically:
+
+ - `diffoscope` - compares files in depth - indispensable tool when working with packages and other compounds file formats
+ - `reprotest` - builds a package twice and compares results
+ - `disorderfs` - intentionally disturbs how filesystem is visible to applications, especially order in which files are listed
+
+While diffoscope was already available in Fedora, the other two weren't. Frédéric started the work by adding rpm support to reprotest and then packaging both disorderfs and reprotest for Fedora. Thanks to this, all three tools are now available in default Fedora repositories.
+
+Next, similarly to Debian, we have developed a tool to take an official package and try to reproduce it - we called it [rpmreproduce]. While working on it, we noticed there is no one official format of package build environment description - something that exists in Debian for a long time as "buildinfo" format. After discussing it a bit with the community, we submitted a [buildinfo][rpm buildinfo] proposal and implementation to the upstream rpm project. At this stage, the only thing left to do is to add it to the rebuilder orchestrator mentioned earlier.
+
+Having package rebuilder running for RPM packages is one thing. Another is actually using it to verify packages during installation. In Debian we used already existing APT plugin (`apt-transport-in-toto`), but for Fedora no such thing existed. To fill this space, we have developed [dnf-plugin-in-toto] which works on a very similar basis. DNF plugin architecture is a bit different than APT, which allows DNF to request rebuild confirmation (based on the package hash from repository metadata) before actually downloading package. There is still some work to do on this plugin, but the basic functionality is there already:
+
+```
+# dnf install --enablerepo=qubes*testing qubes-u2f
+(...)
+Prepare in-toto verification for 'qubes-u2f-1.2.8-1.fc33.noarch'
+Create verification directory '/tmp/tmpfei9swbm'
+Request in-toto metadata from 1 rebuilder(s) (DNF global_info)
+Request in-toto metadata from https://mirror.notset.fr/qubes/rebuild/yum/r4.1/vm/sources/qubes-u2f/1.2.8-1.fc33/metadata
+Successfully downloaded in-toto metadata 'rebuild.8deb0bef.link' from rebuilder 'https://mirror.notset.fr/qubes/rebuild/yum/r4.1/vm/'
+Copy final product to verification directory
+Load in-toto layout '/home/user/dnf-transport-in-toto/data/root.layout' (DNF global_info)
+Load in-toto layout key(s) '['9fa64b92f95e706bf28e2ca6484010b5cdc576e2']' (DNF global_info)
+Use gpg keyring '/home/user/dnf-transport-in-toto/data/gnupg' (DNF global_info)
+Run in-toto verification
+In-toto verification for 'qubes-u2f-1.2.8-1.fc33.noarch' passed! :)
+Dependencies resolved.
+=======================================================================================
+ Package                Arch    Version            Repository                      Size
+=======================================================================================
+Installing:
+ qubes-u2f              noarch  1.2.8-1.fc33       qubes-vm-r4.1-current-testing  264 k
+Installing dependencies:
+ hidapi                 x86_64  0.9.0-4.fc33       fedora                          45 k
+ python3-cryptography   x86_64  3.2.1-2.fc33       updates                        546 k
+ python3-hidapi         x86_64  0.9.0.post2-2.fc33 fedora                          50 k
+ python3-u2flib-host    noarch  3.0.3-9.fc33       qubes-vm-r4.1-current-testing   49 k
+
+Transaction Summary
+=======================================================================================
+Install  5 Packages
+
+Total download size: 954 k
+Installed size: 3.6 M
+```
+
+Next steps
+-----------
 
 As explained above, some parts still need finishing, as well as cleanups and proper documentation. But we are very close to the point where every Debian package we build can be independently verified. The very same tooling we've made can be used to verify native Debian packages too, which should also be helpful for non-Qubes Debian users.
-
-While we have started with Debian, our goal is to have all of our packages reproducibly built and independently verified. We have started some work on the RPM packages already. The very first thing is to add reproducibility monitoring and reporting to GitLab-CI. For this reason, Frédéric has already added [RPM support to the `reprotest` tool]. When the new version of `reprotest` is released, we will add RPM package testing too.
+Similar progress is already made for Fedora, although some more work is needed on Fedora side to allow reproducing native (not only Qubes-related) packages.
 
 
 Acknowledgements
@@ -101,5 +151,8 @@ I'd like also to thank GitLab for granting us a free GitLab Gold license, which 
 [apt-transport-in-toto]: https://github.com/in-toto/apt-transport-in-toto/
 [Frédéric's rebuilder site]: https://mirror.notset.fr/qubes/rebuild/deb/r4.1/vm/sources/
 [RPM support to the `reprotest` tool]: https://salsa.debian.org/reproducible-builds/reprotest/-/merge_requests/10
+[rpmreproduce]: https://github.com/fepitre/rpmreproduce
+[rpm buildinfo]: https://github.com/rpm-software-management/rpm/pull/1532
+[dnf-plugin-in-toto]: https://github.com/fepitre/dnf-plugin-in-toto
 [moss-award]: /news/2020/05/22/moss-mission-partners-award/
 [Mozilla Open Source Support (MOSS)]: https://www.mozilla.org/en-US/moss/
