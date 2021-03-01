@@ -134,7 +134,7 @@ Next steps
 
 As explained above, some parts still need finishing, as well as cleanups and proper documentation. But we are very close to the point where every Debian package we build can be independently verified. The very same tooling we've made can be used to verify native Debian packages, too, which should also be helpful for non-Qubes Debian users. Similar progress has already been made for Fedora, although some more work is needed on the Fedora side to allow reproducing native (not only Qubes-related) packages.
 
-In the broader future, our ultimate goal is to make all parts of Qubes OS reproducible. This includes template and the installation image too. Reproducible packages are the first step to this goal, which incidentally is also most valuable to our users and broader community.
+In the broader future, our ultimate goal is to make all parts of Qubes OS reproducible, including templates and the installation image. Reproducible packages are the first step toward this goal, which incidentally is also the most valuable step to our users and the broader community.
 
 
 Acknowledgements
