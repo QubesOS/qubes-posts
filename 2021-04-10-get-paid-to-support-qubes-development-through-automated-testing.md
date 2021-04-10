@@ -6,7 +6,7 @@ author: Andrew David Wong
 ---
 
 The Qubes OS Project is seeking an expert in automated testing. We use
-OpenQA and Travis to test changes to the Qubes OS source code and
+OpenQA and GitLab CI to test changes to the Qubes OS source code and
 automated building from source. We're looking for someone who can help
 with improving both the automated tests themselves and the testing
 infrastructure.
