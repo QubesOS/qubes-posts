@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "New community forum for Qubes OS users!"
+title: "New discussion forum for Qubes OS users!"
 categories: announcements
 author: Andrew David Wong
+redirect_from: /news/2020/08/20/new-community-forum-for-qubes-os-users/
 ---
 
 We're pleased to announce the launch of a new forum for Qubes OS users:
