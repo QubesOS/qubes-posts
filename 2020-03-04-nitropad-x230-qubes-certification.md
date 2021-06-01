@@ -31,8 +31,8 @@ certifies only that a particular hardware *configuration* is *supported*
 by Qubes. The Qubes OS Project takes no responsibility for any
 manufacturing or shipping processes, nor can we control whether physical
 hardware is modified (whether maliciously or otherwise) *en route* to
-the user. (However, see below for information about how the Insurgo team
-mitigates this risk.)
+the user. (However, see below for information about how this risk is
+mitigated.)
 
 
 ## About the NitroPad X230
