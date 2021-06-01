@@ -51,10 +51,10 @@ of their hardware. Key features include:
 
   - Included Nitrokey USB key
 
-  - Professional ThinkPad hardware based on the [ThinkPad X230].
+  - Professional ThinkPad hardware based on the [ThinkPad X230]
 
   - Security-conscious shipping to mitigate against third-party
-    [interdiction].
+    [interdiction]
 
 For further details, please see the original [NitroPad announcement].
 
