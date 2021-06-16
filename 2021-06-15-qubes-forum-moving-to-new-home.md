@@ -14,7 +14,7 @@ Once the move has been completed, the forum's new address will be:
 <https://forum.qubes-os.org>
 
 **Again, this link will *not* take you to a fully functional forum until the migration on 2021-07-01.**
-We hope that this new address better reflects the forum's [official nature](https://www.qubes-os.org/support/#forum), as well as being intuitive and easy to remember. :)
+We hope that this new address better reflects the forum's [official nature](/support/#forum), as well as being intuitive and easy to remember. :)
 
 Rest assured, we'll be taking a full backup of the current forum and copying everything over to the new forum, including all categories, topics, posts, private messages, and even likes! After the migration, the old forum will automatically redirect visitors to the new address for at least a few months.
 
