@@ -29,7 +29,7 @@ For more information about Fedora 33, please see the [Fedora 33 Release Notes] a
 [upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
 [Fedora]: /doc/templates/fedora/
 [Minimal]: /doc/templates/minimal/
-[update]: /doc/software-update-domu/
+[update]: /doc/how-to-install-software/
 [switching]: /doc/templates/#switching
 [systemd-resolved]: https://fedoraproject.org/wiki/Changes/systemd-resolved
 [Fedora 33 Release Notes]: https://docs.fedoraproject.org/en-US/fedora/f33/release-notes/

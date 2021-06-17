@@ -34,6 +34,6 @@ old template to use the new one][switching].
 [upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
 [Fedora]: /doc/templates/fedora/
 [Minimal]: /doc/templates/minimal/
-[update]: /doc/software-update-domu/
+[update]: /doc/how-to-install-software/
 [switching]: /doc/templates/#switching
 
