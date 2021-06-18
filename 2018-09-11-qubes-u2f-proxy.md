@@ -6,7 +6,7 @@ date: 2018-09-11
 categories:
 - articles
 - security
-image: /attachment/wiki/posts/u2f.png
+image: /attachment/posts/u2f.png
 ---
 
 Today we'd like to announce the [Qubes U2F Proxy]. It is a secure proxy intended
@@ -75,7 +75,7 @@ proxy forwards only the data necessary to actually perform the authentication,
 leaving all unnecessary data out, so it won't become a vector of attack. This is
 depicted in the diagram below (click for full size).
 
-[![Qubes U2F Proxy diagram](/attachment/wiki/posts/u2f.svg)](/attachment/wiki/posts/u2f.svg)
+[![Qubes U2F Proxy diagram](/attachment/posts/u2f.svg)](/attachment/posts/u2f.svg)
 
 The Qubes U2F Proxy has two parts: the frontend and the backend. The frontend
 runs in the same qube as the browser and presents a fake USB-like HID device

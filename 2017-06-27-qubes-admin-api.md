@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing the Qubes Admin API"
-image: /attachment/wiki/posts/admin-api.png
+image: /attachment/posts/admin-api.png
 categories:
  - articles
  - security
@@ -17,7 +17,7 @@ Stack integration], which we have already introduced in Qubes 3.2.
 Let's start with a high-level architecture picture of how the Admin API fits
 into the Qubes OS architecture:
 
-![Qubes Admin API architecture](/attachment/wiki/posts/admin-api.png)
+![Qubes Admin API architecture](/attachment/posts/admin-api.png)
 
 As we can see, the main concept behind the Admin API is to let _select_ VMs
 preform various _select_ administrative functions over the Qubes OS system.

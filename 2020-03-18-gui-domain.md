@@ -3,7 +3,7 @@ layout: post
 title: "Qubes Architecture Next Steps: The GUI Domain"
 categories: articles
 author: Marek Marczykowski-Górecki, Marta Marczykowska-Górecka
-image: /attachment/wiki/posts/guivm-hybrid.png
+image: /attachment/posts/guivm-hybrid.png
 ---
 
 It has been some time since the last design post about Qubes. There have been some [big changes happened](/news/2018/10/25/thank-you-joanna/), and it took us a little while to find people best suited to write these articles. But, as you can see, the ~~victims~~ volunteers have been found. The team has been hard at work on the changes that are coming in 4.1, and we want to tell you more about them.
@@ -56,7 +56,7 @@ The current state of those minor (minor in comparison to broad, architecture-lev
 
 ### GPU passthrough: the perfect-world desktop solution
 
-[![GUIVM with PCI passthrough](/attachment/wiki/posts/guivm-gpu.png)](/attachment/wiki/posts/guivm-gpu.png)
+[![GUIVM with PCI passthrough](/attachment/posts/guivm-gpu.png)](/attachment/posts/guivm-gpu.png)
 
 In the perfect world, we could simply connect the graphics card to the VM as a PCI device and enjoy a new, more comfortable level of separation. Unfortunately, the world of computer hardware is very far from a perfect one. This solution works only very rarely. For most graphics cards, it just fails, although some success has been observed on some AMD cards. Even if, in theory, the architecture supports GPU passthrough, many implementations rely on various hardware quirks and peculiarities absent when there is no direct access to the underlying system. For example, the video BIOS (the code that the GPU provides to the system to initialize itself) in many cases assumes that it is running with full privileges and tries to access various registers and memory areas not available to (or virtualized in) VMs.
 
@@ -66,7 +66,7 @@ At the moment, a group of very brave university students are working on the basi
 
 ### Virtual server: the perfect remote solution
 
-[![GUIVM with VNC](/attachment/wiki/posts/guivm-vnc.png)](/attachment/wiki/posts/guivm-vnc.png)
+[![GUIVM with VNC](/attachment/posts/guivm-vnc.png)](/attachment/posts/guivm-vnc.png)
 
 Instead of wrestling with the hardware problems, GUI domain could instead connect to a virtual graphical server such as FreeRDP or VNC. This server could be accessible from anywhere on the network (in practice, it should be secured with at least a VPN, as bugs allowing unauthorized users access could be very dangerous), allowing for a Qubes Server hosting many separate sets of qubes used by different users, still maintaining comfortable separation between the qubes and the users. Qrexec policy allows the administrator to comfortably manage this solution: Every GUI domain can have its own set of privileges, managed qubes, Disposable VM permissions etc.
 
@@ -74,7 +74,7 @@ Surprisingly, a virtual server solution does actually work with the current stat
 
 ### The compromise solution
 
-[![GUIVM with Xephyr](/attachment/wiki/posts/guivm-hybrid.png)](/attachment/wiki/posts/guivm-hybrid.png)
+[![GUIVM with Xephyr](/attachment/posts/guivm-hybrid.png)](/attachment/posts/guivm-hybrid.png)
 
 While GPU passthrough is a work-in-progress and a server-based solution is impractical, there is a compromise solution: Dom0 can keep the X Server and graphics drivers but use them to run only a single, simple application --- a full-screen proxy for the GUI domain's graphical server (an approach similar to the one used by OpenXT). We could even use VNC for this, but luckily, there is another solution based on protocols that have already been tested and implemented. Through the GUI protocol's shared memory and a Xephyr server on the dom0 side, we can achieve something of a GUI protocol nesting.
 
@@ -110,7 +110,7 @@ Currently, many parts of the Qubes architecture assume a singular target GUI dom
 
 Introducing the GUI domain opens up a lot of interesting new possibilities. First and foremost, even in the middle-of-the-road, painful-compromise solution, dom0 will still be much, much smaller (no desktop managers or huge graphical libraries), thus it can be much more easily ported to another distribution.
 
-A smaller dom0 could also be placed completely in RAM, making the whole disk controller and storage subsystem independent from it and possibly isolated in its own storage domain, as described in the [Qubes Architecture Specification](/attachment/wiki/QubesArchitecture/arch-spec-0.3.pdf) only 10 years ago. Now we're finally moving closer to this goal!
+A smaller dom0 could also be placed completely in RAM, making the whole disk controller and storage subsystem independent from it and possibly isolated in its own storage domain, as described in the [Qubes Architecture Specification](/attachment/doc/arch-spec-0.3.pdf) only 10 years ago. Now we're finally moving closer to this goal!
 
 Finally, decoupling support for VNC and other remote desktop capabilities opens the door to various server-based solutions in which Qubes can run on a remote server, and we can delegate some or all of our domains to other machines (potentially with faster harder and more resources). This is a another step toward [Qubes Air](/news/2018/01/22/qubes-air/).
 

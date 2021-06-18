@@ -4,12 +4,12 @@ title: "Joanna Rutkowska gives keynote 'Security through Distrusting' at Black H
 date: 2017-12-11
 categories: talks
 author: Andrew David Wong
-image: /attachment/wiki/posts/security-through-distrusting.png
+image: /attachment/posts/security-through-distrusting.png
 ---
 
 [Joanna Rutkowska] recently gave a keynote address at [Black Hat Europe 2017].
 The slides from the presentation, [Security through Distrusting], are avaialble here:
-[![Security through Distrusting slides](/attachment/wiki/posts/security-through-distrusting.png)][slides]
+[![Security through Distrusting slides](/attachment/posts/security-through-distrusting.png)][slides]
 
 ### Abstract of "Security through Distrusting" ###
 > There are different approaches to making (computer) systems (reasonably) secure and trustworthy:
@@ -28,4 +28,4 @@ The slides from the presentation, [Security through Distrusting], are avaialble 
 [Joanna Rutkowska]: https://www.blackhat.com/eu-17/speakers/Joanna-Rutkowska.html
 [Security through Distrusting]: https://www.blackhat.com/eu-17/briefings.html#security-through-distrusting
 [Black Hat Europe 2017]: https://www.blackhat.com/eu-17/
-[slides]: /attachment/wiki/slides/Security-Through-Distrusting.pdf
+[slides]: /attachment/doc/Security-Through-Distrusting.pdf

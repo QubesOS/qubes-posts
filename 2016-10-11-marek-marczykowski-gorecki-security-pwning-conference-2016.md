@@ -13,4 +13,4 @@ which will take place in Warsaw, Poland on November 7-8, 2016.
 The title of his presentation, in English, will be, "Not so trusted devices and
 what you can do about it in Qubes OS."
 
-[![security-pwning-conference-2016](/attachment/wiki/posts/security-pwning-conference-2016.jpg)](https://www.instytutpwn.pl/konferencja/pwning2016/)
+[![security-pwning-conference-2016](/attachment/posts/security-pwning-conference-2016.jpg)](https://www.instytutpwn.pl/konferencja/pwning2016/)

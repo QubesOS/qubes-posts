@@ -14,7 +14,7 @@ It's quite possible that the people whom we did not reach and the people who dec
 
 Some introductory stats: 54% percent of our respondents have Qubes installed, and 22% are planning to.
 
-[![Qubes users chart](/attachment/wiki/posts/survey_chart_1.png)](/attachment/wiki/posts/survey_chart_1.png)
+[![Qubes users chart](/attachment/posts/survey_chart_1.png)](/attachment/posts/survey_chart_1.png)
 
 Most of them are expert computer users to varying degrees, but 1% said that they prefer not to use computers when they don't have to. 
 Seeing the state of security in the wide computer world, sometimes we're tempted to agree. 
@@ -22,17 +22,17 @@ Seeing the state of security in the wide computer world, sometimes we're tempted
 It also turned out that our community has a fairly unsurprising age spread, with almost half (43%) of the respondents between 18 and 34 and a third (31%) between 35 and 49. 
 There are people over 70 and under 18 among us, too.
 
-[![Responder age](/attachment/wiki/posts/survey_chart_2.png)](/attachment/wiki/posts/survey_chart_2.png)
+[![Responder age](/attachment/posts/survey_chart_2.png)](/attachment/posts/survey_chart_2.png)
 
 About one-third of the respondents are developers (which is in line with what we anticipated --- after all, Qubes is a pretty technical piece of software), and IT professionals of all sorts are about sixty percent of the respondents. 
 We also have a strong contingent of academics (19%) and activists (16%).
 
-[![How many responders say they are...](/attachment/wiki/posts/survey_chart_3.png)](/attachment/wiki/posts/survey_chart_3.png)
+[![How many responders say they are...](/attachment/posts/survey_chart_3.png)](/attachment/posts/survey_chart_3.png)
 
 For privacy reasons, we won't be sharing a detailed breakdown of where our users are located, but we made a map with countries colored based on how many Qubes users are there, for your and our enjoyment. 
 Note: the map is based on Wikipedia's map of the world. Please forgive any inaccuracies in it.
 
-[![Qubes User Map](/attachment/wiki/posts/survey-map.png)](/attachment/wiki/posts/survey-map.png)
+[![Qubes User Map](/attachment/posts/survey-map.png)](/attachment/posts/survey-map.png)
 
 While doing the data crunching, I was a bit fascinated by three large groups of people: those from capital cities just putting down the name of the capital (omitting the country name), people in the US replying with just the name of their town (I've learned a lot about small American towns!) and people in the UK clarifying they are not English, thank you very much.
 I had to smile at "United Kingdom of England and Some Actually Good Countries".
@@ -77,7 +77,7 @@ From a UX development point of view, a particularly important question for us wa
 Turns out that about the same number of people run 3-5 qubes as 6-10 (about 38%). 
 This will definitely be a huge help in future development of the various Qubes tools and widgets. It's also a bit more than we suspected before!
 
-[![VMs In Use](/attachment/wiki/posts/survey_chart_4.png)](/attachment/wiki/posts/survey_chart_4.png)
+[![VMs In Use](/attachment/posts/survey_chart_4.png)](/attachment/posts/survey_chart_4.png)
 
 As far the "how did you learn about Qubes" questions go, I think the conclusion on my side (as one of the authors of the survey) is simple: I really should have just included a "from Edward Snowden" option there, which would have saved our respondents some typing!
 

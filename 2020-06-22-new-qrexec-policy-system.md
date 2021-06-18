@@ -430,7 +430,7 @@ optional `notify=no` parameter with *deny* rules. *Allow* rules support
 a `notify=yes` parameter that will show a notification on accepted
 qrexec calls.
 
-[![Screenshot of an allow and a deny notifications](/attachment/wiki/posts/qrexec1.png)](/attachment/wiki/posts/qrexec1.png)
+[![Screenshot of an allow and a deny notifications](/attachment/posts/qrexec1.png)](/attachment/posts/qrexec1.png)
  
 For example, this rule will cause notifications to be shown whenever a
 `qubes.VMExec` service call is made from the `work` qube to the
