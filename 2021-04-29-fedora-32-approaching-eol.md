@@ -30,7 +30,7 @@ dom0. For details, please see our [note on dom0 and EOL].
 [upgrade]: /doc/templates/fedora/#upgrading
 [installation instructions]: /doc/templates/fedora/#installing
 [performing an in-place upgrade]: /doc/template/fedora/upgrade/
-[Supported TemplateVM Versions]: /doc/supported-versions/#templatevms
+[Supported TemplateVM Versions]: /doc/supported-versions/#templates
 [switching]: /doc/templates/#switching
 [note on dom0 and EOL]: /doc/supported-versions/#note-on-dom0-and-eol
 

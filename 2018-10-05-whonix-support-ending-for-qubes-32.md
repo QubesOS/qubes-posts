@@ -73,7 +73,7 @@ further assistance, please consult the [Whonix support page].
 
 [Whonix Project]: https://www.whonix.org/
 [Whonix TemplateVMs]: /doc/whonix/
-[templatevm-support]: /doc/supported-versions/#templatevms
+[templatevm-support]: /doc/supported-versions/#templates
 [whonix-13-eol]: /news/2018/08/24/whonix-13-approaching-eol/
 [Whonix version support policy]: /doc/supported-versions/#note-on-whonix-support
 [qubes-3.2-eol]: /news/2018/03/28/qubes-40/#the-past-and-the-future

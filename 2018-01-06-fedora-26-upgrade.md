@@ -49,7 +49,7 @@ supported.
 
 [end-of-life]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
 [upgrade instructions]: /doc/templates/fedora/#upgrading
-[Supported TemplateVM Versions]: /doc/supported-versions/#templatevms
+[Supported TemplateVM Versions]: /doc/supported-versions/#templates
 [Minimal]: /doc/templates/fedora-minimal/
 [Note on dom0 and EOL]: /doc/supported-versions/#note-on-dom0-and-eol
 

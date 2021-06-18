@@ -42,7 +42,7 @@ supported.
 [Fedora 26 to 27]: /doc/template/fedora/upgrade-26-to-27/
 [Fedora 27 to 28]: /doc/template/fedora/upgrade-27-to-28/
 [Debian 8 to 9]: /doc/template/debian/upgrade-8-to-9/
-[Supported TemplateVM Versions]: /doc/supported-versions/#templatevms
+[Supported TemplateVM Versions]: /doc/supported-versions/#templates
 [Fedora]: /doc/templates/fedora/#installing
 [Debian]: /doc/templates/debian/#installing
 [Note on dom0 and EOL]: /doc/supported-versions/#note-on-dom0-and-eol
