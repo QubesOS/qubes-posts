@@ -65,6 +65,6 @@ much of the legwork to help get it looking good and working well!
 [Discourse]: https://www.discourse.org/
 [free hosting for open source projects]: https://blog.discourse.org/2018/11/free-hosting-for-open-source-v2/
 [mailing lists]: /support/#mailing-lists
-[IRC]: /support/#unofficial-chat-channels
+[IRC]: /support/#unofficial-venues
 [Reddit]: https://www.reddit.com/r/Qubes/
 
