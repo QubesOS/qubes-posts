@@ -228,7 +228,7 @@ to announce in the near future. Stay tuned.
 [Qubes firewall]: /doc/firewall/
 [Advanced usage]: #advanced-usage-per-qube-key-access
 [Browser support]: #templatevm-and-browser-support
-[report any bugs you encounter]: /doc/reporting-bugs/
+[report any bugs you encounter]: /doc/issue-tracking/
 [ff-u2f-addon]: https://addons.mozilla.org/en-US/firefox/addon/u2f-support-add-on/?src=api
 [qubes-devel]: /support/#qubes-devel
 
