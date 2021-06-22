@@ -487,7 +487,7 @@ equivalent to... just using a standard AppVM.
 [qubes_pdf_converter]: https://blog.invisiblethings.org/2013/02/21/converting-untrusted-pdfs-into-trusted.html
 [qubes_filecopy]: /doc/copying-files/
 [admin_api]: /doc/mgmt/
-[qsbs]: /security/bulletins/
+[qsbs]: /security/qsb/
 [xsa_tracker]: /security/xsa/
 [dispvms]: https://blog.invisiblethings.org/2010/06/01/disposable-vms.html
 [x86_harmful]: https://blog.invisiblethings.org/papers/2015/x86_harmful.pdf

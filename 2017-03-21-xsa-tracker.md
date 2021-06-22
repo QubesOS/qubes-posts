@@ -21,6 +21,6 @@ These [Statistics] will continue to be updated on the [Tracker] page as new XSAs
 
 [Tracker]: /security/xsa/
 [XSA]: https://xenbits.xen.org/xsa/
-[QSB]: /security/bulletins/
+[QSB]: /security/qsb/
 [Statistics]: /security/xsa/#statistics
 

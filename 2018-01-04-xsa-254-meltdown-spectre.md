@@ -24,5 +24,5 @@ with information about patching.
 [Spectre]: https://spectreattack.com/
 [Xen predisclosure list]: https://www.xenproject.org/security-policy.html
 [XSA Tracker]: /security/xsa/
-[Qubes Security Bulletin]: /security/bulletins/
+[Qubes Security Bulletin]: /security/qsb/
 

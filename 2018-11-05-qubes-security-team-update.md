@@ -77,7 +77,7 @@ you for working to keep Qubes secure!
 [Qubes Team]: /team/
 [reported security issues]: /security/#reporting-security-issues-in-qubes-os
 [Xen Security Advisories (XSAs)]: /security/xsa/
-[Qubes Security Bulletins (QSBs)]: /security/bulletins/
+[Qubes Security Bulletins (QSBs)]: /security/qsb/
 [Qubes Canaries]: /security/canaries/
 [PGP keys]: https://keys.qubes-os.org/keys/
 [Qubes Master Signing Key (QMSK)]: /security/verifying-signatures/#1-get-the-qubes-master-signing-key-and-verify-its-authenticity
