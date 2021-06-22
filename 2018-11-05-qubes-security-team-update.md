@@ -78,7 +78,7 @@ you for working to keep Qubes secure!
 [reported security issues]: /security/#reporting-security-issues-in-qubes-os
 [Xen Security Advisories (XSAs)]: /security/xsa/
 [Qubes Security Bulletins (QSBs)]: /security/qsb/
-[Qubes Canaries]: /security/canaries/
+[Qubes Canaries]: /security/canary/
 [PGP keys]: https://keys.qubes-os.org/keys/
 [Qubes Master Signing Key (QMSK)]: /security/verifying-signatures/#1-get-the-qubes-master-signing-key-and-verify-its-authenticity
 [Simon]: /team/#simon-gaiser-aka-hw42
