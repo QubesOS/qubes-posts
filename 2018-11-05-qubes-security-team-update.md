@@ -73,7 +73,7 @@ you for working to keep Qubes secure!
 [Marek Marczykowski-Górecki]: /team/#marek-marczykowski-g%C3%B3recki
 [Joanna's Announcement]: /news/2018/10/25/the-next-chapter/
 [Marek's announcement]: /news/2018/10/25/thank-you-joanna/
-[Qubes Security Team (QST)]: /security/#the-qubes-security-team
+[Qubes Security Team (QST)]: /security/#qubes-security-team
 [Qubes Team]: /team/
 [reported security issues]: /security/#reporting-security-issues-in-qubes-os
 [Xen Security Advisories (XSAs)]: /security/xsa/
