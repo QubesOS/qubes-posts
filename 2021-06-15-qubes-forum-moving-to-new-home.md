@@ -5,6 +5,8 @@ categories: announcements
 author: Andrew David Wong
 ---
 
+_**Update:** The migration has been completed successfully!_
+
 Since the [Qubes Forum](https://qubes-os.discourse.group) first [launched](/news/2020/08/20/new-discussion-forum-for-qubes-os-users/) over nine months ago, it's been far more popular than we anticipated! While this has been a pleasant surprise, one consequence is that we've outgrown the [free hosting for open source projects](https://blog.discourse.org/2018/11/free-hosting-for-open-source-v2/) that [Discourse](https://www.discourse.org/) has generously been providing to us. As a result, we must switch to a new paid host. We're also taking this opportunity to move the forum to our official domain!
 
 In order to ensure a smooth and orderly transition, we're announcing these changes well in advance. The move is scheduled for **2021-07-01 (July 1)**, which is a little over two weeks from the date of this announcement. We hope this gives everyone sufficient time to prepare so that the transition doesn't come as a surprise.

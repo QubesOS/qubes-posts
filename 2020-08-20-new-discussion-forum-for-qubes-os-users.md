@@ -6,6 +6,9 @@ author: Andrew David Wong
 redirect_from: /news/2020/08/20/new-community-forum-for-qubes-os-users/
 ---
 
+_**Update:** Since this announcement was originally published, the
+Qubes Forum has [moved to a new home]._
+
 We're pleased to announce the launch of a new forum for Qubes OS users:
 <https://qubes-os.discourse.group>
 
@@ -67,4 +70,4 @@ much of the legwork to help get it looking good and working well!
 [mailing lists]: /support/#mailing-lists
 [IRC]: /support/#unofficial-venues
 [Reddit]: https://www.reddit.com/r/Qubes/
-
+[moved to a new home]: /news/2021/06/15/qubes-forum-moving-to-new-home/
