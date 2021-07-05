@@ -194,5 +194,5 @@ this so that it can be implemented before the upcoming Qubes 3.2 release.
 [pungi_marek_pr]: https://pagure.io/pungi/pull-request/63
 [qubes_deterministic_builds]: https://github.com/QubesOS/qubes-issues/issues/816
 [qubes_howto_contribute]: /doc/source-code/
-[qubes_tor]: /doc/whonix/
+[qubes_tor]: https://www.whonix.org/wiki/Qubes
 [qubes_appendlog_ticket]: https://github.com/QubesOS/qubes-issues/issues/2023
