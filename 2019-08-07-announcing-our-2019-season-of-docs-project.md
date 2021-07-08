@@ -17,5 +17,5 @@ The documentation is primarily a community effort, and it only gets better when 
 [announced]: https://opensource.googleblog.com/2019/08/season-of-docs-announces-technical.html
 [Lukas à Porta (aka luzeal)]: https://groups.google.com/d/topic/qubes-project/0AdqOTpuW1Q/discussion
 [Onboard with Qubes OS!]: https://developers.google.com/season-of-docs/docs/participants/project-qubes
-[collaborate on the Qubes documentation]: /doc/doc-guidelines/
+[collaborate on the Qubes documentation]: /doc/how-to-edit-the-documentation/
 
