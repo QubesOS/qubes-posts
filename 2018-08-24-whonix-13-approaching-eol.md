@@ -30,7 +30,7 @@ you upgrade to 3.2, as older versions are no longer supported.
 [StandaloneVMs]: /doc/glossary/#standalone
 [The Whonix Project]: https://www.whonix.org/
 [Whonix 13 to 14]: https://www.whonix.org/wiki/Upgrading_Whonix_13_to_Whonix_14
-[Supported TemplateVM Versions]: /doc/supported-versions/#templates
+[Supported TemplateVM Versions]: /doc/supported-releases/#templates
 [Whonix installation guide]: https://www.whonix.org/wiki/Qubes/Install
 [Whonix Support page]: https://www.whonix.org/wiki/Support
 [switch]: /doc/templates/#switching

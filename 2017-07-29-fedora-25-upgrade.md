@@ -42,9 +42,9 @@ If you're using an older version of Qubes, we strongly recommend that
 you upgrade to 3.2, as older versions are no longer supported.
 
 
-[TemplateVM versions]: /doc/supported-versions/#templates
+[TemplateVM versions]: /doc/supported-releases/#templates
 [fedora-maintenance-schedule]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
 [upgrade]: /doc/templates/fedora/#upgrading
 [Minimal]: /doc/templates/fedora-minimal/
-[dom0]: /doc/supported-versions/#dom0
+[dom0]: /doc/supported-releases/#dom0
 

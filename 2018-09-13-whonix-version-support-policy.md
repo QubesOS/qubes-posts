@@ -8,10 +8,10 @@ author: Andrew David Wong
 
 With the [recent release of Whonix 14] and subsequent announcement that [Whonix
 13 will reach EOL (end-of-life) on 2018-09-30][whonix-13-eol], we have updated
-the [Supported Versions] page with a [new section] explaining the Whonix
+the [supported releases] page with a [new section] explaining the Whonix
 support policy. For your convenience, the content of that section, as it
 currently appears, is reproduced below. In the future, users are advised to
-consult the [Supported Versions] page for the current version of the policy.
+consult the [supported releases] page for the current version of the policy.
 
 -----
 
@@ -38,7 +38,7 @@ users to upgrade.
 
 [recent release of Whonix 14]: /news/2018/08/07/whonix-14-has-been-released/
 [whonix-13-eol]: /news/2018/08/24/whonix-13-approaching-eol/
-[Supported Versions]: /doc/supported-versions/
-[new section]: /doc/supported-versions/#note-on-whonix-support
+[supported releases]: /doc/supported-releases/
+[new section]: /doc/supported-releases/#note-on-whonix-support
 [Whonix]: https://www.whonix.org/wiki/Qubes
 

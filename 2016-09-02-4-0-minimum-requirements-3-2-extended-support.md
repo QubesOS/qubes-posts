@@ -14,7 +14,7 @@ release series. In light of these new minimum requirements, we're also
 announcing extended support for Qubes OS 3.2.
 
 (For background information, please see the Qubes [Version Scheme] and
-[Supported Versions].)
+[supported releases].)
 
 Types of system requirements
 ----------------------------
@@ -78,7 +78,7 @@ We realize that the new minimum requirements for Qubes OS 4.x may be difficult
 for some users to meet. In light of this, we will extend the support period for
 Qubes 3.2 (which is currently in the final stages of testing) to **one full
 year** after the release of Qubes 4.0 (instead of [the usual six
-months][Supported Versions]). 
+months][supported releases]). 
 
 In addition, the `qubes-hcl-report` tool, which is used for  [submitting an HCL
 report], will be updated in Qubes 3.2. It will report on all the processor
@@ -91,7 +91,7 @@ the 4.x series.
 
 [hw-cert-q4]: /news/2016/07/21/new-hw-certification-for-q4/
 [Version Scheme]: /doc/version-scheme/
-[Supported Versions]: /doc/supported-versions/
+[supported releases]: /doc/supported-releases/
 [Hardware certification]: /hardware-certification/
 [sys-req]:https://www.qubes-os.org/doc/system-requirements/
 [Intel VT-x]: https://en.wikipedia.org/wiki/X86_virtualization#Intel_virtualization_.28VT-x.29

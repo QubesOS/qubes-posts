@@ -32,8 +32,8 @@ dom0. For details, please see our [note on dom0 and EOL].
 [2020-11-24]: https://www.timeanddate.com/date/dateadded.html?m1=10&d1=27&y1=2020&type=add&ay=&am=&aw=4&ad=&rec=
 [end-of-life]: https://fedoraproject.org/wiki/End_of_life
 [upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
-[Supported TemplateVM Versions]: /doc/supported-versions/#templates
+[Supported TemplateVM Versions]: /doc/supported-releases/#templates
 [installation instructions]: /doc/templates/fedora/#installing
 [switching]: /doc/templates/#switching
-[note on dom0 and EOL]: /doc/supported-versions/#note-on-dom0-and-eol
+[note on dom0 and EOL]: /doc/supported-releases/#note-on-dom0-and-eol
 

@@ -19,7 +19,7 @@ Therefore, we strongly urge all current Qubes 3.2 users to [upgrade to
 Qubes 4.0] before Qubes 3.2 reaches end-of-life (EOL) on 2019-03-28.
 As always, the latest release is available on the [downloads] page.
 
-[supported]: /doc/supported-versions/
+[supported]: /doc/supported-releases/
 [major or minor release]: /doc/version-scheme/
 [system requirements]: /doc/system-requirements/
 [extending]: /news/2016/09/02/4-0-minimum-requirements-3-2-extended-support/#extended-support-for-qubes-os-32
