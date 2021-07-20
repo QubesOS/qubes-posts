@@ -80,6 +80,6 @@ you for working to keep Qubes secure!
 [Qubes Security Bulletins (QSBs)]: /security/qsb/
 [Qubes Canaries]: /security/canary/
 [PGP keys]: https://keys.qubes-os.org/keys/
-[Qubes Master Signing Key (QMSK)]: /security/verifying-signatures/#1-get-the-qubes-master-signing-key-and-verify-its-authenticity
+[Qubes Master Signing Key (QMSK)]: /security/verifying-signatures/#how-to-import-and-authenticate-the-qubes-master-signing-key
 [Simon]: /team/#simon-gaiser-aka-hw42
 
