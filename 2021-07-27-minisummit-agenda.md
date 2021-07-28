@@ -8,11 +8,14 @@ author: Marek Marczykowski-Górecki
 ---
 
 We are pleased to announce an upcoming virtual mini-summit co-hosted by
-[3mdeb](https://3mdeb.com/) and the Qubes OS Project. The event will take place
-across two sessions on August 3 and 10, 2021. Each day, there will be four
-talks, intermixed with Q&A time. An abstract for each talk is provided below.
-The discussion section will be a live meeting on Jitsi, with details to follow.
-The whole event will be also streamed on [3mdeb's YouTube
+[3mdeb](https://3mdeb.com/) and the Qubes OS Project. This is the third edition
+of the Qubes mini-summit, previous editions were in
+[2019](https://3mdeb.com/events/#Qubes-OS-and-3mdeb-minisummit) and
+[2020](https://3mdeb.com/events/#Qubes-OS-and-3mdeb-minisummit2020). The event
+will take place across two sessions on August 3 and 10, 2021. Each day, there
+will be four talks, intermixed with Q&A time. An abstract for each talk is
+provided below.  The discussion section will be a live meeting on Jitsi, with
+details to follow.  The whole event will be also streamed on [3mdeb's YouTube
 channel](https://www.youtube.com/channel/UC_djHbyjuJvhVjfT18nyqmQ), where we
 will also accept questions. We invite everyone interested to join!
 
