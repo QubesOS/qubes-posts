@@ -91,7 +91,13 @@ discuss how to introduce this and other security mechanisms in Qubes OS.
 
 ### "Usability Within A Reasonably Secure, Multi-Environment System" by Nina Alter
 
-@TODO
+Nina Alter first became aware of exciting possibilities of Qubes OS, when asked
+to lead UX research and design for the SecureDrop Workstation project.
+SecureDrop's Workstation is built atop Qubes OS, yet exists for high-risk,
+non-technical journalist users. Nina will share her early discovery work;
+the joys, the pain-points, and the many opportunities she has since uncovered
+to extend Qubes OS' reach to some of our world's most vulnerable digital
+citizens.
 
 ### "Qubes OS Native App Menu: UX Design and Implementation" by Marta Marczykowska-Górecka and Nina Alter
 
