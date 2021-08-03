@@ -22,6 +22,8 @@ will also accept questions. We invite everyone interested to join!
 
 ## Agenda for August 3
 
+[View the archived video on YouTube.](https://www.youtube.com/watch?v=y3V_V0Vllas)
+
 | Time (UTC)     | Event description
 | -------------- | ----------------- 
 | 18:00 -- 18:15 | Welcome and introduction by Piotr Król
