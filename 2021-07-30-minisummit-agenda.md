@@ -36,6 +36,8 @@ will also accept questions. We invite everyone interested to join!
 
 ## Agenda for August 10
 
+[View the archived video on YouTube.](https://www.youtube.com/watch?v=KdDr6TiqF0k)
+
 | Time (UTC)     | Event description
 | -------------- | ----------------- 
 | 18:00 -- 18:15 | Welcome and introduction by Piotr Król
