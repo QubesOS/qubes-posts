@@ -15,11 +15,13 @@ hardware certification.
 ## What is Qubes Certified Hardware?
 
 [Qubes Certified Hardware] is hardware that has been certified by the
-Qubes developers as compatible with Qubes OS. Beginning with Qubes 4.0,
-in order to achieve certification, the hardware must satisfy a rigorous
-set of [requirements], and the vendor must commit to offering customers
-the very same configuration (same motherboard, same screen, same BIOS
-version, same Wi-Fi module, etc.) for at least one year.
+Qubes developers as compatible with Qubes OS. All Qubes-certified
+devices are available for purchase with Qubes OS preinstalled. Beginning
+with Qubes 4.0, in order to achieve certification, the hardware must
+satisfy a rigorous set of [requirements], and the vendor must commit to
+offering customers the very same configuration (same motherboard, same
+screen, same BIOS version, same Wi-Fi module, etc.) for at least one
+year.
 
 [Qubes-certified Laptops][laptop], in particular, are regularly tested
 by the Qubes developers to ensure compatibility with all of Qubes'

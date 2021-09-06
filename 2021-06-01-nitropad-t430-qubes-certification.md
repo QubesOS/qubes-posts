@@ -6,7 +6,9 @@ author: Andrew David Wong
 image: /attachment/site/nitropad-t430.jpg
 ---
 
-_**Update:** Please be advised that the i7-3632QM option is **not** compatible with Qubes OS, as it does not support VT-d. The option specifically tested by the Qubes team is the i5-3320M._
+_**Update:** Please be advised that the i7-3632QM option is **not**
+compatible with Qubes OS, as it does not support VT-d. The option
+specifically tested by the Qubes team is the i5-3320M._
 
 It is our pleasure to announce that the [NitroPad T430] has become the
 third [Qubes-certified Laptop][laptop] for Qubes 4.0! This makes
@@ -17,11 +19,13 @@ hardware certification, the other being the [NitroPad X230].
 ## What is Qubes Certified Hardware?
 
 [Qubes Certified Hardware] is hardware that has been certified by the
-Qubes developers as compatible with Qubes OS. Beginning with Qubes 4.0,
-in order to achieve certification, the hardware must satisfy a rigorous
-set of [requirements], and the vendor must commit to offering customers
-the very same configuration (same motherboard, same screen, same BIOS
-version, same Wi-Fi module, etc.) for at least one year.
+Qubes developers as compatible with Qubes OS. All Qubes-certified
+devices are available for purchase with Qubes OS preinstalled. Beginning
+with Qubes 4.0, in order to achieve certification, the hardware must
+satisfy a rigorous set of [requirements], and the vendor must commit to
+offering customers the very same configuration (same motherboard, same
+screen, same BIOS version, same Wi-Fi module, etc.) for at least one
+year.
 
 [Qubes-certified Laptops][laptop], in particular, are regularly tested
 by the Qubes developers to ensure compatibility with all of Qubes'
