@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Whonix 16 template available"
-date: 2021-09-28
 categories: announcements
 author: Andrew David Wong
 ---
