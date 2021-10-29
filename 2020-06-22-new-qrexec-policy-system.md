@@ -160,7 +160,7 @@ policy.RegisterArgument *           @anyvm          dom0        deny
 # qube to access any other qube TCP port. It should be restricted
 # only to restricted qubes. This is why the default policy is 'deny'
 
-# Example of policy: qubes.ConnectTCP +22 mytcp-client @default allow,target=mytcp-server
+# Example of policy: qubes.ConnectTCP +22 mytcp-client @default allow target=mytcp-server
 qubes.ConnectTCP        *           @anyvm          @anyvm      deny
 
 # VM advertise its supported features
