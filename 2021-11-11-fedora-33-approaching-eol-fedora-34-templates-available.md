@@ -24,6 +24,9 @@ Qubes releases, see our [supported template releases].
 Please note that no user action is required regarding the OS version in
 dom0. For details, please see our [note on dom0 and EOL].
 
+**Note for 4.1 release candidate testers:** Qubes R4.1-rc1 already
+includes the Fedora 34 template by default, so no action is required.
+
 
 [end-of-life]: https://fedoraproject.org/wiki/End_of_life
 [upgrade]: /doc/templates/fedora/#upgrading
