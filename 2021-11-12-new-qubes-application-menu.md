@@ -95,3 +95,4 @@ We'd also very much welcome anonymous feedback on the new menu through our [surv
 The current plan is to have this menu become the default in Qubes 4.2, but of course compatibility with other menus will be maintained. Our current development status can be seen in the [GitHub project for the new application menu](https://github.com/QubesOS/qubes-issues/projects/12).
 
 Enjoy!
+
