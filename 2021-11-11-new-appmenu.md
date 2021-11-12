@@ -80,9 +80,9 @@ There are also several helpful options in the command line for users who want mo
 
 As this is very much a first release, bugs are likely. Please report any issues in our [GitHub issues repository](https://github.com/QubesOS/qubes-issues/issues) or in the [forum](https://forum.qubes-os.org/). 
 
-If you'd like to provide us with more feedback, we'd welcome anonymous/private [feedback on the new menu through our survey tool](x).
+We'd also very much welcome anonymous [feedback on the new menu through our survey tool](https://survey.qubes-os.org/index.php?r=survey/index&sid=255277&lang=en).
 
-The current plan is to have this menu become a default in 4.2 - but of course compatibility with other menus will be maintained.
+The current plan is to have this menu become a default in 4.2 - but of course compatibility with other menus will be maintained. The current development can be seen in the [GitHub project for the new Application Menu](https://github.com/QubesOS/qubes-issues/projects/12).
 
 Enjoy!
 
