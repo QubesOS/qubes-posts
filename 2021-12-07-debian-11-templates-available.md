@@ -20,6 +20,10 @@ specific Qubes release, see our [supported template releases].
 Please note that no user action is required regarding the OS version in
 dom0. For details, please see our [note on dom0 and EOL].
 
+**Note for 4.1 release candidate testers:** Qubes 4.1 release
+candidates already include the Debian 11 template by default, so no
+action is required.
+
 
 [installation instructions]: /doc/templates/debian/#installing
 [performing an in-place upgrade]: /doc/template/debian/upgrade/
