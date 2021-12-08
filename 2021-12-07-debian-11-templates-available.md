@@ -10,7 +10,7 @@ New Debian 11 templates are available for both Qubes 4.0 and 4.1.
 We provide fresh Debian 11 template packages through the official Qubes
 repositories, which you can install in dom0 by following the standard
 [installation instructions]. Alternatively, we also provide step-by-step
-instructions for [performing an in-place upgrade] of an existing Fedora
+instructions for [performing an in-place upgrade] of an existing Debian
 template. After upgrading your templates, please remember to [switch all
 qubes that were using the old template to use the new one][switching].
 
