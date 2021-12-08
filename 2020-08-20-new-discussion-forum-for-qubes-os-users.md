@@ -7,10 +7,11 @@ redirect_from: /news/2020/08/20/new-community-forum-for-qubes-os-users/
 ---
 
 _**Update:** Since this announcement was originally published, the
-Qubes Forum has [moved to a new home]._
+Qubes Forum has [moved to a new home]. The forum link below has been
+updated to point to the new address._
 
 We're pleased to announce the launch of a new forum for Qubes OS users:
-<https://qubes-os.discourse.group>
+<https://forum.qubes-os.org/>
 
 This is an official user forum where you can ask questions, get help,
 share tips and experiences, and more! For a long time, members of our
