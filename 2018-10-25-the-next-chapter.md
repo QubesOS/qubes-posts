@@ -18,7 +18,7 @@ Over these past nine years, Qubes OS has grown from a research-inspired
 proof-of-concept into a reasonably mature, large open-source project with
 dozens of [contributors](/team/) and tens of thousands
 of [users](/statistics/), including some high-profile
-security [experts](/experts/).
+security [experts](/endorsements/).
 
 There are still many challenges ahead for Qubes, however. The primary two are
 improving hardware compatibility and UX. I think addressing these challenges

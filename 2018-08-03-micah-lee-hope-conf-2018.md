@@ -13,7 +13,7 @@ recording of Micah's presentation is available [here][video].
 
 
 [Micah Lee]: https://micahflee.com/
-[advocate]: /experts/
+[advocate]: /endorsements/
 [Qubes OS: The Operating System That Can Protect You Even If You Get Hacked]: https://www.hope.net/schedule.html#-qubes-os-the-operating-system-that-can-protect-you-even-if-you-get-hacked-
 [Circle of HOPE]: https://www.hope.net/index.html
 [video]: https://livestream.com/internetsociety2/hope/videos/178431606
