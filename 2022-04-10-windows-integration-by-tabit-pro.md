@@ -5,7 +5,7 @@ categories: articles
 author: Ivan Kardykov
 ---
 
-_Editor's note: This is a guest article by Ivan Kardykov from
+_**Editor's note:** This is a guest article by Ivan Kardykov from
 [tabit-pro](https://tabit.pro/). We've invited Ivan to explain the work
 the tabit-pro team contributed to Qubes 4.1. Welcome, Ivan!_
 
