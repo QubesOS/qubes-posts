@@ -3,16 +3,17 @@ layout: post
 title: "Automated OS testing on physical laptops"
 categories: articles
 author: Marek Marczykowski-Górecki
+image: /attachment/posts/openqa-hw-power-button.jpg
 ---
 
-Our journey towards automating OS tests on physical laptops started few years
+Our journey towards automating OS tests on physical laptops started a few years
 ago with the idea of using Intel AMT to drive tests on physical machines. To
 start, I got an [initial
 implementation](https://github.com/os-autoinst/os-autoinst/pull/983) working.
 In particular, VNC for input/output and power control worked. I tried to get a
 virtual CD working, but it turned out to be quite unstable. Worse --- and more
 importantly --- it was really just a CD, not a CD/DVD, which meant that the
-protocol couldn't handle images larger than 2GB. Some time later I abandoned
+protocol couldn't handle images larger than 2 GB. Some time later I abandoned
 this approach, for two related reasons:
 
 1. Many machines that we want Qubes OS to support intentionally do not have
@@ -52,7 +53,7 @@ The goal was to run an openQA worker on a Raspberry Pi 4. Why a Raspberry Pi
 As a base system, I chose OpenSUSE, because that's openQA's native
 distribution. Getting OpenSUSE to work on an RPi was [rather
 straightforward](https://en.opensuse.org/HCL:Raspberry_Pi4), but the choice did
-lead to few issues mentioned later in this article.
+lead to a few issues discussed later in this article.
 
 ## Power control
 
@@ -76,11 +77,11 @@ management. Here are some things I tried and that worked on some machines:
    supported it.
 2. Sending a Wake-On-Lan packet. Here, reliability depends on the device. For
    some, it just works, while others require enabling it in the network card
-   (`ethtool -s eth0 wol g` command), and some lose the setting either on
-   system startup or on disconnecting the power...
+   (with the `ethtool -s eth0 wol g` command), and some lose the setting either
+   on system startup or on disconnecting the power...
 3. When all else fails, one can just press the physical power button. Of course
    it would be too much work to do it manually, so I attached a servo motor in
-   the exact spot where the power button is. Then, I drive that servo motor
+   the exact spot where the power button is. Then, I drove that servo motor
    from an RPi.
 
 [![Power button servo](/attachment/posts/openqa-hw-power-button.jpg)](/attachment/posts/openqa-hw-power-button.jpg)
@@ -95,11 +96,11 @@ which operating system starts there. I considered two options:
 
 The first option turned out to be problematic when combined with emulated USB
 input devices (see below), at least on some laptops. While a single USB device
-can have multiple interfaces (basically being sub-devices), many system
-firmwares do not like to boot from such devices. When I exposed a USB device
-that has both a storage interface and a HID interface (keyboard/mouse), the
-system didn't consider it a bootable device. One solution would be to use two
-separate devices, but that would require yet another RPi (or something
+can have multiple interfaces (basically being sub-devices), many types of
+system firmware do not like to boot from such devices. When I exposed a USB
+device that has both a storage interface and a HID interface (keyboard/mouse),
+the system didn't consider it a bootable device. One solution would be to use
+two separate devices, but that would require yet another RPi (or something
 similar), since most (all?) such boards support emulating only a single device.
 Another way around it could be emulating a USB hub and getting two virtual
 devices this way, but Linux does not support USB hub emulation. Since I had an
@@ -123,7 +124,7 @@ network.
 
 I prepared a Grub configuration that can boot different systems on different
 laptops depending on a separate configuration file (loaded via the `load_env`
-grub command) and a tool to conveniently switch between them. This got me a
+Grub command) and a tool to conveniently switch between them. This got me a
 nice menu:
 
     $ testbed-control 2 help
@@ -163,7 +164,7 @@ variables (it can only read them), but building Linux + minimal initrd with
 relevant tools is rather easy. By the way, if I were starting Linux anyway, I
 could simply kexec the target kernel from the NVMe disk using Linux's drivers,
 but I wanted the actual startup to remain closer to the "normal" startup,
-including respecting the  relevant Grub configuration.
+including respecting the relevant Grub configuration.
 
 There was one final problem to solve. When installing Qubes OS, it will set
 itself as the default boot target. This means that all of the above boot
@@ -203,24 +204,24 @@ The first issue I encountered was getting a TC358743 device initialized and
 detected at all. There were several parts to this:
 
 1. The default kernel from OpenSUSE does not include all the necessary drivers
-   (especially `bcm2835-unicam`). They're currently available only in a [kernel
-   from the Raspberry Pi
+   (in particular, `bcm2835-unicam`). They're currently available only in a
+   [kernel from the Raspberry Pi
    Foundation](https://www.raspberrypi.com/documentation/accessories/camera.html#v4l2).
-   I chose to compile it myself, with a config based on the one from the PiKVM
+   I chose to compile it myself with a config based on the one from the PiKVM
    project. There could be something I'm missing here, but this approach got me
    a working setup, and I didn't want to spend too much time on debugging video
    drivers.
-2. Several modifications to the `config.txt` were required:
+2. Several modifications to `config.txt` were required:
    - `dtoverlay=tc358743` --- let the kernel know where the device is
    - `start_x=1` --- load GPU firmware with video input processing included
    - `gpu_mem=128` --- required by `start_x=1`
    The latter two must be in `config.txt` specifically, not a file
    [included](https://www.raspberrypi.com/documentation/computers/config_txt.html#include)
-   from there, which is a bit problematic on OpenSUSE, because the `config.txt`
-   is forcefully overridden on each update and only the included
-   `extraconfig.txt` is meant for user modification. I worked around the issue
-   by mounting the bootloader partition under an alternative mountpoint to
-   disarm the `config.txt` override. This issue is [in OpenSUSE's bug
+   from there, which is a bit problematic on OpenSUSE, because `config.txt` is
+   forcefully overridden on each update and only the included `extraconfig.txt`
+   is meant for user modification. I worked around the issue by mounting the
+   bootloader partition under an alternative mountpoint to disarm the
+   `config.txt` override. This issue is [in OpenSUSE's bug
    tracker](https://bugzilla.opensuse.org/show_bug.cgi?id=1192047). I have yet
    to test the upstream fix for the issue.
 
@@ -253,7 +254,7 @@ on the tested system to 1024x768 (and used an EDID that lists that resolution).
 
 [![Scalled down screenshot](/attachment/posts/openqa-hw-screen-scaled.png)](/attachment/posts/openqa-hw-screen-scaled.png)
 
-On the tested system, something needs to actually enable HDMI output. For this
+On the test system, something needs to actually enable HDMI output. For this
 purpose, I passed a kickstart file to the Qubes OS installer that includes
 commands to execute before installation (the `%pre` section). While at it, I
 could use the same kickstart file for other test-related customizations, like
@@ -294,30 +295,29 @@ Then, I wrote a
 that sets this all up and controls the device(s) according to what openQA
 requests.
 
-The last detail is about connecting an RPi to the target system. RPi4 has a
+The last detail is about connecting an RPi to the target system. The RPi4 has a
 single USB-C port used both for powering the RPi itself as well as for USB
 device emulation. Generally, this would be fine, with the exception that the
 target system is going to be disconnected from power from time to time. If the
-RPi were powered this way, it would loose the power too, and there would be
-nothing capable of turning it back on. This is yet another case where the PiKVM
-project provided an
-[inspiration](https://github.com/pikvm/pikvm#setting-up-the-v2): a Y-split
-cable that connects the VBUS pin to only one end and the data pins to the
-other.
+RPi were powered this way, it would lose power too, and there would be nothing
+capable of turning it back on. This is yet another case where the PiKVM project
+provided an [inspiration](https://github.com/pikvm/pikvm#setting-up-the-v2): a
+Y-split cable that connects the VBUS pin to only one end and the data pins to
+the other.
 
 ## Serial console
 
 Several openQA functions require some kind of console access. This includes
 retrieving command outputs (and exit codes), waiting for various events, etc.
-Unfortunately, however, a real serial console is very rare in modern laptops. I
-could restructure the tests not to use those functions, but that would be
-rather disappointing in terms of test result quality. As a solution, I added a
-small qrexec service in dom0 that reads a pipe that pretends to be a serial
-console, then I used `qvm-connect-tcp` in `sys-net` to redirect the TCP port to
-that service. This isn't as reliable as a real serial console (especially for
-things like restarting `sys-net`), but it does work in the majority of cases.
-In the future, I will restructure the tests not to rely on this functionality
-in order to account for the few rare cases where it doesn't work.
+Unfortunately, a real serial console is very rare in modern laptops. I could
+restructure the tests not to use those functions, but that would be rather
+disappointing in terms of test result quality. As a solution, I added a small
+qrexec service in dom0 that reads a pipe that pretends to be a serial console,
+then I used `qvm-connect-tcp` in `sys-net` to redirect the TCP port to that
+service. This isn't as reliable as a real serial console (especially for things
+like restarting `sys-net`), but it does work in the majority of cases. In the
+future, I will restructure the tests not to rely on this functionality in order
+to account for the few rare cases where it doesn't work.
 
 ## Bonus: remote-controlled test laptops for developers
 
@@ -332,7 +332,7 @@ I've prepared the whole setup to be usable not only with openQA, but also to
 allow for the delegation of specific test machines to individual trusted
 developers. More importantly, this allows not only for manually testing
 software on those machines, but also for automating several tasks, such as the
-git bisect mentioned earlier.
+Git bisection mentioned earlier.
 
 ## Final thoughts
 
@@ -340,8 +340,8 @@ Testing a whole operating system is a challenging task, because there are a lot
 of moving parts. OpenQA is a great tool for that, but its main target is
 running tests in a virtualized environment. This works fine for several
 components (like Qubes Manager and GUI virtualization) but not for
-hardware-related features (sys-net, sys-usb, system suspend, and several more).
-Before this work, we ran tests on actual laptops manually, but that was
-time-consuming and thus not all updates or configurations were tested.
+hardware-related features (sys-net, sys-usb, system suspend, and several
+others). Before this work, we ran tests on actual laptops manually, but that
+was time-consuming and thus not all updates or configurations were tested.
 Automation allows our testing to be much more comprehensive, including ensuring
-ongoing compatibility for Qubes OS certified hardware.
+ongoing compatibility with Qubes OS certified hardware.
