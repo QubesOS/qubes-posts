@@ -26,7 +26,7 @@ After installing or upgrading a TemplateVM, please remember to [update] (see imp
 For more information about Fedora 33, please see the [Fedora 33 Release Notes] and the [Fedora 33 Announcement].
 
 
-[upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
+[upgrading Fedora TemplateVMs]: /doc/templates/fedora/in-place-upgrade/
 [Fedora]: /doc/templates/fedora/
 [Minimal]: /doc/templates/minimal/
 [update]: /doc/how-to-install-software/

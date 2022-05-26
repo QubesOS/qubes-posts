@@ -26,7 +26,7 @@ action is required.
 
 
 [installation instructions]: /doc/templates/debian/#installing
-[performing an in-place upgrade]: /doc/template/debian/upgrade/
+[performing an in-place upgrade]: /doc/templates/debian/in-place-upgrade/
 [switching]: /doc/templates/#switching
 [supported template releases]: /doc/supported-releases/#templates
 [note on dom0 and EOL]: /doc/supported-releases/#note-on-dom0-and-eol

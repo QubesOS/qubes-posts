@@ -31,7 +31,7 @@ After installing or upgrading a TemplateVM, please remember to [update]
 old template to use the new one][switching].
 
 
-[upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
+[upgrading Fedora TemplateVMs]: /doc/templates/fedora/in-place-upgrade/
 [Fedora]: /doc/templates/fedora/
 [Minimal]: /doc/templates/minimal/
 [update]: /doc/how-to-install-software/

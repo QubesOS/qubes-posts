@@ -39,7 +39,7 @@ regarding this template.
 
 
 [end-of-life]: https://fedoraproject.org/wiki/End_of_life
-[upgrading Fedora TemplateVMs]: /doc/template/fedora/upgrade/
+[upgrading Fedora TemplateVMs]: /doc/templates/fedora/in-place-upgrade/
 [Standard]: /doc/templates/fedora/
 [Minimal]: /doc/templates/minimal/
 [switching]: /doc/templates/#switching

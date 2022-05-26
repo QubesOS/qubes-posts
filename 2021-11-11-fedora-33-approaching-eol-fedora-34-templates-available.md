@@ -31,7 +31,7 @@ includes the Fedora 34 template by default, so no action is required.
 [end-of-life]: https://fedoraproject.org/wiki/End_of_life
 [upgrade]: /doc/templates/fedora/#upgrading
 [installation instructions]: /doc/templates/fedora/#installing
-[performing an in-place upgrade]: /doc/template/fedora/upgrade/
+[performing an in-place upgrade]: /doc/templates/fedora/in-place-upgrade/
 [switching]: /doc/templates/#switching
 [supported template releases]: /doc/supported-releases/#templates
 [note on dom0 and EOL]: /doc/supported-releases/#note-on-dom0-and-eol
