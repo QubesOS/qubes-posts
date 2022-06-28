@@ -7,6 +7,11 @@ author: Andrew David Wong
 
 New Fedora 36 templates are now available for Qubes 4.1!
 
+Please note that Fedora 36 will not be available for Qubes 4.0, since
+Qubes 4.0 is [scheduled to reach end-of-life (EOL) soon]. Fedora 35 is
+[already available] for both Qubes 4.0 and 4.1 and will remain supported
+until long after Qubes 4.0 has reached EOL.
+
 As a reminder, [Fedora 34 has reached EOL]. If you have not already done
 so, we strongly recommend that you [upgrade] any remaining Fedora 34
 templates and standalones to Fedora 35 or 36 immediately.
@@ -29,6 +34,8 @@ includes a Fedora 36 template by default, so no action is required on
 your part.
 
 
+[scheduled to reach end-of-life (EOL) soon]: /doc/supported-releases/#qubes-os
+[already available]: /news/2022/05/26/fedora-34-approaching-eol-fedora-35-templates-available/
 [Fedora 34 has reached EOL]: /news/2022/06/07/fedora-34-eol/
 [upgrade]: /doc/templates/fedora/#upgrading
 [installation instructions]: /doc/templates/fedora/#installing
