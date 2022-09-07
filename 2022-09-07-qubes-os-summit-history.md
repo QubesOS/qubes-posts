@@ -7,7 +7,11 @@ categories:
 author: Michał Żygowski
 ---
 
-# Introduction
+_**Editor's note:** This is a guest article by Michał Żygowski from
+[3mdeb](https://3mdeb.com/) about the history of Qubes OS Summits.
+Thanks for sharing with us today, Michał!_
+
+## Introduction
 
 The next [Qubes OS Summit 2022](https://www.qubes-os.org/news/2022/07/29/qubes-os-summit-2022/)
 edition is upcoming. This year it will be held in Berlin from September 9th to
@@ -16,7 +20,7 @@ details [here](https://qubesos.3mdeb.com/). Don't miss the event and more
 importantly how it started. In the article the history and organizer's
 perspective of the event will be described.
 
-# How did all of this start?
+## How did all of this start?
 
 In May 2019 3mdeb funded Linux training for its employees, having no idea who
 the instructor will be. At some point, it occurred that the mysterious
@@ -38,7 +42,7 @@ firmware-related security technologies support like TPM 2.0 and DRTM (Anti Evil
 Maid). The event helped 3mdeb realize how to get involved in Qubes OS project
 and help to improve it with our expertise.
 
-# The past of Qubes OS Summits
+## The past of Qubes OS Summits
 
 Everyone enjoyed that one particular day so much, that we decided to repeat the
 event next year. The environment we created together, bending and crossing the
@@ -72,7 +76,7 @@ and cryptocurrency wallets. Of course firmware-related topics could not be
 missing and Piotr also showed continuation of his previous year's efforts of
 securing the VMs with SRTM and Secure Boot.
 
-# The future of Qubes OS Summits
+## The future of Qubes OS Summits
 
 Finally, the time has come when we may meet together in person, after three
 years! The Qubes OS Summit 2022 is fast approaching, with only a few days left
@@ -106,7 +110,7 @@ grow in the future, bringing reasonable trustworthiness and collaboration for
 everybody. Definitely, 3mdeb will try its best to co-organize the event in the
 upcoming years.
 
-# Summary
+## Summary
 
 By a mere coincidence, meeting Marek Marczykowski-Górecki gave birth to a
 fascinating series of Qubes OS Summits and led us to this day.
