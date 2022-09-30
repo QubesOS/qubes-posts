@@ -5,7 +5,7 @@ categories: announcements
 author: Andrew David Wong
 ---
 
-We are pleased to announce that the Qubes OS Project is now accepting [donations](/donate/) on [Ethereum](https://ethereum.org/) Mainnet at the following address:
+We are pleased to announce that the Qubes OS Project is now accepting [donations](/donate/) on [Ethereum](https://ethereum.org/) (Mainnet) at the following address:
 
 ```
 0xDaa04647e8ecb616801F9bE89712771F6D291a0C
@@ -13,7 +13,7 @@ We are pleased to announce that the Qubes OS Project is now accepting [donations
 
 <div class="alert alert-danger" role="alert">
   <i class="fa fa-exclamation-triangle"></i>
-  <b>Warning:</b> This <a href="https://gnosis-safe.io/">Gnosis Safe</a> Ethereum address supports <b>ether (ETH)</b> and all assets that fully comply with the <a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-20/">ERC-20</a> standard (e.g., USDT, USDC, and DAI), but <em>only</em> on Ethereum Mainnet. Please <em>do not</em> send assets on any other network to this address, or else your donation may be lost. For example, please <em>do not</em> send assets on any Ethereum Layer 2 solution (e.g., Arbitrum, Optimism) or any sidechain (e.g., Polygon, xDai) to this address.
+  <b>Warning:</b> This <a href="https://gnosis-safe.io/">Gnosis Safe</a> Ethereum address supports ether (ETH) and all assets that fully comply with the <a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-20/">ERC-20</a> standard (e.g., USDT, USDC, and DAI), but <em>only</em> on <a href="https://ethereum.org/en/developers/docs/networks/#ethereum-mainnet">Ethereum Mainnet</a>. Please <em>do not</em> send assets on any other network to this address, or else your donation may be lost. For example, please <em>do not</em> send assets on any Ethereum Layer 2 solution (e.g., Arbitrum, Optimism) or any sidechain (e.g., Polygon, xDai) to this address.
 </div>
 
 We have recently observed an increase in demand for an Ethereum donation option, both for ETH itself and for stablecoins like USDT, USDC, and DAI. As the largest smart-contract blockchain, largest proof-of-stake blockchain, and second-largest cryptocurrency by market capitalization, the Ethereum network and its native currency ETH are natural additions to our growing list of donation methods. Moreover, this new option allows users to donate any token they choose (including non-stablecoins!) so long as (1) the token fully complies with the ERC-20 standard and (2) the transaction is done on Ethereum Mainnet (as opposed to a Layer 2 solution or a sidechain). Please double-check that both of these conditions hold before sending anything to our Ethereum address, or else your donation may be lost!
