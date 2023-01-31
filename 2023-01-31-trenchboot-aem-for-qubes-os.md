@@ -65,7 +65,15 @@ solution over existing [Trusted Boot](https://sourceforge.net/p/tboot/wiki/Home/
 is the easier future integration of AMD platform support, as well as TPM 2.0
 and UEFI mode support.
 
-## Modifications to original Qubes OS AEM
+Before we dive into the technical details, it is important to highlight that
+this achievement was made possible through the generous contributions of Qubes
+OS community via OpenCollective. We would like to express our gratitude and
+extend a special thank you to all who have supported our favourite operating
+system. To continue supporting Qubes OS, please consider donating through
+[OpenCollective page](https://opencollective.com/qubes-os). Thank you for your
+continued support!
+
+## Modificationts to original Qubes OS AEM
 
 To replace the original implementation of Qubes OS AE
 there weren't any AEM scripts modifications necessary. What actually had to
@@ -145,11 +153,32 @@ The packages have been covered with SHA512 sums signed with 3mdeb's
 available on [3mdeb-secpack repository](https://github.com/3mdeb/3mdeb-secpack/blob/master/open-source-software/qubes-os-trenchboot-aem-open-source-software-release-0.x-signing-key.asc).
 To verify the RPM packages, fetch the key with the following command:
 `gpg --fetch https://raw.githubusercontent.com/3mdeb/3mdeb-secpack/master/open-source-software/qubes-os-trenchboot-aem-open-source-software-release-0.x-signing-key.asc`
-and then for each package, please run:
+and then to verify the packages, please run:
 
-```txt
-gpg --verify <rpm_package-name>.sha512.sig <rpm_package-name>.sha512
-sha512sum -c <rpm_package-name>.sha512
+```bash
+$ gpg --verify sha512sums.sig sha512sums
+
+gpg: Signature made wto, 31 sty 2023, 11:06:06 CET
+gpg:                using RSA key 3405D1E4509CD18A3EA762245D289020C07114F3
+gpg: Good signature from "Qubes OS TrenchBoot AEM open-source software release 0.x signing key" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 3405 D1E4 509C D18A 3EA7  6224 5D28 9020 C071 14F3
+
+$ sha512sum -c sha512sums
+
+grub2-common-2.06-1.fc32.noarch.rpm: OK
+grub2-tools-extra-2.06-1.fc32.x86_64.rpm: OK
+xen-licenses-4.17.0-3.fc32.x86_64.rpm: OK
+grub2-pc-2.06-1.fc32.x86_64.rpm: OK
+xen-libs-4.17.0-3.fc32.x86_64.rpm: OK
+grub2-tools-2.06-1.fc32.x86_64.rpm: OK
+xen-hypervisor-4.17.0-3.fc32.x86_64.rpm: OK
+grub2-pc-modules-2.06-1.fc32.noarch.rpm: OK
+xen-runtime-4.17.0-3.fc32.x86_64.rpm: OK
+grub2-tools-minimal-2.06-1.fc32.x86_64.rpm: OK
+python3-xen-4.17.0-3.fc32.x86_64.rpm: OK
+xen-4.17.0-3.fc32.x86_64.rpm: OK
 ```
 
 Check if GPG returns a good signature and if yes, check if the RPM checksum
@@ -298,30 +327,30 @@ After the system boots, one may check if DRTM PCRs (17 and 18, 19 is not used
 by TrenchBoot for now) have been populated:
 
 ```
-cat /sys/class/tpm/tpm0/pcrs 
-PCR-00: 3A 3F 78 0F 11 A4 B4 99 69 FC AA 80 CD 6E 39 57 C3 3B 22 75 
-PCR-01: 4D E4 B0 42 71 50 E4 B1 DE C0 D7 F1 A0 29 A2 65 11 30 72 FD 
-PCR-02: CE EA EC 0A 01 D5 7B A3 55 5A 4C 02 59 4A EE A1 C9 41 78 FB 
-PCR-03: 3A 3F 78 0F 11 A4 B4 99 69 FC AA 80 CD 6E 39 57 C3 3B 22 75 
-PCR-04: 01 7A 3D E8 2F 4A 1B 77 FC 33 A9 03 FE F6 AD 27 EE 92 BE 04 
-PCR-05: BF 4E 38 B0 A7 7A 7A 4D 1A A9 B5 0F 59 D8 E5 F7 A6 46 8E 48 
-PCR-06: 3A 3F 78 0F 11 A4 B4 99 69 FC AA 80 CD 6E 39 57 C3 3B 22 75 
-PCR-07: 3A 3F 78 0F 11 A4 B4 99 69 FC AA 80 CD 6E 39 57 C3 3B 22 75 
-PCR-08: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-09: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-10: 9A 51 66 4D EB 1C B9 72 91 87 59 C4 89 AC 9A FF 7F 10 BF B3 
-PCR-11: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-12: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-13: 10 78 D0 16 8C 85 85 3A 7E 0A A1 D7 56 02 A7 05 D4 7F 22 64 
-PCR-14: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-15: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-16: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-17: 2A C9 64 F2 E2 96 50 B3 1D B7 2F 77 C4 7C A6 5D AA C8 4E E7 
-PCR-18: 84 4D D5 8D 95 EB 96 F6 CE 92 51 9C FD E2 33 45 71 C3 87 92 
-PCR-19: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-21: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-PCR-22: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+cat /sys/class/tpm/tpm0/pcrs
+PCR-00: 3A 3F 78 0F 11 A4 B4 99 69 FC AA 80 CD 6E 39 57 C3 3B 22 75
+PCR-01: 4D E4 B0 42 71 50 E4 B1 DE C0 D7 F1 A0 29 A2 65 11 30 72 FD
+PCR-02: CE EA EC 0A 01 D5 7B A3 55 5A 4C 02 59 4A EE A1 C9 41 78 FB
+PCR-03: 3A 3F 78 0F 11 A4 B4 99 69 FC AA 80 CD 6E 39 57 C3 3B 22 75
+PCR-04: 01 7A 3D E8 2F 4A 1B 77 FC 33 A9 03 FE F6 AD 27 EE 92 BE 04
+PCR-05: BF 4E 38 B0 A7 7A 7A 4D 1A A9 B5 0F 59 D8 E5 F7 A6 46 8E 48
+PCR-06: 3A 3F 78 0F 11 A4 B4 99 69 FC AA 80 CD 6E 39 57 C3 3B 22 75
+PCR-07: 3A 3F 78 0F 11 A4 B4 99 69 FC AA 80 CD 6E 39 57 C3 3B 22 75
+PCR-08: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-09: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-10: 9A 51 66 4D EB 1C B9 72 91 87 59 C4 89 AC 9A FF 7F 10 BF B3
+PCR-11: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-12: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-13: 10 78 D0 16 8C 85 85 3A 7E 0A A1 D7 56 02 A7 05 D4 7F 22 64
+PCR-14: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-15: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-16: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-17: 2A C9 64 F2 E2 96 50 B3 1D B7 2F 77 C4 7C A6 5D AA C8 4E E7
+PCR-18: 84 4D D5 8D 95 EB 96 F6 CE 92 51 9C FD E2 33 45 71 C3 87 92
+PCR-19: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-21: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+PCR-22: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 PCR-23: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 ```
 
