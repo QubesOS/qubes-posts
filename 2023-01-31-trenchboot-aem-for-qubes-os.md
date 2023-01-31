@@ -1,38 +1,26 @@
 ---
-title: TrenchBoot Anti Evil Maid for Qubes OS
-abstract: 'Qubes OS Anti Evil Maid (AEM) software heavily depends on the
-           availability of the DRTM technologies to prevent the Evil Maid
-           attacks. However, the project has not evolved much since the
-           beginning of 2018 and froze on the support of TPM 1.2 with Intel TXT
-           in legacy boot mode (BIOS). In the post we show how existing
-           solution can be replaced with TrenchBoot and how one can install it
-           on the Qubes OS. Also the post will also briefly explain how
-           TrenchBoot opens the door for future TPM 2.0 and UEFI support for
-           AEM.'
-cover: /covers/trenchboot-logo.png
-author: michal.zygowski
 layout: post
-published: true
-date: 2022-12-16
-archives: "2022"
-
-tags:
-  - firmware
-  - coreboot
-  - Qubes OS
-  - TrenchBoot
-  - GRUB
-  - Xen Hypervisor
-categories:
-  - Firmware
-  - Bootloader
-  - Hypervisor
-  - OS Dev
-  - Security
-
+title: TrenchBoot Anti Evil Maid for Qubes OS
+author: Michal Zygowski
+categories: articles
+image: /attachment/posts/trenchboot-logo.svg
 ---
 
-# Introduction
+_**Editor's note:** The following is a guest post by Michal Zygowski from [3mdeb](https://3mdeb.com/) on the work they've been doing to upgrade [Anti Evil Maid (AEM)](/doc/anti-evil-maid/). The original post can be found on the [3mdeb blog](https://blog.3mdeb.com/). This work was made possible through generous [donations](/donate/) from the Qubes community via [OpenCollective](https://opencollective.com/qubes-os). We are immensely grateful to the Qubes community for your continued support and to 3mdeb for contributing this valuable work._
+
+## Abstract
+
+Qubes OS Anti Evil Maid (AEM) software heavily depends on the
+availability of the DRTM technologies to prevent the Evil Maid
+attacks. However, the project has not evolved much since the
+beginning of 2018 and froze on the support of TPM 1.2 with Intel TXT
+in legacy boot mode (BIOS). In the post we show how existing
+solution can be replaced with TrenchBoot and how one can install it
+on the Qubes OS. Also the post will also briefly explain how
+TrenchBoot opens the door for future TPM 2.0 and UEFI support for
+AEM.
+
+## Introduction
 
 As Qubes OS users, promoters, and developers, we understand how essential it is
 to be aware of the latest developments in maintaining the security of your
@@ -46,7 +34,7 @@ your system, making it difficult to detect. To overcome these limitations, many
 silicon vendors have started implementing Dynamic Root of Trust (DRT)
 technologies to establish a secure environment for operating system launch and
 integrity measurements. We're excited to take advantage of these advancements
-through integration with the [TrenchBoot Project]((https://trenchboot.org/)).
+through integration with the [TrenchBoot Project](https://trenchboot.org/).
 
 The usage of DRT technologies like Intel Trusted Execution Technology (TXT) or
 AMD Secure Startup is becoming more and more significant; for example, Dynamic
@@ -60,7 +48,7 @@ Boot Integrity Technologies (BITs) that establish one or more Roots of Trust
 (RoT) from which a degree of confidence that integrity actions were not
 subverted.
 
-[Qubes OS Anti Evil Maid(AEM)](https://blog.invisiblethings.org/2011/09/07/anti-evil-maid.html)
+[Qubes OS Anti Evil Maid (AEM)](https://blog.invisiblethings.org/2011/09/07/anti-evil-maid.html)
 software heavily depends on the availability of DRTM technologies to prevent
 Evil Maid attacks. However, the project hasn't evolved much since the beginning
 of 2018 and froze on the support of TPM 1.2 with Intel TXT in legacy boot mode
@@ -77,7 +65,7 @@ solution over existing [Trusted Boot](https://sourceforge.net/p/tboot/wiki/Home/
 is the easier future integration of AMD platform support, as well as TPM 2.0
 and UEFI mode support.
 
-# Modificationts to original Qubes OS AEM
+## Modifications to original Qubes OS AEM
 
 To replace the original implementation of Qubes OS AE
 there weren't any AEM scripts modifications necessary. What actually had to
@@ -87,9 +75,9 @@ may ask... First of all, one must understand the role of a Trusted Boot
 
 ## Trusted Boot DRTM flow
 
-![Breakout of measured launch details](/img/txt_launch2.jpg)
+[![Breakout of measured launch details](/attachment/posts/txt_launch2.jpg)](/attachment/posts/txt_launch2.jpg)
 
-> Source: *[A Practical Guide to TPM 2.0](https://link.springer.com/book/10.1007/978-1-4302-6584-9)*
+(Source: [A Practical Guide to TPM 2.0](https://link.springer.com/book/10.1007/978-1-4302-6584-9))
 
 The main role of Trusted Boot was to prepare a platform to be launched with
 Intel TXT (Intel's DRTM technology) in an operating system agnostic way. It has
@@ -117,7 +105,7 @@ on both GRUB and Xen Hypervisor side of Qubes OS.
 
 ## GRUB modifications
 
-![](/img/grub_logo.png)
+[![GRUB logo](/attachment/posts/grub_logo.png)](/attachment/posts/grub_logo.png)
 
 In order to fulfill the same role as tboot, GRUB had to learn how to prepare
 the platform and perform the TXT launch. Most of the work for that particular
@@ -129,7 +117,7 @@ Xen Hypervisor. The patches have been prepared for the respective Qubes GRUB
 
 ## Xen modifications
 
-![](/img/xen_project_logo.png)
+[![Xen Project logo](/attachment/posts/xen_project_logo.png)](/attachment/posts/xen_project_logo.png)
 
 Analogically to GRUB, Xen had to take over some responsibilities from tboot.
 Due to the Intel TXT requirements for the boot process, a new entry point had
@@ -144,7 +132,7 @@ initrd and Dom0 parameters). Xen also had to reserve the memory regions used by
 Intel TXT, as when tboot was used. The relevant source code for the respective
 Qubes Xen package is available [here](https://github.com/3mdeb/qubes-vmm-xen/pull/1).
 
-# Installation and verification of TrenchBoot AEM on Qubes OS
+## Installation and verification of TrenchBoot AEM on Qubes OS
 
 For a seamless deployment and installation of TrenchBoot AEM, the modifications
 Qubes OS components compilation. Those patches have been presented earlier with
@@ -192,7 +180,7 @@ In order to install the packages one has to send the Xen and GRUB RPMs to the
 Dom0. Please note that moving any external files or data to Dom0 is potentially
 dangerous. Ensure that your environment is safe and the RPMs have the right
 checksums after copying them to Dom0. If you don't know how to copy files to
-Dom0, refer to the [Qubes OS documentation](https://www.qubes-os.org/doc/how-to-copy-from-dom0/#copying-to-dom0).
+Dom0, refer to the [Qubes OS documentation](/doc/how-to-copy-from-dom0/#copying-to-dom0).
 
 1. Even before installing packages, it is required to enable the
    `current-testing` repository to avoid the need to install additional
