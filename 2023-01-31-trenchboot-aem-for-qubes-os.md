@@ -3,7 +3,7 @@ layout: post
 title: TrenchBoot Anti Evil Maid for Qubes OS
 author: Michal Zygowski
 categories: articles
-image: /attachment/posts/trenchboot-logo.svg
+image: /attachment/posts/trenchboot_logo.svg
 ---
 
 _**Editor's note:** The following is a guest post by Michal Zygowski from [3mdeb](https://3mdeb.com/) on the work they've been doing to upgrade [Anti Evil Maid (AEM)](/doc/anti-evil-maid/). The original post can be found on the [3mdeb blog](https://blog.3mdeb.com/2023/2023-01-31-trenchboot-aem-for-qubesos/). This work was made possible through generous [donations](/donate/) from the Qubes community via [OpenCollective](https://opencollective.com/qubes-os). We are immensely grateful to the Qubes community for your continued support and to 3mdeb for contributing this valuable work._
