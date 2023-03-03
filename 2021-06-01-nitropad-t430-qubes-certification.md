@@ -72,7 +72,7 @@ purchasing information.
 
 [NitroPad T430]: https://shop.nitrokey.com/shop/product/nitropad-t430-119
 [Nitrokey]: https://www.nitrokey.com/
-[laptop]: /doc/certified-hardware/#qubes-certified-laptops
+[laptop]: /doc/certified-hardware/#qubes-certified-computers
 [NitroPad X230]: /doc/certified-hardware/#nitropad-x230
 [Qubes Certified Hardware]: /doc/certified-hardware/
 [requirements]: /doc/certified-hardware/#hardware-certification-requirements

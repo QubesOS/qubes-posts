@@ -83,7 +83,7 @@ Special thanks go to:
 
 
 [Insurgo PrivacyBeast X230]: https://insurgo.ca/produit/qubesos-certified-privacybeast_x230-reasonably-secured-laptop/
-[laptop]: /doc/certified-hardware/#qubes-certified-laptops
+[laptop]: /doc/certified-hardware/#qubes-certified-computers
 [Qubes Certified Hardware]: /doc/certified-hardware/
 [requirements]: /doc/certified-hardware/#hardware-certification-requirements
 [ThinkPad X230]: https://www.thinkwiki.org/wiki/Category:X230
