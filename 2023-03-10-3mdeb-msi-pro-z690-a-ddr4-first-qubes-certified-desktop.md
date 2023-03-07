@@ -41,7 +41,7 @@ For further details, please see the [MSI PRO Z690-A DDR4](https://3mdeb.com/shop
 
 ## Special note regarding the need for `kernel-latest`
 
-Beginning with Qubes OS 4.1.2, the Qubes installer includes the `kernel-latest` package and allows users to select this kernel option when installing. At the time of this announcement, `kernel-latest` is **required** for the MSI PRO Z690-A DDR4's graphics drivers to function properly. Therefore, all potential purchasers and users of this model should be aware that they will have to select a non-default option (`kernel-latest`) during installation. However, since Linux 6.1 has officially been promoted to being a long-term support (LTS) kernel, it will become the default kernel at some point, which means that the need for this non-default selection is only temporary.
+Beginning with Qubes OS 4.1.2, the Qubes installer includes the `kernel-latest` package and allows users to select this kernel option from the GRUB menu when booting the installer. At the time of this announcement, `kernel-latest` is **required** for the MSI PRO Z690-A DDR4's graphics drivers to function properly. Therefore, all potential purchasers and users of this model should be aware that they will have to select a non-default option (`Install Qubes OS RX using kernel-latest`) from the GRUB menu when booting the installer. However, since Linux 6.1 has officially been promoted to being a long-term support (LTS) kernel, it will become the default kernel at some point, which means that the need for this non-default selection is only temporary.
 
 ## About 3mdeb
 
