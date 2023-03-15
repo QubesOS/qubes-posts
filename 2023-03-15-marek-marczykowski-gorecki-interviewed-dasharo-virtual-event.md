@@ -7,7 +7,7 @@ categories:
 image: /attachment/posts/dasharo-event-1.png
 ---
 
-Our project lead, [Marek Marczykowski-Górecki](/team/#marek-marczykowski-górecki) will be interviewed tomorrow during the [Dasharo Developers vPub](https://vpub.dasharo.com/e/1/dasharo-user-group-1). This is a virtual event hosted by the [Dasharo](https://www.dasharo.com/) team, who just announced [the first Qubes-certified desktop computer](/news/2023/03/15/dasharo-fidelisguard-z690-first-qubes-certified-desktop).
+Our project lead, [Marek Marczykowski-Górecki](/team/#marek-marczykowski-górecki) will be interviewed tomorrow during the [Dasharo Developers vPub](https://vpub.dasharo.com/e/1/dasharo-user-group-1). This is a virtual event hosted by the [Dasharo](https://www.dasharo.com/) team, who just introduced [the first Qubes-certified desktop computer](/news/2023/03/15/dasharo-fidelisguard-z690-first-qubes-certified-desktop).
 
 [![Dasharo User Group (DUG) #1 and Dasharo Developers vPub 0x6 informational poster](/attachment/posts/dasharo-event-1.png)](https://vpub.dasharo.com/e/1/dasharo-user-group-1)
 
