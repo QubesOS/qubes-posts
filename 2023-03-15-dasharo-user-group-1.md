@@ -19,3 +19,5 @@ _**Editor's note:** The following is an announcement from the Dasharo Team regar
 **The Dasharo Developers vPub** is a virtual event with goal for gathering developers and enthusiasts in the technology industry to engage in discussions and conversations related to open-source firmware and other related topics. The vPub is designed to be a less structured, more relaxed environment where participants can share knowledge and ideas, connect with others in the industry, and learn about the latest developments in the field. The conversations can range from technical challenges faced by developers, off-topic discussions, to new features or improvements. These events have brought together experts and enthusiasts from all over the world, providing valuable opportunities for learning, collaboration, and networking. Everything in casual atmosphere with beverage of your choice in your hand.
 
 [Read the full announcement for more information.](https://vpub.dasharo.com/e/1/dasharo-user-group-1)
+
+In related news, [the Dasharo FidelisGuard Z690 is the first Qubes-certified desktop computer](/news/2023/03/15/dasharo-fidelisguard-z690-first-qubes-certified-desktop)!
