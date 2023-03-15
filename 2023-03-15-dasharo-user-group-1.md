@@ -1,23 +1,26 @@
 ---
 layout: post
-title: "Dasharo User Group #1 and Dasharo Developers vPub 0x6 (virtual event)"
-author: The Dasharo Team
-categories: announcements
+title: "Marek Marczykowski-Górecki to be interviewed at Dasharo virtual event"
+categories:
+- announcements
+- talks
 image: /attachment/posts/dasharo-event-1.png
 ---
 
-_**Editor's note:** The following is an announcement from the Dasharo Team regarding an upcoming [virtual event](https://vpub.dasharo.com/e/1/dasharo-user-group-1)._
+Our project lead, [Marek Marczykowski-Górecki](/team/#marek-marczykowski-górecki) will be interviewed tomorrow during the [Dasharo Developers vPub](https://vpub.dasharo.com/e/1/dasharo-user-group-1). This is a virtual event hosted by the [Dasharo](https://www.dasharo.com/) team, who just announced [the first Qubes-certified desktop computer](/news/2023/03/15/dasharo-fidelisguard-z690-first-qubes-certified-desktop).
 
 [![Dasharo User Group (DUG) #1 and Dasharo Developers vPub 0x6 informational poster](/attachment/posts/dasharo-event-1.png)](https://vpub.dasharo.com/e/1/dasharo-user-group-1)
 
-## Dasharo User Group (DUG) #1 and Dasharo Developers vPub 0x6
-
-### When? 16 March 2023 from 5 PM UTC to last haker standing
-
-**The Dasharo User Group (DUG)** is an important forum for users of Dasharo to come together, share their knowledge, and stay informed about the latest developments in the Dasharo ecosystem. The DUG is a platform for users to connect and learn about new features and updates that are coming to Dasharo. The first DUG event will take place in early March and will include a variety of discussions on different topics related to Dasharo. The event will be a great opportunity for Dasharo users to meet other users, learn new things, and share their knowledge and experience with others.
-
-**The Dasharo Developers vPub** is a virtual event with goal for gathering developers and enthusiasts in the technology industry to engage in discussions and conversations related to open-source firmware and other related topics. The vPub is designed to be a less structured, more relaxed environment where participants can share knowledge and ideas, connect with others in the industry, and learn about the latest developments in the field. The conversations can range from technical challenges faced by developers, off-topic discussions, to new features or improvements. These events have brought together experts and enthusiasts from all over the world, providing valuable opportunities for learning, collaboration, and networking. Everything in casual atmosphere with beverage of your choice in your hand.
+The Dasharo Developers vPub will be preceded by the first Dasharo User Group meeting, which may be of interest for Qubes users who wish to learn more about open-source firmware or are curious about the [Dasharo FidelisGuard Z690](https://3mdeb.com/shop/open-source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/) Qubes-certified computer.
 
 [Read the full announcement for more information.](https://vpub.dasharo.com/e/1/dasharo-user-group-1)
 
-In related news, [the Dasharo FidelisGuard Z690 is the first Qubes-certified desktop computer](/news/2023/03/15/dasharo-fidelisguard-z690-first-qubes-certified-desktop)!
+## About Dasharo
+
+"Dasharo is an open-source firmware distribution focusing on seamless deployment, clean and simple code, long-term maintenance, professional support, transparent validation, superior documentation, privacy-respecting implementation, liberty for the owners and trustworthiness for all." [Learn more about Dasharo.](https://docs.dasharo.com/osf-trivia-list/dasharo/)
+
+Dasharo is a registered trademark of and a product developed by [3mdeb](https://3mdeb.com/).
+
+## About 3mdeb
+
+3mdeb and the Qubes OS Project have been partnering together for years to hold Qubes OS Summits. Michał Żygowski shared the story with us in [Qubes OS Summit: History from organizer's perspective](/news/2022/09/07/qubes-os-summit-history/). You can watch videos from the 2022 summit [here](https://www.youtube.com/watch?v=hkWWz3xGqS8) and [here](https://www.youtube.com/watch?v=A9GrlQsQc7Q). 3mdeb has also been instrumental in recent work on [TrenchBoot Anti Evil Maid for Qubes OS](/news/2023/01/31/trenchboot-aem-for-qubes-os/). [Learn more about 3mdeb.](https://3mdeb.com/about-us/)
