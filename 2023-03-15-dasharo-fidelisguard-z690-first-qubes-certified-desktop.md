@@ -52,7 +52,7 @@ Dasharo is a registered trademark of and a product developed by [3mdeb](https://
 
 ## About 3mdeb
 
-3mdeb and the Qubes OS Project have been partnering together for years to hold Qubes OS Summits. Michał Żygowski shared the story with us in [Qubes OS Summit: History from organizer's perspective](/news/2022/09/07/qubes-os-summit-history/). You can watch videos from the 2022 summit [here](https://www.youtube.com/watch?v=hkWWz3xGqS8) and [here](https://www.youtube.com/watch?v=A9GrlQsQc7Q). 3mdeb has also been instrumental in recent work on [TrenchBoot Anti Evil Maid for Qubes OS](/news/2023/01/31/trenchboot-aem-for-qubes-os/). Learn more about 3mdeb [here](https://3mdeb.com/about-us/).
+3mdeb and the Qubes OS Project have been partnering together for years to hold Qubes OS Summits. Michał Żygowski shared the story with us in [Qubes OS Summit: History from organizer's perspective](/news/2022/09/07/qubes-os-summit-history/). You can watch videos from the 2022 summit [here](https://www.youtube.com/watch?v=hkWWz3xGqS8) and [here](https://www.youtube.com/watch?v=A9GrlQsQc7Q). 3mdeb has also been instrumental in recent work on [TrenchBoot Anti Evil Maid for Qubes OS](/news/2023/01/31/trenchboot-aem-for-qubes-os/). [Learn more about 3mdeb.](https://3mdeb.com/about-us/)
 
 ## What is Qubes-certified hardware?
 
