@@ -7,6 +7,8 @@ image: /attachment/posts/dasharo-fidelisguard-z690_2.jpg
 
 It is our pleasure to announce that the [Dasharo FidelisGuard Z690](https://3mdeb.com/shop/open-source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/) has become the fourth [Qubes-certified computer](/doc/certified-hardware/) for Qubes 4.X and the **first** Qubes-certified desktop computer **ever**!
 
+(In related news, the [Dasharo User Group #1 and Dasharo Developers vPub 0x6)](/news/2023/03/15/dasharo-user-group-1) virtual event is tomorrow!)
+
 ## About the Dasharo FidelisGuard Z690
 
 [![Photo of MSI PRO Z690-A DDR4 motherboard](/attachment/posts/dasharo-fidelisguard-z690_1.jpg)](https://3mdeb.com/shop/open-source-hardware/dasharo-fidelisguard-z690-qubes-os-certified/)
