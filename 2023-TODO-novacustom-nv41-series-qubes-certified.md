@@ -38,7 +38,7 @@ Wi-Fi:
 ### Notes
 
 - The blob-free Qualcomm Atheros QCNFA222 Wi-Fi module is still in testing.
-- When viewed in a Linux environment, the Killer (Intel) Wireless-AX 1675x M.2 Wi-Fi module displays the model number "AX210." However, according to its [Intel Ark entry](https://ark.intel.com/content/www/us/en/ark/products/211485/intel-killer-wifi-6e-ax1675-xw.html), they are actually the same Wi-Fi module.
+- When viewed in a Linux environment, the Killer (Intel) Wireless-AX 1675x M.2 Wi-Fi module displays the model number "AX210." However, according to its [Intel Ark entry](https://ark.intel.com/content/www/us/en/ark/products/211485/intel-killer-wifi-6e-ax1675-xw.html) (see the "Product Brief" file), they are actually the same Wi-Fi module.
 
 ## Special note regarding the need for `kernel-latest`
 
