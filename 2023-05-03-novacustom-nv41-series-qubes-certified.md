@@ -21,7 +21,7 @@ Processor:
 - Intel Core i5-1240P processor
 - Intel Core i7-1260P processor
 
-Memory (Dual Channel):
+Memory:
 - 2 x 16 GB Kingston DDR4 SODIMM 3200 MHz (32 GB total)
 - 1 x 32 GB Kingston DDR4 SODIMM 3200 MHz (32 GB total)
 - 2 x 32 GB Kingston DDR4 SODIMM 3200 MHz (64 GB total)
