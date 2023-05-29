@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Qubes OS 4.2.0-rc1 is available for testing"
+categories: releases
+download_url: /downloads/
+---
+
+We're pleased to announce that the first [release candidate](#what-is-a-release-candidate) for Qubes OS 4.2.0 is now available for [testing](/doc/testing/). This [minor release](#what-is-a-minor-release) includes several new features and improvements over Qubes OS 4.1.0. Qubes 4.2.0-rc1 is available on the [downloads](/downloads/) page.
+
+
+## What's new in Qubes 4.2.0?
+
+- Dom0 upgraded to Fedora 37
+- Xen updated to version 4.17
+- SELinux support in Fedora templates
+- Several GUI applications rewritten, including:
+  - Applications Menu
+  - Qubes Global Settings
+  - Create New Qube
+  - Qubes Update
+- Unified `grub.cfg` location for both UEFI and legacy boot
+- PipeWire support
+- fwupd integration for firmware updates
+- Optional automatic clipboard clearing
+- Official packages built using Qubes Builder v2
+
+Please see the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/) for details.
+
+## Testing Qubes 4.2.0-rc1
+
+If you're willing to [test](/doc/testing/) this release candidate, you can help us improve the eventual stable release by [reporting any bugs you encounter](/doc/issue-tracking/). We encourage experienced users to join the [testing team](https://forum.qubes-os.org/t/joining-the-testing-team/5190).
+
+A full list of known bugs in Qubes 4.2.0 is available [here](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Release+4.2%22+label%3A%22T%3A+bug%22). We strongly recommend [updating Qubes OS](/doc/how-to-update/) immediately after installation in order to apply all available bug fixes.
+
+## Upgrading to Qubes 4.2.0-rc1
+
+It is not yet possible to perform an in-place upgrade from Qubes 4.1 to Qubes 4.2. For this initial release candidate, a clean installation is required. An in-place upgrade tool is in development.
+
+## When is the stable release?
+
+That depends on the number of bugs discovered in this release candidate and their severity. Our usual process after issuing a new release candidate is to collect bug reports, triage the bugs, and fix them. This can take anywhere from a week to over a month, but it's usually a few weeks. We then issue a new release candidate that includes the fixes, let folks test it, and repeat the process until we're left with a release candidate that's good enough to be declared the stable release. No one can predict, at the outset, how many iterations of this process will be required (and hence how many release candidates will be needed before a stable release), but we generally have a sense when we're getting close, and we'll indicate that in this section in future release candidate announcements. In the event that no severe bugs are discovered in 4.2.0-rc1, we expect to announce Qubes 4.2.0-rc2 in approximately three weeks.
+
+## What is a release candidate?
+
+A release candidate (RC) is a software build that has the potential to become a stable release, unless significant bugs are discovered in testing. Release candidates are intended for more advanced (or adventurous!) users who are comfortable testing early versions of software that are potentially buggier than stable releases. You can read more about Qubes OS [supported releases](/doc/supported-releases/) and the [version scheme](/doc/version-scheme/) in our documentation.
+
+## What is a minor release?
+
+The Qubes OS Project uses the [semantic versioning](https://semver.org/) standard. Version numbers are written as `<major>.<minor>.<patch>`. Hence, releases that increment the second value are known as "minor releases." Minor releases generally include new features, improvements, and bug fixes that are backward-compatible with earlier versions of the same major release. See our [supported releases](/doc/supported-releases/) for a comprehensive list of major and minor releases and our [version scheme](/doc/version-scheme/) documentation for more information about how Qubes OS releases are versioned.
