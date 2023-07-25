@@ -23,6 +23,7 @@ We're pleased to announce that the first [release candidate](#what-is-a-release-
 - fwupd integration for firmware updates
 - Optional automatic clipboard clearing
 - Official packages built using Qubes Builder v2
+- Split GPG and Split SSH management in Qubes Global Settings
 
 Please see the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/) for details.
 
