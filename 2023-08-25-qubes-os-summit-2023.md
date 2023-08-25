@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qubes OS Summit 2023: September 6-8 in Berlin"
+title: "Qubes OS Summit 2023: October 6-8 in Berlin"
 categories:
 - announcements
 - talks
