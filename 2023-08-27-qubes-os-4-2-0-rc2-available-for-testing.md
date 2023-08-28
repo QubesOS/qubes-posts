@@ -7,7 +7,7 @@ download_url: /downloads/
 
 We're pleased to announce that the second [release candidate](#what-is-a-release-candidate) (RC) for Qubes OS 4.2.0 is now available for [testing](/doc/testing/). Qubes 4.2.0-rc2 is available on the [downloads](/downloads/) page.
 
-## What's new in Qubes 4.2.0?
+## What's new in Qubes 4.2.0-rc2?
 
 - Dom0 upgraded to Fedora 37
 - Xen updated to version 4.17
@@ -42,9 +42,9 @@ A full list of issues affecting Qubes 4.2.0 is available [here](https://github.c
 
 ## Upgrading to Qubes 4.2.0-rc2
 
-In-place upgrades from Qubes 4.1 to Qubes 4.2 are now implemented and ready for testing! As always, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand.
+[In-place upgrades from Qubes 4.1 to Qubes 4.2](/doc/upgrade/4.2/) are now implemented and ready for testing! As always, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand.
 
-Current Qubes 4.2.0-rc1 systems should be [updated normally](/doc/how-to-update/).
+Current Qubes 4.2.0-rc1 systems should be [updated normally](/doc/how-to-update/), but please note that some templates have changed from the first release candidate. These changes are listed [above](#whats-new-in-qubes-420-rc2).
 
 ## Reminder: new signing key for Qubes OS 4.2
 
