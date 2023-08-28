@@ -21,4 +21,4 @@ There are two ways to upgrade your template to a new Debian release:
 
 - **Advanced:** [Perform an in-place upgrade of an existing Debian template.](/doc/templates/debian/in-place-upgrade/) This option will preserve any modifications you've made to the template, **but it may be more complicated for less experienced users.**
 
-For a complete list of template releases that are supported for your specific Qubes release, see our [supported template releases]. Please note that no user action is required regarding the OS version in dom0 (see our [note on dom0 and EOL](/doc/supported-releases/#note-on-dom0-and-eol)).
+For a complete list of template releases that are supported for your specific Qubes release, see our [supported template releases](/doc/supported-releases/#templates). Please note that no user action is required regarding the OS version in dom0 (see our [note on dom0 and EOL](/doc/supported-releases/#note-on-dom0-and-eol)).
