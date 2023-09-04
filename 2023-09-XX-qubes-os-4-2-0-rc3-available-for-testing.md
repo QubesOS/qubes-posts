@@ -13,6 +13,7 @@ We [announced RC2](/news/2023/08/28/qubes-os-4-2-0-rc2-available-for-testing/) l
 
 ## Main changes from RC2 to RC3
 
+- Fixed: ["Installer in R4.2 does not warn about incompatible hardware" (#8345)](https://github.com/QubesOS/qubes-issues/issues/8345)
 - Fixed: ["Wi-Fi firmware missing from default templates on 4.2.0-rc2 ISO" (#8452)](https://github.com/QubesOS/qubes-issues/issues/8452)
 - Fixed: ["Qubes R4.2.0-rc2 cannot be installed on legacy BIOS system" (#8462)](https://github.com/QubesOS/qubes-issues/issues/8462)
 - Fixed: ["R4.2 (rc1, rc2) unable to boot on Thinkpad T430 when UEFI is enabled" (#8464)](https://github.com/QubesOS/qubes-issues/issues/8464)
