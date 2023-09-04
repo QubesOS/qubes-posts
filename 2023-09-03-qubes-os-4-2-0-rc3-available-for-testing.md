@@ -9,7 +9,7 @@ We're pleased to announce that the third [release candidate (RC)](#what-is-a-rel
 
 ## Explanation for the early RC
 
-We [announced RC2](/news/2023/08/28/qubes-os-4-2-0-rc2-available-for-testing/) less than a week ago. Normally, RC2 would have been tested for [approximately five weeks](/doc/version-scheme/#release-schedule) before we announced RC3. However, RC2 contained several bugs (listed below) that prevented certain users from testing it. These bugs have been fixed in RC3. We've decided to release RC3 early, as an exception to our usual policy, in order to get these fixes out as quickly as possible so that more users can test 4.2 for longer before the eventual stable release.
+We [announced RC2](/news/2023/08/28/qubes-os-4-2-0-rc2-available-for-testing/) approximately one week ago. Normally, RC2 would have been tested for [approximately five weeks](/doc/version-scheme/#release-schedule) before we announced RC3. However, RC2 contained several bugs (listed below) that prevented certain users from testing it. These bugs have been fixed in RC3. We've decided to release RC3 early, as an exception to our usual policy, in order to get these fixes out as quickly as possible so that more users can test 4.2 for longer before the eventual stable release.
 
 ## Main changes from RC2 to RC3
 
