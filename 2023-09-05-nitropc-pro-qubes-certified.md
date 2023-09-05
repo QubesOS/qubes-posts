@@ -10,7 +10,7 @@ It is our pleasure to announce that the [NitroPC Pro](https://shop.nitrokey.com/
 
 ## The NitroPC Pro: a secure, powerful workstation
 
-The [NitroPC Pro](https://shop.nitrokey.com/shop/product/nitropc-pro-523) is a workstation for high security and performance requirements. The open-source Dasharo Coreboot firmware ensures high transparency and security while avoiding backdoors and security holes in the firmware. The device is certified for compatibility with Qubes OS 4.X by the Qubes developers. Carefully selected components ensure high performance, stability, and durability. The Dasharo Entry Subscription guarantees continuous firmware development and fast firmware updates. 
+The [NitroPC Pro](https://shop.nitrokey.com/shop/product/nitropc-pro-523) is a workstation for high security and performance requirements. The open-source [Dasharo coreboot](https://github.com/Dasharo/coreboot) firmware ensures high transparency and security while avoiding backdoors and security holes in the firmware. The device is certified for compatibility with Qubes OS 4.X by the Qubes developers. Carefully selected components ensure high performance, stability, and durability. The Dasharo Entry Subscription guarantees continuous firmware development and fast firmware updates. 
 
 [![Photo of NitroPC Pro](/attachment/posts/nitropc-pro.jpg)](https://shop.nitrokey.com/shop/product/nitropc-pro-523)
 
@@ -28,7 +28,7 @@ Here's a summary of the main component options available for this mid-tower desk
 | Wireless (optional)          | Wi-Fi 6E, 2400 Mbps, 802.11/a/b/g/n/ac/ax, Bluetooth 5.2 |
 | Operating system (optional)  | Qubes OS 4.1 or Ubuntu 22.04 LTS                         |
 
-Of special note for Qubes users, the NitroPC Pro features a combined PS/2 port that supports both a PS/2 keyboard and a PS/2 mouse simultaneously with a Y-cable (not included). This allows for full control of dom0 without the need for a USB keyboard or mouse passthrough. Nitrokey also offers a special tamper-evident shipping method for an additional fee. The case screws are individually sealed and photographed, and the NitroPC Pro is packed inside a sealed bag. Photographs of the seals are sent to you, which you can use to determine whether the case has been opened during transit.
+Of special note for Qubes users, the NitroPC Pro features a combined PS/2 port that supports both a PS/2 keyboard and a PS/2 mouse simultaneously with a Y-cable (not included). This allows for full control of dom0 without the need for USB keyboard or mouse passthrough. Nitrokey also offers a special tamper-evident shipping method for an additional fee. With this option, the case screws will be individually sealed and photographed, and the NitroPC Pro will be packed inside a sealed bag. Photographs of the seals will be sent to you, which you can use to determine whether the case was opened during transit.
 
 The NitroPC Pro also comes with a "Dasharo Entry Subscription," which includes the following:
 
@@ -36,7 +36,7 @@ The NitroPC Pro also comes with a "Dasharo Entry Subscription," which includes t
 - Exclusive newsletter
 - Special firmware updates, including early access to updates enhancing privacy, security, performance, and compatibility
 - Early access to new firmware releases for [newly-supported desktop platforms](https://docs.dasharo.com/variants/overview/#desktop) (please see the [roadmap](https://github.com/Dasharo/presentations/blob/main/dug2_dasharo_roadmap.md#dasharo-desktop-roadmap))
-- Access to the Dasharo Premier Support invite-only live chat channel in the Matrix network, allowing direct access to the Dasharo Team and fellow subscribers with personalized and priority assistance
+- Access to the Dasharo Premier Support invite-only live chat channel on the Matrix network, allowing direct access to the Dasharo Team and fellow subscribers with personalized and priority assistance
 - Insider's view and influence on the Dasharo feature roadmap for a real impact on Dasharo development
 - [Dasharo Tools Suite Entry Subscription](https://docs.dasharo.com/osf-trivia-list/dts/#what-is-dasharo-tools-suite-supporters-entrance) keys
 
@@ -48,13 +48,13 @@ Beginning with Qubes OS 4.1.2, the Qubes installer includes the `kernel-latest` 
 
 ## About Nitrokey
 
-[Nitrokey](https://www.nitrokey.com/) is a world-leading company in open-source security hardware. Nitrokey develops IT security hardware for data encryption, key management and user authentication, as well as secure network devices, PCs, laptops and smartphones. The company was founded in Berlin, Germany in 2015 and already counts tens of thousands of users from more than 120 countries, including numerous well-known international enterprises from various industries, among its customers. [Learn more.](https://www.nitrokey.com/about)
+[Nitrokey](https://www.nitrokey.com/) is a world-leading company in open-source security hardware. Nitrokey develops IT security hardware for data encryption, key management and user authentication, as well as secure network devices, PCs, laptops, and smartphones. The company was founded in Berlin, Germany in 2015 and already counts tens of thousands of users from more than 120 countries, including numerous well-known international enterprises from various industries, among its customers. [Learn more.](https://www.nitrokey.com/about)
 
 ## About Dasharo
 
-"Dasharo is an open-source firmware distribution focusing on seamless deployment, clean and simple code, long-term maintenance, professional support, transparent validation, superior documentation, privacy-respecting implementation, liberty for the owners and trustworthiness for all." [Learn more.](https://docs.dasharo.com/osf-trivia-list/dasharo/)
+"Dasharo is an open-source firmware distribution focusing on seamless deployment, clean and simple code, long-term maintenance, professional support, transparent validation, superior documentation, privacy-respecting implementation, liberty for the owners and trustworthiness for all." ---the [Dasharo documentation](https://docs.dasharo.com/)
 
-Dasharo is a registered trademark of and a product developed by [3mdeb](https://3mdeb.com/).
+[Dasharo](https://www.dasharo.com/) is a registered trademark of and a product developed by [3mdeb](https://3mdeb.com/).
 
 ## What is Qubes-certified hardware?
 
