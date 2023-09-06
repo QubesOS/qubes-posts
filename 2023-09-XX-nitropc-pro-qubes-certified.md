@@ -28,7 +28,7 @@ Here's a summary of the main component options available for this mid-tower desk
 | Wireless (optional)          | Wi-Fi 6E, 2400 Mbps, 802.11/a/b/g/n/ac/ax, Bluetooth 5.2 |
 | Operating system (optional)  | Qubes OS 4.1 or Ubuntu 22.04 LTS                         |
 
-Of special note for Qubes users, the NitroPC Pro features a combined PS/2 port that supports both a PS/2 keyboard and a PS/2 mouse simultaneously with a Y-cable (not included). This allows for full control of dom0 without the need for USB keyboard or mouse passthrough. Nitrokey also offers a special tamper-evident shipping method for an additional fee. With this option, the case screws will be individually sealed and photographed, and the NitroPC Pro will be packed inside a sealed bag. Photographs of the seals will be sent to you, which you can use to determine whether the case was opened during transit.
+Of special note for Qubes users, the NitroPC Pro features a combined PS/2 port that supports both a PS/2 keyboard and a PS/2 mouse simultaneously with a Y-cable (not included). This allows for full control of dom0 without the need for USB keyboard or mouse passthrough. Nitrokey also offers a special tamper-evident shipping method for an additional fee. With this option, the case screws will be individually sealed and photographed, and the NitroPC Pro will be packed inside a sealed bag. Photographs of the seals will be sent to you by email, which you can use to determine whether the case was opened during transit.
 
 The NitroPC Pro also comes with a "Dasharo Entry Subscription," which includes the following:
 
