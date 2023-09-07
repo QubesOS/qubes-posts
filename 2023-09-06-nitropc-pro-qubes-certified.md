@@ -23,10 +23,10 @@ Here's a summary of the main component options available for this mid-tower desk
 | Memory                       | 16 GB to 128 GB DDR5                                     |
 | NVMe storage (optional)      | Up to two NVMe PCIe 4.0 x4 SSDs, up to 2 TB each         |
 | SATA storage (optional)      | Up to two SATA SSDs, up to 7.68 TB each                  |
-| Integrated graphics          | Intel UHD 770                                            |
-| Discrete graphics (optional) | Nvidia Geforce RTX 4070 or 4090                          |
 | Wireless (optional)          | Wi-Fi 6E, 2400 Mbps, 802.11/a/b/g/n/ac/ax, Bluetooth 5.2 |
 | Operating system (optional)  | Qubes OS 4.1 or Ubuntu 22.04 LTS                         |
+
+**Important note:** When configuring your NitroPC Pro on the Nitrokey website, there is an option for a discrete graphics card (e.g., Nvidia GeForce RTX 4070 or 4090) in addition to integrated graphics (e.g., Intel UHD 770, which is always included because it is physically built into the CPU). NitroPC Pro configurations that include discrete graphics cards are *not* Qubes-certified. The only NitroPC Pro configurations that are Qubes-certified are those that contain *only* integrated graphics.
 
 Of special note for Qubes users, the NitroPC Pro features a combined PS/2 port that supports both a PS/2 keyboard and a PS/2 mouse simultaneously with a Y-cable (not included). This allows for full control of dom0 without the need for USB keyboard or mouse passthrough. Nitrokey also offers a special tamper-evident shipping method for an additional fee. With this option, the case screws will be individually sealed and photographed, and the NitroPC Pro will be packed inside a sealed bag. Photographs of the seals will be sent to you by email, which you can use to determine whether the case was opened during transit.
 
