@@ -9,10 +9,12 @@ We're pleased to announce that the fourth [release candidate (RC)](#what-is-a-re
 
 ## Main changes from RC3 to RC4
 
+- Fixed: ["qvm-move fails, deletes origin file anyway" (#8516)](https://github.com/QubesOS/qubes-issues/issues/8516)
 - Fixed: ["Qube Manager freezes while opening settings" (#8387)](https://github.com/QubesOS/qubes-issues/issues/8387)
 - Fixed: ["Error when attempting to update dom0 in the Qube Manager" (#8117)](https://github.com/QubesOS/qubes-issues/issues/8117)
 - Fixed: ["XScreenSaver & XScreenSaver Settings not opening window" (#8266)](https://github.com/QubesOS/qubes-issues/issues/8266)
 - Fixed: ["Setting no-strict-reset option via salt on already attached devices doesn't work" (#8514)](https://github.com/QubesOS/qubes-issues/issues/8514)
+- Fixed: ["qvm-copy-to-vm incorrect progress report" (#1519)](https://github.com/QubesOS/qubes-issues/issues/1519)
 - Fixed: ["qubes-video-companion-receiver missing dependency on acl package" (#8426)](https://github.com/QubesOS/qubes-issues/issues/8426)
 - Fixed: ["OpenBSD 7.3 ISO doesn't boot anymore" (#8502)](https://github.com/QubesOS/qubes-issues/issues/8502)
 - Fixed: ["Kernel compile bogs down rest of system" (#8176)](https://github.com/QubesOS/qubes-issues/issues/8176)
