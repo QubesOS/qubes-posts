@@ -19,10 +19,17 @@ We're pleased to announce that the fourth [release candidate (RC)](#what-is-a-re
 - Fixed: ["OpenBSD 7.3 ISO doesn't boot anymore" (#8502)](https://github.com/QubesOS/qubes-issues/issues/8502)
 - Fixed: ["Kernel compile bogs down rest of system" (#8176)](https://github.com/QubesOS/qubes-issues/issues/8176)
 - Fixed: ["rpm-oxide makes unjustified assumptions about RPM ABI" (#8522)](https://github.com/QubesOS/qubes-issues/issues/8522)
+- Fixed: ["yk-auth YubiKey PAM script incorrectly expects \0 to be appended to hash" (#8517)](https://github.com/QubesOS/qubes-issues/issues/8517)
+- Fixed: ["Qubes Application Menu isn't updated when using salt to modify menu-items" (#8494)](https://github.com/QubesOS/qubes-issues/issues/8494)
+- Fixed: ["Different values for `menu-items` and `default-menu-items` are not preserved when cloning templates" (#8518)](https://github.com/QubesOS/qubes-issues/issues/8518)
+- Fixed: ["Fix handling of menu items in GUI VM" (#8528)](https://github.com/QubesOS/qubes-issues/issues/8528)
+- Fixed: ["Firefox does not start on 4.2-rc3 after upgrading template" (#8571)](https://github.com/QubesOS/qubes-issues/issues/8571)
+- Fixed: ["Qubes R4.2.0-rc2 Qubes OS Global Config tool not see qubes-u2f installed in sys-usb" (#8463)](https://github.com/QubesOS/qubes-issues/issues/8463)
 - Done: ["Prepare R4.1 -> R4.2 upgrade tool" (#7832)](https://github.com/QubesOS/qubes-issues/issues/7832)
 - Done: ["Phase out legacy qrexec policy files" (#8000)](https://github.com/QubesOS/qubes-issues/issues/8000)
 - Done: ["Better qrexec service configuration format" (#8153)](https://github.com/QubesOS/qubes-issues/issues/8153)
 - Done: ["QRexec services should be able to specify the user they must run as" (#6354)](https://github.com/QubesOS/qubes-issues/issues/6354)
+- Done: ["Qube Manager: Enable the 'restart qube' button for named disposables" (#8382)](https://github.com/QubesOS/qubes-issues/issues/8382)
 
 For an overview of major changes from Qubes 4.1 to 4.2, please see the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/).
 
