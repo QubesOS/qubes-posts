@@ -25,6 +25,7 @@ We're pleased to announce that the fourth [release candidate (RC)](#what-is-a-re
 - Fixed: ["Fix handling of menu items in GUI VM" (#8528)](https://github.com/QubesOS/qubes-issues/issues/8528)
 - Fixed: ["Firefox does not start on 4.2-rc3 after upgrading template" (#8571)](https://github.com/QubesOS/qubes-issues/issues/8571)
 - Fixed: ["Qubes R4.2.0-rc2 Qubes OS Global Config tool not see qubes-u2f installed in sys-usb" (#8463)](https://github.com/QubesOS/qubes-issues/issues/8463)
+- Fixed: ["global config: policy rules for U2F incorrectly assume wildcard argument" (#8525)](https://github.com/QubesOS/qubes-issues/issues/8525)
 - Done: ["Prepare R4.1 -> R4.2 upgrade tool" (#7832)](https://github.com/QubesOS/qubes-issues/issues/7832)
 - Done: ["Phase out legacy qrexec policy files" (#8000)](https://github.com/QubesOS/qubes-issues/issues/8000)
 - Done: ["Better qrexec service configuration format" (#8153)](https://github.com/QubesOS/qubes-issues/issues/8153)
