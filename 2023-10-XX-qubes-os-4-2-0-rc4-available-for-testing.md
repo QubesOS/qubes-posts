@@ -10,6 +10,7 @@ We're pleased to announce that the fourth [release candidate (RC)](#what-is-a-re
 ## Main changes from RC3 to RC4
 
 - Fixed: ["qvm-move fails, deletes origin file anyway" (#8516)](https://github.com/QubesOS/qubes-issues/issues/8516)
+- Fixed: ["`90-default.policy` not upgraded after in-place upgrade from 4.1 to 4.2" (#8458)](https://github.com/QubesOS/qubes-issues/issues/8458)
 - Fixed: ["Qube Manager freezes while opening settings" (#8387)](https://github.com/QubesOS/qubes-issues/issues/8387)
 - Fixed: ["Error when attempting to update dom0 in the Qube Manager" (#8117)](https://github.com/QubesOS/qubes-issues/issues/8117)
 - Fixed: ["XScreenSaver & XScreenSaver Settings not opening window" (#8266)](https://github.com/QubesOS/qubes-issues/issues/8266)
@@ -27,11 +28,13 @@ We're pleased to announce that the fourth [release candidate (RC)](#what-is-a-re
 - Fixed: ["Qubes R4.2.0-rc2 Qubes OS Global Config tool not see qubes-u2f installed in sys-usb" (#8463)](https://github.com/QubesOS/qubes-issues/issues/8463)
 - Fixed: ["global config: policy rules for U2F incorrectly assume wildcard argument" (#8525)](https://github.com/QubesOS/qubes-issues/issues/8525)
 - Fixed: ["Pipewire on some systems causes a lot of underruns" (#8576)](https://github.com/QubesOS/qubes-issues/issues/8576)
+- Fixed: ["Listing PCI devices breaks when there is some with non-0000 PCI domain" (#6932)](https://github.com/QubesOS/qubes-issues/issues/6932)
 - Done: ["Prepare R4.1 -> R4.2 upgrade tool" (#7832)](https://github.com/QubesOS/qubes-issues/issues/7832)
 - Done: ["Phase out legacy qrexec policy files" (#8000)](https://github.com/QubesOS/qubes-issues/issues/8000)
 - Done: ["Better qrexec service configuration format" (#8153)](https://github.com/QubesOS/qubes-issues/issues/8153)
 - Done: ["QRexec services should be able to specify the user they must run as" (#6354)](https://github.com/QubesOS/qubes-issues/issues/6354)
 - Done: ["Qube Manager: Enable the 'restart qube' button for named disposables" (#8382)](https://github.com/QubesOS/qubes-issues/issues/8382)
+- Done: ["Utilize memory hotplug to add VM memory by qmemman" (#7956)](https://github.com/QubesOS/qubes-issues/issues/7956)
 
 For an overview of major changes from Qubes 4.1 to 4.2, please see the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/).
 
