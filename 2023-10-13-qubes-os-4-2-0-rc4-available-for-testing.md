@@ -54,7 +54,7 @@ A full list of issues affecting Qubes 4.2.0 is available [here](https://github.c
 
 ## Upgrading to Qubes 4.2.0-rc4
 
-If you're currently running any Qubes 4.2.0 RC, you can upgrade to the latest RC by [enabling the `current-testing` repo in dom0](/doc/how-to-install-software-in-dom0/#testing-repositories), then [updating normally](/doc/how-to-update/). However, please note that there have been some recent template changes, which are detailed in the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/).
+If you're currently running any Qubes 4.2.0 RC, you can upgrade to the latest RC by [updating normally](/doc/how-to-update/). However, please note that there have been some recent template changes, which are detailed in the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/).
 
 If you're currently on Qubes 4.1 and wish to test 4.2, please see [how to upgrade to Qubes 4.2](/doc/upgrade/4.2/), which details both clean installation and in-place upgrade options. As always, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand.
 
