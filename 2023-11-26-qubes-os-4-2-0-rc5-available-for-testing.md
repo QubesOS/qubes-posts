@@ -5,7 +5,7 @@ categories: releases
 download_url: /downloads/
 ---
 
-We're pleased to announce that the fifth [release candidate (RC)](#what-is-a-release-candidate) for Qubes OS 4.2.0 is now available for [testing](/doc/testing/). The ISO and associated [verification files](/security/verifying-signatures/) are available on the [downloads](/downloads/) page. For more information about the changes included in this version, see the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/) and the [full list of bugs affecting Qubes 4.2 that have been fixed](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+is%3Aclosed+reason%3Acompleted+label%3Aaffects-4.2+label%3A%22T%3A+bug%22+-label%3A%22R%3A+cannot+reproduce%22+-label%3A%22R%3A+declined%22+-label%3A%22R%3A+duplicate%22+-label%3A%22R%3A+not+applicable%22+-label%3A%22R%3A+self-closed%22+-label%3A%22R%3A+upstream+issue%22).
+We're pleased to announce that the fifth [release candidate (RC)](#what-is-a-release-candidate) for Qubes OS 4.2.0 is now available for [testing](/doc/testing/). The ISO and associated [verification files](/security/verifying-signatures/) are available on the [downloads](/downloads/) page. For more information about the changes included in this version, see the [full list of issues completed between RC4 and RC5](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+is%3Aclosed+reason%3Acompleted+closed%3A2023-10-13..2023-11-26+-label%3A%22R%3A+cannot+reproduce%22+-label%3A%22R%3A+declined%22+-label%3A%22R%3A+duplicate%22+-label%3A%22R%3A+not+applicable%22+-label%3A%22R%3A+self-closed%22+-label%3A%22R%3A+upstream+issue%22) and the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/).
 
 ## When is the stable release?
 
