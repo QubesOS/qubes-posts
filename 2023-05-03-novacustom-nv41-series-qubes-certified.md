@@ -5,13 +5,13 @@ categories: announcements
 image: /attachment/site/novacustom-nv41-series.png
 ---
 
-It is our pleasure to announce that the [NovaCustom NV41 Series](https://configurelaptop.eu/nv41-series/) laptop has become the fifth [Qubes-certified computer](/doc/certified-hardware/) for Qubes 4.X!
+It is our pleasure to announce that the [NovaCustom NV41 Series](https://novacustom.com/product/nv41-series/) laptop has become the fifth [Qubes-certified computer](/doc/certified-hardware/) for Qubes 4.X!
 
 ## About the NovaCustom NV41 Series
 
-[![Photo of the NovaCustom NV41 Series](/attachment/site/novacustom-nv41-series.png)](https://configurelaptop.eu/nv41-series/)
+[![Photo of the NovaCustom NV41 Series](/attachment/site/novacustom-nv41-series.png)](https://novacustom.com/product/nv41-series/)
 
-The [NV41 Series](https://configurelaptop.eu/nv41-series/) is a 14-inch laptop from [NovaCustom](https://configurelaptop.eu/), a European vendor known for their highly customizable, Linux-friendly laptops. This 12th Generation Intel Core (Alder Lake) laptop comes with Dasharo coreboot open-source firmware, USB-C charging, the latest Intel Xe graphics, and up to 64 GB of memory.
+The [NV41 Series](https://novacustom.com/product/nv41-series/) is a 14-inch laptop from [NovaCustom](https://novacustom.com/), a European vendor known for their highly customizable, Linux-friendly laptops. This 12th Generation Intel Core (Alder Lake) laptop comes with Dasharo coreboot open-source firmware, USB-C charging, the latest Intel Xe graphics, and up to 64 GB of memory.
 
 ## Qubes-certified configurations
 
