@@ -3,6 +3,7 @@ layout: post
 title: "Qubes OS 4.2.0 has been released!"
 categories: releases
 download_url: /downloads/
+image: /attachment/site/4-2_global-config_1.png
 ---
 
 Qubes OS 4.2.0 brings a host of new features, major improvements, and numerous bug fixes. The ISO and associated [verification files](/security/verifying-signatures/) are available on the [downloads](/downloads/) page.
@@ -14,7 +15,7 @@ Qubes OS 4.2.0 brings a host of new features, major improvements, and numerous b
 - Default Debian template upgraded to Debian 12
 - Default Fedora and Debian templates use Xfce instead of GNOME ([#7784](https://github.com/QubesOS/qubes-issues/issues/7784))
 - SELinux support in Fedora templates ([#4239](https://github.com/QubesOS/qubes-issues/issues/4239))
-- Several GUI applications rewritten, including:
+- Several GUI applications rewritten (screenshots below), including:
   - Applications Menu (also available as preview in R4.1) ([#6665](https://github.com/QubesOS/qubes-issues/issues/6665)), ([#5677](https://github.com/QubesOS/qubes-issues/issues/5677))
   - Qubes Global Settings ([#6898](https://github.com/QubesOS/qubes-issues/issues/6898))
   - Create New Qube
@@ -28,7 +29,21 @@ Qubes OS 4.2.0 brings a host of new features, major improvements, and numerous b
 - Qrexec services use new qrexec policy format by default (but old format is still supported) ([#8000](https://github.com/QubesOS/qubes-issues/issues/8000))
 - Improved keyboard layout switching
 
-For further details, see the [Qubes 4.2 release notes](/doc/releases/4.2/release-notes/) and the [full list of issues completed for Qubes 4.2](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+is%3Aclosed+reason%3Acompleted+milestone%3A%22Release+4.2%22+-label%3A%22R%3A+cannot+reproduce%22+-label%3A%22R%3A+declined%22+-label%3A%22R%3A+duplicate%22+-label%3A%22R%3A+not+applicable%22+-label%3A%22R%3A+self-closed%22+-label%3A%22R%3A+upstream+issue%22+).
+For further details, see the [Qubes 4.2 release notes](/doc/releases/4.2/release-notes/) and the [full list of issues completed for Qubes 4.2](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+is%3Aclosed+reason%3Acompleted+milestone%3A%22Release+4.2%22+-label%3A%22R%3A+cannot+reproduce%22+-label%3A%22R%3A+declined%22+-label%3A%22R%3A+duplicate%22+-label%3A%22R%3A+not+applicable%22+-label%3A%22R%3A+self-closed%22+-label%3A%22R%3A+upstream+issue%22+). Below are some screenshots of the new and improved Qubes GUI tools.
+
+The new Qubes OS Update tool:
+
+[![Screenshot of the Qubes OS Update tool](/attachment/site/4-2_update.png)](/attachment/site/4-2_update.png)
+
+The new Qubes OS Global Config tool:
+
+[![Screenshot of the Qubes OS Global Config tool](/attachment/site/4-2_global-config_1.png)](/attachment/site/4-2_global-config_1.png)
+[![Screenshot of the Qubes OS Global Config tool](/attachment/site/4-2_global-config_2.png)](/attachment/site/4-2_global-config_2.png)
+
+The new Qubes OS Policy Editor tool:
+
+[![Screenshot of the Qubes OS Policy Editor tool](/attachment/site/4-2_policy-editor.png)](/attachment/site/4-2_policy-editor.png)
+
 
 ## Known issues in Qubes OS 4.2.0
 
