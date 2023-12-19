@@ -57,7 +57,7 @@ As with all Qubes signing keys, we also encourage you to [authenticate](/securit
 
 ## Support for older releases
 
-In accordance with our [release support policy](/doc/supported-releases/#qubes-os), Qubes 4.1 will remain supported for six months after the release of Qubes 4.2. After that, Qubes 4.1 will no longer receive security updates or bug fixes.
+In accordance with our [release support policy](/doc/supported-releases/#qubes-os), Qubes 4.1 will remain supported for six months after the release of Qubes 4.2, until 2024-06-18. After that, Qubes 4.1 will no longer receive security updates or bug fixes.
 
 [Whonix templates](https://www.whonix.org/wiki/Qubes) are created and supported by our partner, the [Whonix Project](https://www.whonix.org/). The Whonix Project has set its own support policy for Whonix templates in Qubes. For more information, see [Qubes-Whonix version support policy](https://www.whonix.org/wiki/About#Qubes_Hosts).
 
