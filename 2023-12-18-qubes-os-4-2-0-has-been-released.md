@@ -26,6 +26,7 @@ Qubes OS 4.2.0 brings a host of new features, major improvements, and numerous b
 - Official packages built using Qubes Builder v2 ([#6486](https://github.com/QubesOS/qubes-issues/issues/6486))
 - Split GPG management in Qubes Global Settings
 - Qrexec services use new qrexec policy format by default (but old format is still supported) ([#8000](https://github.com/QubesOS/qubes-issues/issues/8000))
+- Improved keyboard layout switching
 
 For further details, see the [Qubes 4.2 release notes](/doc/releases/4.2/release-notes/) and the [full list of issues completed for Qubes 4.2](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+is%3Aclosed+reason%3Acompleted+milestone%3A%22Release+4.2%22+-label%3A%22R%3A+cannot+reproduce%22+-label%3A%22R%3A+declined%22+-label%3A%22R%3A+duplicate%22+-label%3A%22R%3A+not+applicable%22+-label%3A%22R%3A+self-closed%22+-label%3A%22R%3A+upstream+issue%22+).
 
