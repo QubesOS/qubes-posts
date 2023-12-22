@@ -13,5 +13,3 @@ There are three ways to upgrade to Whonix 17:
 - **Recommended:** [Install fresh Whonix templates to replace the existing ones.](https://www.whonix.org/wiki/Qubes/Install) After you install the new templates, redo all desired template modifications and [switch everything that was set to the old templates to the new templates](/doc/templates/#switching).
 
 - **Advanced:** Perform an [in-place upgrade from Whonix 16 to Whonix 17](https://www.whonix.org/wiki/Release_Upgrade_16_to_17). This option will preserve any modifications you've made to the templates, **but it may be more complicated for less experienced users.**
-
-For a complete list of template releases that are supported for your specific Qubes release, see our [supported template releases](/doc/supported-releases/#templates).
