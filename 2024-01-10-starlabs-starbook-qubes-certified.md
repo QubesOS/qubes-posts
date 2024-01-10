@@ -26,15 +26,15 @@ The Qubes developers have tested and certified the following StarBook configurat
 | Firmware         | coreboot 8.97 (2023-10-03)                       |
 | Operating system | Qubes OS (pre-installation optional)             |
 
-[![Photo of Star Labs StarBook](/attachment/site/starlabs-starbook_top.png)](https://starlabs.systems/pages/starbook)
+[![Photo of Star Labs StarBook](/attachment/posts/starlabs-starbook_top.png)](https://starlabs.systems/pages/starbook)
 
 The StarBook features a true matte 14-inch IPS display at 1920x1080 full HD resolution with 400cd/m² of brightness, 178° viewing angles, and a 180° hinge. The backlit keyboard is available in US English, UK English, French, German, Nordic, and Spanish layouts.
 
-[![Photo of Star Labs StarBook](/attachment/site/starlabs-starbook_side.png)](https://starlabs.systems/pages/starbook)
+[![Photo of Star Labs StarBook](/attachment/posts/starlabs-starbook_side.png)](https://starlabs.systems/pages/starbook)
 
 The StarBook includes four USB ports (1x USB-C with Thunderbolt 4, 2x USB 3.0, and 1x USB 2.0), one HDMI port, a microSD slot, an audio input/output combo jack, and a DC jack for charging. For more information, see the official [Star Labs StarBook](https://starlabs.systems/pages/starbook) page.
 
-[![Photo of Star Labs StarBook](/attachment/site/starlabs-starbook_back.png)](https://starlabs.systems/pages/starbook)
+[![Photo of Star Labs StarBook](/attachment/posts/starlabs-starbook_back.png)](https://starlabs.systems/pages/starbook)
 
 ## Special note regarding the need for `kernel-latest` on Qubes OS 4.1
 
