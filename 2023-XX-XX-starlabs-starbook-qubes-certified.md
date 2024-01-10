@@ -38,7 +38,7 @@ The StarBook includes four USB ports (1x USB-C with Thunderbolt 4, 2x USB 3.0, a
 
 ## Special note regarding the need for `kernel-latest` on Qubes OS 4.1
 
-Beginning with Qubes OS 4.1.2, the Qubes installer includes the `kernel-latest` package and allows users to select this kernel option from the GRUB menu when booting the installer. If you plan to install Qubes OS 4.1 on the StarBook, please be aware that you will have to select this non-default option. By contrast, Qubes OS 4.2 is confirmed to work with the default kernel option and does not require `kernel-latest`.
+Beginning with Qubes OS 4.1.2, the Qubes installer includes the `kernel-latest` package and allows users to select this kernel option from the GRUB menu when booting the installer. If you purchase a StarBook with Qubes OS 4.2 preinstalled, you don't have to worry about this, as Qubes OS 4.2 is confirmed to work with the default kernel option and does not require `kernel-latest`. However, if you plan to install Qubes OS 4.1 on the StarBook, please be aware that you will have to select this non-default option.
 
 ## About Star Labs
 
