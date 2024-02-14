@@ -13,3 +13,13 @@ There are two ways to upgrade a template to a new Fedora release:
 - **Advanced:** [Perform an in-place upgrade of an existing Fedora template.](/doc/templates/fedora/in-place-upgrade/) This option will preserve any modifications you've made to the template, **but it may be more complicated for less experienced users.**
 
 Please note that no user action is required regarding the OS version in dom0 (see our [note on dom0 and EOL](/doc/supported-releases/#note-on-dom0-and-eol)).
+
+## Special note on updating Fedora 39 templates on Qubes 4.1
+
+In order to update Fedora 39 templates on Qubes 4.1, the default management disposable template (`default-mgmt-dvm`) must also be based on a Fedora 39 template. Here is the recommended order of events:
+
+1. [Install](/doc/templates/fedora/#installing) a fresh Fedora 39 template.
+2. [Switch](/doc/templates/#switching) `default-mgmt-dvm` to the new Fedora 39 template.
+3. [Update](/doc/how-to-update/) the Fedora 39 template.
+
+By default, this applies only to Qubes 4.1, since the default update mechanism in Qubes 4.2 no longer relies on Salt. (However, if you have configured your Qubes 4.2 system so that it uses Salt for updates, then this still applies to you.)
