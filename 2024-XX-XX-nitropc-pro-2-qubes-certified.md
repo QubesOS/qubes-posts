@@ -42,6 +42,10 @@ The NitroPC Pro 2 also comes with a "Dasharo Entry Subscription," which includes
 
 For further product details, please see the official [NitroPC Pro 2](https://shop.nitrokey.com/shop/nitropc-pro-2-523) page.
 
+## Special note regarding the need for `kernel-latest` on Qubes 4.1
+
+Beginning with Qubes OS 4.1.2, the Qubes installer includes the `kernel-latest` package and allows users to select this kernel option from the GRUB menu when booting the installer. At the time of this announcement, `kernel-latest` is **required** for the NitroPC Pro's graphics drivers to function properly on Qubes OS 4.1. It is not required on Qubes OS 4.2. Therefore, potential purchasers and users of this model who intend to run Qubes 4.1 should be aware that they will have to select a non-default option (`Install Qubes OS RX using kernel-latest`) from the GRUB menu when booting the installer. However, since Linux 6.1 has officially been promoted to being a long-term support (LTS) kernel, it will become the default kernel at some point, which means that the need for this non-default selection is only temporary.
+
 ## About Nitrokey
 
 [Nitrokey](https://www.nitrokey.com/) is a world-leading company in open-source security hardware. Nitrokey develops IT security hardware for data encryption, key management and user authentication, as well as secure network devices, PCs, laptops, and smartphones. The company was founded in Berlin, Germany in 2015 and already counts tens of thousands of users from more than 120 countries, including numerous well-known international enterprises from various industries, among its customers. [Learn more.](https://www.nitrokey.com/about)
