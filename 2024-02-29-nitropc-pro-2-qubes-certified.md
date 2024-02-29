@@ -10,7 +10,7 @@ It is our pleasure to announce that the [NitroPC Pro 2](https://shop.nitrokey.co
 
 ## The NitroPC Pro 2: a secure, powerful workstation
 
-The [NitroPC Pro 2](https://shop.nitrokey.com/shop/nitropc-pro-2-523) is a workstation for high security and performance requirements. The open-source [Dasharo coreboot](https://github.com/Dasharo/coreboot) firmware ensures high transparency and security while avoiding backdoors and security holes in the firmware. The device is certified for compatibility with Qubes OS 4 by the Qubes developers. Carefully selected components ensure high performance, stability, and durability. The Dasharo Entry Subscription guarantees continuous firmware development and fast firmware updates. 
+The [NitroPC Pro 2](https://shop.nitrokey.com/shop/nitropc-pro-2-523) is a workstation for high security and performance requirements. The open-source [Dasharo](https://www.dasharo.com/) [coreboot](https://www.coreboot.org/) firmware ensures high transparency and security while avoiding backdoors and security holes in the firmware. The device is certified for compatibility with Qubes OS 4 by the Qubes developers. Carefully selected components ensure high performance, stability, and durability. The Dasharo Entry Subscription guarantees continuous firmware development and fast firmware updates. 
 
 [![Photo of NitroPC Pro 2](/attachment/posts/nitropc-pro.jpg)](https://shop.nitrokey.com/shop/nitropc-pro-2-523)
 
