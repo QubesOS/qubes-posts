@@ -19,6 +19,8 @@ For more information about the changes included in this version, see the [full l
 
 ## How to get Qubes OS 4.2.1
 
+You have a few different options, depending on your situation:
+
 - If you'd like to install Qubes OS for the first time or perform a clean reinstallation on an existing system, there's never been a better time to do so! Simply [download](/downloads/) the Qubes 4.2.1 ISO and follow our [installation guide](/doc/installation-guide/).
 
 - If you're currently on Qubes 4.1, learn [how to upgrade to Qubes 4.2](/doc/upgrade/4.2/).
