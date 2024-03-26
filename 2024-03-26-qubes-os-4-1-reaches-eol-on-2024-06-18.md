@@ -12,7 +12,7 @@ Qubes OS 4.1 is scheduled to reach [end-of-life (EOL)](#what-does-end-of-life-eo
 
 If you're already using Qubes 4.2, then you don't have to do anything. This announcement doesn't affect you.
 
-If you're still using Qubes 4.1, then now is the perfect opportunity to upgrade, since a brand new [Qubes OS 4.2.1 ISO was just released today](/news/2024/03/XX/qubes-os-4-2-1-has-been-released/)! (This is also the best way to get started with Qubes if you don't have it installed yet.)
+If you're still using Qubes 4.1, then now is the perfect opportunity to upgrade, since a brand new [Qubes OS 4.2.1 ISO was just released today](/news/2024/03/26/qubes-os-4-2-1-has-been-released/)! (This is also the best way to get started with Qubes if you don't have it installed yet.)
 
 If you'd prefer not to reinstall, you can instead perform an [in-place upgrade from Qubes 4.1 to 4.2](/doc/upgrade/4.2/#in-place-upgrade).
 
