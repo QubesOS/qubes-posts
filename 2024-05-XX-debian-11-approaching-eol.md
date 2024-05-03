@@ -4,7 +4,7 @@ title: "Debian 11 (Bullseye) approaching EOL"
 categories: announcements
 ---
 
-The Debian Project currently [estimates]((https://wiki.debian.org/DebianReleases) that Debian 11 (Bullseye) will reach EOL (end-of-life) sometime around July 2024 (approximately two months from now). Please upgrade all of your Debian 11 templates and standalones to [Debian 12 (Bookworm)](/news/2023/08/27/debian-12-templates-available/) by then. For general information about upgrading, see [Upgrading to avoid EOL](/doc/how-to-update/#upgrading-to-avoid-eol).
+The Debian Project currently [estimates](https://wiki.debian.org/DebianReleases) that Debian 11 (Bullseye) will reach EOL (end-of-life) sometime around July 2024 (approximately two months from now). Please upgrade all of your Debian 11 templates and standalones to [Debian 12 (Bookworm)](/news/2023/08/27/debian-12-templates-available/) by then. For general information about upgrading, see [Upgrading to avoid EOL](/doc/how-to-update/#upgrading-to-avoid-eol).
 
 There are two ways to upgrade a template to a new Debian release:
 
