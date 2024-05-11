@@ -12,6 +12,10 @@ There are two ways to upgrade a template to a new Debian release:
 
 - **Advanced:** [Perform an in-place upgrade of an existing Debian template.](/doc/templates/debian/in-place-upgrade/) This option will preserve any modifications you've made to the template, **but it may be more complicated for less experienced users.**
 
-## Note on LTS
+## Note on Debian LTS
 
 Debian releases have two EOL dates: regular and [long-term support (LTS)](https://wiki.debian.org/LTS). See [Debian Production Releases](https://wiki.debian.org/DebianReleases#Production_Releases) for a chart that illustrates this. Qubes OS support for Debian templates ends at the regular EOL date, not the LTS EOL date.
+
+## Note on Qubes 4.2
+
+Please note that Qubes 4.2 does not support Debian 11 templates (see [Supported releases](/doc/supported-releases/#templates) and [Qubes OS 4.2 release notes](/doc/releases/4.2/release-notes/#notes)). If you have any Debian 11 templates on Qubes 4.2 (e.g., as a result of upgrading from Qubes 4.1), please upgrade them to Debian 12 immediately.
