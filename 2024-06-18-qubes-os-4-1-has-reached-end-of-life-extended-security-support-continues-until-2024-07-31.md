@@ -2,8 +2,9 @@
 layout: post
 title: "Qubes OS 4.1 has reached end-of-life; extended security support continues until 2024-07-31"
 categories:
-  - announcements
-  - releases
+ - announcements
+ - releases
+redirect_from: /news/2024/06/18/qubes-os-4-1-has-reached-end-of-life/
 ---
 
 As [previously announced](/news/2024/03/26/qubes-os-4-1-reaches-eol-on-2024-06-18/), the Qubes OS 4.1 release series has officially reached end-of-life (EOL) as of today, 2024-06-18. However, Qubes OS 4.1 [will continue to receive extended security support until 2024-07-31](/news/2024/05/10/qubes-os-4-1-to-receive-extended-support-until-2024-07-31/). We recommend that all remaining Qubes 4.1 users [upgrade to Qubes 4.2](/doc/upgrade/4.2/) at this time.
