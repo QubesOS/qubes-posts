@@ -18,11 +18,13 @@ For more information about the changes included in this version, see the [Qubes 
 
 ### Copying and moving files between qubes is less restrictive
 
-Qubes 4.2.2 includes a fix for [#8332: File-copy qrexec service is overly restrictive](https://github.com/QubesOS/qubes-issues/issues/8332). As explained in the issue comments, we introduced a change in Qubes 4.2.0 that caused inter-qube file-copy/move actions to reject filenames containing, e.g., non-Latin characters and certain symbols. The rationale for this change was to mitigate the security risk associated with unusual unicode characters and invalid encoding in filenames, which some software might handle in an unsafe manner and which might cause confusion for users. This change represents a trade-off between security and usability.
+Qubes 4.2.2 includes a fix for [#8332: File-copy qrexec service is overly restrictive](https://github.com/QubesOS/qubes-issues/issues/8332). As explained in the issue comments, we introduced a change in Qubes 4.2.0 that caused inter-qube file-copy/move actions to reject filenames containing, e.g., non-Latin characters and certain symbols. The rationale for this change was to mitigate the security risks associated with unusual unicode characters and invalid encoding in filenames, which some software might handle in an unsafe manner and which might cause confusion for users. Such a change represents a trade-off between security and usability.
 
-After the change went live, we received several user reports indicating more severe usability problems than we had anticipated. Moreover, these problems were prompting users to resort to dangerous workarounds (such as packing files into an archive format prior to copying) that carry far more risk than the original risk posed by the unrestricted filenames. In addition, we realized that this was a backward-incompatible change that should not have been introduced in a minor release in the first place. Therefore, we have decided, for the time being, to restore the original (pre-4.2) behavior by replacing the file-copy qrexec service from Qubes 4.2.0 and 4.2.1 (`qubes.Filecopy`) with a less restrictive service (`qubes.Filecopy+allow-all-names`).
+After the change went live, we received several user reports indicating more severe usability problems than we had anticipated. Moreover, these problems were prompting users to resort to dangerous workarounds (such as packing files into an archive format prior to copying) that carry far more risk than the original risk posed by the unrestricted filenames. In addition, we realized that this was a backward-incompatible change that should not have been introduced in a minor release in the first place.
 
-Users who wish to use the more restrictive 4.2.0 and 4.2.1 behavior can do so by modifying their RPC policy rules to use the more restrictive service. To switch a single rule to the more restrictive behavior, change `*` in the argument column to `+` (i.e., change "any argument" to "only empty"). To use the more restrictive behavior globally, add a "deny" rule for `qubes.Filecopy+allow-all-names` before all other relevant rules. For more information, see [RPC policies](/doc/rpc-policy/) and [Qube configuration interface](/doc/vm-interface/#qubes-rpc).
+Therefore, we have decided, for the time being, to restore the original (pre-4.2) behavior by introducing a new `allow-all-names` argument for the `qubes.Filecopy` service. By default, `qvm-copy` and similar tools will use this less restrictive service (`qubes.Filecopy+allow-all-names`) whenever they detect any files that would be have been blocked by the more restrictive service (`qubes.Filecopy+`). If no such files are detected, they will use the more restrictive service.
+
+Users who wish to opt for the more restrictive 4.2.0 and 4.2.1 behavior can do so by modifying their RPC policy rules. To switch a single rule to the more restrictive behavior, change `*` in the argument column to `+` (i.e., change "any argument" to "only empty"). To use the more restrictive behavior globally, add a "deny" rule for `qubes.Filecopy+allow-all-names` before all other relevant rules. For more information, see [RPC policies](/doc/rpc-policy/) and [Qube configuration interface](/doc/vm-interface/#qubes-rpc).
 
 ## When is the stable release?
 
@@ -34,7 +36,7 @@ If you're willing to [test](/doc/testing/) this new RC, you can help us improve 
 
 As an alternative to a clean installation, there is also the option of performing an in-place upgrade without reinstalling. However, since Qubes 4.2.2 is simply Qubes 4.2 inclusive of all updates to date, this amounts to simply using a fully-updated 4.2 installation. In a sense, then, all current 4.2 users who are keeping up with updates are already testing 4.2.2-rc1, but this testing is only partial, since it does not cover things like the installation procedure. 
 
-## Reminder: new signing key for Qubes OS 4.2
+## Reminder: new signing key for Qubes 4.2
 
 As a reminder, we published the following special announcement in [Qubes Canary 032](/news/2022/09/14/canary-032/) on 2022-09-14:
 
@@ -42,7 +44,7 @@ As a reminder, we published the following special announcement in [Qubes Canary 
 
 As always, we encourage you to [authenticate](/security/pack/#how-to-obtain-and-authenticate) this canary by [verifying its PGP signatures](/security/verifying-signatures/). Specific instructions are also included in the [canary announcement](/news/2022/09/14/canary-032/).
 
-As with all Qubes signing keys, we also encourage you to [authenticate](/security/verifying-signatures/#how-to-import-and-authenticate-release-signing-keys) the new Qubes OS Release 4.2 Signing Key, which is available in the [Qubes Security Pack (qubes-secpack)](/security/pack/) as well as on the [downloads](/downloads/) page.
+As with all Qubes signing keys, we also encourage you to [authenticate](/security/verifying-signatures/#how-to-import-and-authenticate-release-signing-keys) the Qubes OS Release 4.2 Signing Key, which is available in the [Qubes Security Pack (qubes-secpack)](/security/pack/) as well as on the [downloads](/downloads/) page.
 
 ## What is a release candidate?
 
