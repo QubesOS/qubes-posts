@@ -15,7 +15,7 @@ If you're already using Qubes 4.2, then you don't have to do anything. This anno
 
 If you're still using Qubes 4.1, then you should upgrade to Qubes 4.2 at your earliest convenience but no later than 2024-07-31. There are two ways to do this:
 
-1. Perform a [clean reinstallation](/doc/installation-guide/) using the latest stable [Qubes OS 4.2.1 ISO](/downloads/).
+1. Perform a [clean reinstallation](/doc/upgrade/4.2/#clean-installation) using the latest stable [Qubes OS 4.2.1 ISO](/downloads/).
 2. Perform an [in-place upgrade to Qubes 4.2](/doc/upgrade/4.2/#in-place-upgrade).
 
 Both of these options are covered in further detail in the [Qubes 4.1 to 4.2 upgrade guide](/doc/upgrade/4.2/). In either case, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand. If you need help, please consult our [help and support](/support/) page.
