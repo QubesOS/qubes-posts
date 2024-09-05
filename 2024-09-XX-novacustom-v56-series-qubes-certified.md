@@ -19,39 +19,48 @@ Meet the world's most modern coreboot laptop. Thanks to an energy-efficient 14th
 The configuration options required for Qubes certification are detailed below.
 
 ### Screen size
+
 - Certified: 16 inch model (V560TU)
 - The 14-inch model (V540TU) is not currently certified.
 
 ### Screen resolution
+
 - Certified: Full HD+ (1920 x 1200)
 - The Q-HD+ (2560 x 1600) option is not currently certified.
 
 ### Processor and graphics
+
 - Certified: Intel Core Ultra 5 Processor 125H + Intel Arc iGPU with AI Boost
 - Certified: Intel Core Ultra 7 Processor 155H + Intel Arc iGPU with AI Boost
 - The Nvidia discrete GPU options are not currently certified.
 
 ### Memory
+
 - Certified: Any configuration with at least 16 GB of memory
 
 ### Storage
+
 - Certified: Any of the available options in this section
 
 ### Personalisation
+
 - This section is merely cosmetic and therefore does not affect certification.
 
 ### Firmware options
-- Qubes OS currently does not support UEFI secure boot.
+
+- Qubes OS does not currently support UEFI secure boot.
 - Keeping up-to-date with firmware updates is merely an email notification service and therefore does not affect certification.
 - Deploying coreboot+Heads does not affect certification.
 - Disabling Intel Management Engine (HAP disabling) does not affect certification.
 
 ### Operating system
+
 - Certified: Qubes OS 4.2.3 or newer (within Release 4).
 - Releases older than 4.2.3 are not certified.
-- You may choose either to have NovaCustom preinstall Qubes OS for you, or you may choose to install Qubes OS yourself. This choice does not affect Qubes certification.
+- You may choose either to have NovaCustom preinstall Qubes OS for you, or you may choose to install Qubes OS yourself. This choice does not affect certification.
 
 ### WiFi and Bluetooth
+
 - Certified: Any of the available options in this section
 
 ## Disclaimers
