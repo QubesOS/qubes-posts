@@ -19,11 +19,11 @@ Meet the world's most modern coreboot laptop. Thanks to an energy-efficient 14th
 The configuration options required for Qubes certification are detailed below.
 
 ### Screen size
-- Only the **16 inch** model (V560TU) is certified.
+- Certified: 16 inch model (V560TU)
 - The 14-inch model (V540TU) is not currently certified.
 
 ### Screen resolution
-- Only the **Full HD+ (1920 x 1200)** option is certified.
+- Certified: Full HD+ (1920 x 1200)
 - The Q-HD+ (2560 x 1600) option is not currently certified.
 
 ### Processor and graphics
@@ -41,7 +41,7 @@ The configuration options required for Qubes certification are detailed below.
 - This section is merely cosmetic and therefore does not affect certification.
 
 ### Firmware options
-- Qubes OS does not support UEFI secure boot.
+- Qubes OS currently does not support UEFI secure boot.
 - Keeping up-to-date with firmware updates is merely an email notification service and therefore does not affect certification.
 - Deploying coreboot+Heads does not affect certification.
 - Disabling Intel Management Engine (HAP disabling) does not affect certification.
