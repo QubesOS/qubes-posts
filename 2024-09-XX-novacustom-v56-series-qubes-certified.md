@@ -10,7 +10,7 @@ It is our pleasure to announce that the [NovaCustom V56 Series 16.0 inch coreboo
 
 ## V56 Series 16.0 inch coreboot laptop
 
-Meet the world's most modern coreboot laptop. Thanks to an energy-efficient 14th generation Intel Meteor Lake processor, a powerful 73 WH battery, a stunning 16:10 display, and optional Nvidia graphics, you'll be more productive than ever before. Configure this laptop with up to 96 GB of DDR5 memory and a blazing-fast PCIe SSD. Dasharo coreboot firmware provides you with a secure and stable base. Furthermore, this laptop features useful ports, including Thunderbolt 4, an Ethernet port, and plenty of USB ports. On top of that, this laptop is optionally available with Wi-Fi 7 support.
+Meet the world's most modern coreboot laptop. Thanks to an energy-efficient 14th generation Intel Meteor Lake processor, a powerful 73 WH battery, and a stunning 16:10 display, you'll be more productive than ever before. Configure this laptop with up to 96 GB of DDR5 memory and a blazing-fast PCIe SSD. Dasharo coreboot firmware provides you with a secure and stable base. Furthermore, this laptop features useful ports, including Thunderbolt 4, an Ethernet port, and plenty of USB ports. On top of that, this laptop is optionally available with Wi-Fi 7 support.
 
 [![Photo of the NovaCustom V56 Series 16.0 inch coreboot laptop](/attachment/site/novacustom-v56-series.png)](https://novacustom.com/product/v56-series/)
 
@@ -26,7 +26,7 @@ The configuration options required for Qubes certification are detailed below.
 ### Screen resolution
 
 - Certified: Full HD+ (1920 x 1200)
-- The Q-HD+ (2560 x 1600) option is not currently certified.
+- Certified: Q-HD+ (2560 x 1600)
 
 ### Processor and graphics
 
@@ -62,7 +62,7 @@ The configuration options required for Qubes certification are detailed below.
 ### Wi-Fi and Bluetooth
 
 - Certified: Intel AX-210/211 (non vPro) Wi-Fi module 2.4 Gbps, 802.11AX/Wi-Fi6E + Bluetooth 5.3
-- Certified: No Wi-Fi chip - no bluetooth and Wi-Fi connection possible (only with USB adaptor)
+- Certified: No Wi-Fi chip - no Bluetooth and Wi-Fi connection possible (only with USB adapter)
 - The Intel BE200 (non vPro) Wi-Fi module 5.8 Gbps, 802.11BE/Wi-Fi7 + Bluetooth 5.42 option is not currently certified.
 
 ## Disclaimers
