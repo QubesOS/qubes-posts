@@ -62,8 +62,8 @@ The configuration options required for Qubes certification are detailed below.
 ### Wi-Fi and Bluetooth
 
 - Certified: Intel AX-210/211 (non vPro) Wi-Fi module 2.4 Gbps, 802.11AX/Wi-Fi6E + Bluetooth 5.3
+- Certified: Intel BE200 (non vPro) Wi-Fi module 5.8 Gbps, 802.11BE/Wi-Fi7 + Bluetooth 5.42
 - Certified: No Wi-Fi chip - no Bluetooth and Wi-Fi connection possible (only with USB adapter)
-- The Intel BE200 (non vPro) Wi-Fi module 5.8 Gbps, 802.11BE/Wi-Fi7 + Bluetooth 5.42 option is not currently certified.
 
 ## Disclaimers
 
