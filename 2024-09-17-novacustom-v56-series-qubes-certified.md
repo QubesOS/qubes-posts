@@ -6,7 +6,7 @@ image: /attachment/site/novacustom-v56-series.png
 author: The NovaCustom and Qubes teams
 ---
 
-It is our pleasure to announce that the [NovaCustom V56 Series 16.0 inch coreboot laptop](https://novacustom.com/product/v56-series/) is the eighth computer to be [officially certified](/doc/certified-hardware/) for Qubes OS Release 4 and the second such model from [NovaCustom](https://novacustom.com/)!
+It is our pleasure to announce that the [NovaCustom V56 Series 16.0 inch coreboot laptop](https://novacustom.com/product/v56-series/) is the ninth computer to be [officially certified](/doc/certified-hardware/) for Qubes OS Release 4 and the second such model from [NovaCustom](https://novacustom.com/)!
 
 ## V56 Series 16.0 inch coreboot laptop
 
