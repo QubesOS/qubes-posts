@@ -6,13 +6,13 @@ image: /attachment/site/novacustom-V54-series.png
 author: The NovaCustom and Qubes teams
 ---
 
-It is our pleasure to announce that the [NovaCustom V54 Series 14.0 inch coreboot laptop](https://novacustom.com/product/V54-series/) is [officially certified](/doc/certified-hardware/) for Qubes OS Release 4!
+It is our pleasure to announce that the [NovaCustom V54 Series 14.0 inch coreboot laptop](https://novacustom.com/product/v54-series/) is [officially certified](/doc/certified-hardware/) for Qubes OS Release 4!
 
 ## V54 Series 14.0 inch coreboot laptop
 
 Introducing the latest coreboot laptop equipped with cutting-edge technology. With an ultra-efficient 14th-gen Intel Meteor Lake CPU, a robust 73 WH battery, and a captivating 16:10 screen, your productivity will soar to new heights. Customize your device with a maximum of 96 GB DDR5 RAM and up to two lightning-fast PCIe SSDs. The Dasharo coreboot firmware ensures a reliable and secure foundation. Additionally, enjoy a variety of connectivity options such as Thunderbolt 4, Ethernet, plentiful USB ports, and optional Wi-Fi 7.
 
-[![Photo of the NovaCustom V54 Series 14.0 inch coreboot laptop](/attachment/site/novacustom-v54-series.png)](https://novacustom.com/product/V54-series/)
+[![Photo of the NovaCustom V54 Series 14.0 inch coreboot laptop](/attachment/site/novacustom-v54-series.png)](https://novacustom.com/product/v54-series/)
 
 ## Qubes-certified options
 
