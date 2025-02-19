@@ -2,7 +2,7 @@
 layout: post
 title: "The NovaCustom V54 Series 14.0 inch coreboot laptop is Qubes certified!"
 categories: announcements
-image: /attachment/site/novacustom-V54-series.png
+image: /attachment/site/novacustom-v54-series.png
 author: The NovaCustom and Qubes teams
 ---
 
