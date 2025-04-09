@@ -14,8 +14,8 @@ summaries, agendas, and slides, see
 [2020](https://3mdeb.com/events/#Qubes-OS-and-3mdeb-minisummit2020).) This
 year's event will take place across two virtual sessions on August 3 and 10.
 Each day, there will be four talks, intermixed with Q&A time. An abstract for
-each talk is provided below.  The discussion section will be in a [live meeting
-on Jitsi](https://vpub.3mdeb.com/vPub-Qubes-OS-3mdeb-mini-summit-2021).  The
+each talk is provided below.  The discussion section will be in a live meeting
+on Jitsi.  The
 whole event will be also streamed on [3mdeb's YouTube
 channel](https://www.youtube.com/channel/UC_djHbyjuJvhVjfT18nyqmQ), where we
 will also accept questions. We invite everyone interested to join!
@@ -32,7 +32,7 @@ will also accept questions. We invite everyone interested to join!
 | 19:45 -- 20:15 | Break
 | 20:15 -- 21:00 | "Wyng-backups: revertible local and remote known safe Qubes OS states (including dom0)" by Thierry Laurion
 | 21:00 -- 21:45 | "SRTM and Secure Boot for VMs" by Piotr Król
-| 21:45          | [vPub, informal afterparty](https://vpub.3mdeb.com/vPub-Qubes-OS-3mdeb-mini-summit-2021)
+| 21:45          | vPub, informal afterparty
 
 ## Agenda for August 10
 
@@ -46,7 +46,7 @@ will also accept questions. We invite everyone interested to join!
 | 19:45 -- 20:15 | Break
 | 20:15 -- 21:00 | "A brief history of USB camera support in Qubes OS" by Piotr Król
 | 21:00 -- 21:45 | "How to setup BTC and XMR cold storage in Qubes OS" by Piotr Król
-| 21:45          | [vPub, informal afterparty](https://vpub.3mdeb.com/vPub-Qubes-OS-3mdeb-mini-summit-2021)
+| 21:45          | vPub, informal afterparty
 
 ## Abstracts of the talks
 
