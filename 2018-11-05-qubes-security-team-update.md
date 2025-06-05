@@ -47,6 +47,10 @@ However, due to the nature of PGP keys, there is no way to guarantee that Joanna
 will not retain a copy of the QMSK after transferring ownership to Marek. Since
 anyone in possession of the QMSK is a potential attack vector against the
 project, Joanna will continue to sign [Qubes Canaries] in perpetuity.
+(**Update:** This decision was subsequently reversed in [Canary
+028](/news/2021/08/31/canary-028/). Please see the special announcement in that
+canary and the accompanying signed letters from Joanna and the Qubes security
+team.)
 
 With Joanna's departure from the QST, Marek would remain as its sole member.
 Given the critical importance of the QST to the project, however, we believe
