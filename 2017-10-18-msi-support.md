@@ -121,7 +121,7 @@ The switch is not significant for the purposes of this article.</small>
 [irq-allow-qubes]: https://github.com/QubesOS/qubes-vmm-xen/pull/15/commits/2a5229f24296347a40ba3250465a61ca425a6146
 [enable-issue-openxt]: https://openxt.atlassian.net/browse/OXT-894
 [enable-commit-openxt]: https://github.com/OpenXT/manager/pull/52/commits/5950ebe73f2411f3af37f5dd56c5c70619e5d99f
-[qubes-devel]: /support/#qubes-devel
+[qubes-devel]: https://doc.qubes-os.org/en/latest/introduction/support.html#qubes-devel
 [qemu-msi-enable-write]: https://git.qemu.org/?p=qemu.git;a=blob;f=hw/xen/xen_pt_config_init.c;h=6f18366f6768ee3d7b72f588dc990a6329124a04;hb=359c41abe32638adad503e386969fa428cecff52#l1114
 [paper]: https://invisiblethingslab.com/resources/2011/Software%20Attacks%20on%20Intel%20VT-d.pdf
 [patch-pciback]: https://github.com/QubesOS/qubes-linux-kernel/pull/12/commits/96b956b38cb24230848a563d3e1ce359c8d8db66

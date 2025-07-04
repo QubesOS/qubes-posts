@@ -74,4 +74,4 @@ things about Qubes OS.
 [pv-grub-doc]: /doc/managing-vm-kernel/
 [release-notes]: /doc/releases/3.1/release-notes/
 [download]: /downloads/
-[template-upgrade]: /doc/templates/fedora/#upgrading
+[template-upgrade]: https://doc.qubes-os.org/en/latest/user/templates/fedora/fedora.html#upgrading

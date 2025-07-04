@@ -30,7 +30,7 @@ For more information about Fedora 33, please see the [Fedora 33 Release Notes] a
 [Fedora]: /doc/templates/fedora/
 [Minimal]: /doc/templates/minimal/
 [update]: /doc/how-to-install-software/
-[switching]: /doc/templates/#switching
+[switching]: https://doc.qubes-os.org/en/latest/user/templates/templates.html#switching
 [systemd-resolved]: https://fedoraproject.org/wiki/Changes/systemd-resolved
 [Fedora 33 Release Notes]: https://docs.fedoraproject.org/en-US/fedora/f33/release-notes/
 [Fedora 33 Announcement]: https://fedoramagazine.org/announcing-fedora-33/

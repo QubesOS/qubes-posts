@@ -25,7 +25,7 @@ You have a few different options, depending on your situation:
 
 - If you're currently on Qubes 4.1, learn [how to upgrade to Qubes 4.2](/doc/upgrade/4.2/).
 
-- If you're currently on Qubes 4.2 (including 4.2.0 and 4.2.1-rc1), [update normally](/doc/how-to-update/) (which includes [upgrading any EOL templates](/doc/how-to-update/#upgrading-to-avoid-eol) you might have) in order to make your system essentially equivalent to the stable Qubes 4.2.1 release. No reinstallation or other special action is required.
+- If you're currently on Qubes 4.2 (including 4.2.0 and 4.2.1-rc1), [update normally](https://doc.qubes-os.org/en/latest/user/how-to-guides/how-to-update.html) (which includes [upgrading any EOL templates](https://doc.qubes-os.org/en/latest/user/how-to-guides/how-to-update.html#upgrading-to-avoid-eol) you might have) in order to make your system essentially equivalent to the stable Qubes 4.2.1 release. No reinstallation or other special action is required.
 
 In all cases, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand.
 
@@ -35,9 +35,9 @@ As a reminder, we published the following special announcement in [Qubes Canary 
 
 > We plan to create a new Release Signing Key (RSK) for Qubes OS 4.2. Normally, we have only one RSK for each major release. However, for the 4.2 release, we will be using Qubes Builder version 2, which is a complete rewrite of the Qubes Builder. Out of an abundance of caution, we would like to isolate the build processes of the current stable 4.1 release and the upcoming 4.2 release from each other at the cryptographic level in order to minimize the risk of a vulnerability in one affecting the other. We are including this notice as a canary special announcement since introducing a new RSK for a minor release is an exception to our usual RSK management policy.
 
-As always, we encourage you to [authenticate](/security/pack/#how-to-obtain-and-authenticate) this canary by [verifying its PGP signatures](/security/verifying-signatures/). Specific instructions are also included in the [canary announcement](/news/2022/09/14/canary-032/).
+As always, we encourage you to [authenticate](https://doc.qubes-os.org/en/latest/project-security/security-pack.html#how-to-obtain-and-authenticate) this canary by [verifying its PGP signatures](/security/verifying-signatures/). Specific instructions are also included in the [canary announcement](/news/2022/09/14/canary-032/).
 
-As with all Qubes signing keys, we also encourage you to [authenticate](/security/verifying-signatures/#how-to-import-and-authenticate-release-signing-keys) the new Qubes OS Release 4.2 Signing Key, which is available in the [Qubes Security Pack (qubes-secpack)](/security/pack/) as well as on the [downloads](/downloads/) page.
+As with all Qubes signing keys, we also encourage you to [authenticate](https://doc.qubes-os.org/en/latest/project-security/verifying-signatures.html#how-to-import-and-authenticate-release-signing-keys) the new Qubes OS Release 4.2 Signing Key, which is available in the [Qubes Security Pack (qubes-secpack)](/security/pack/) as well as on the [downloads](/downloads/) page.
 
 ## What is a patch release?
 

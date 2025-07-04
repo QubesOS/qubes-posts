@@ -21,6 +21,6 @@ Whonix 15 to Whonix 16].
 [Whonix Project]: https://www.whonix.org/
 [Whonix 16]: https://forums.whonix.org/t/12465
 [Whonix support schedule]: https://www.whonix.org/wiki/About#Support_Schedule
-[Whonix Project's support policy for Whonix templates in Qubes]: /doc/supported-releases/#note-on-whonix-support
+[Whonix Project's support policy for Whonix templates in Qubes]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#note-on-whonix-support
 [installing fresh Whonix 16 templates]: https://www.whonix.org/wiki/Qubes/Install
 [performing an in-place upgrade from Whonix 15 to Whonix 16]: https://www.whonix.org/wiki/Release_Upgrade_Whonix_15_to_Whonix_16

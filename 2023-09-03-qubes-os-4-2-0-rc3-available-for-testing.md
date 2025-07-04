@@ -9,7 +9,7 @@ We're pleased to announce that the third [release candidate (RC)](#what-is-a-rel
 
 ## Explanation for the early RC
 
-We [announced RC2](/news/2023/08/28/qubes-os-4-2-0-rc2-available-for-testing/) approximately one week ago. Normally, RC2 would have been tested for [approximately five weeks](/doc/version-scheme/#release-schedule) before we announced RC3. However, RC2 contained several bugs (listed below), some of which prevented certain users from testing it. These bugs have been fixed in RC3. We've decided to release RC3 early, as an exception to our usual policy, in order to get these fixes out as quickly as possible so that more users can test 4.2 for longer before the eventual stable release.
+We [announced RC2](/news/2023/08/28/qubes-os-4-2-0-rc2-available-for-testing/) approximately one week ago. Normally, RC2 would have been tested for [approximately five weeks](https://doc.qubes-os.org/en/latest/developer/releases/version-scheme.html#release-schedule) before we announced RC3. However, RC2 contained several bugs (listed below), some of which prevented certain users from testing it. These bugs have been fixed in RC3. We've decided to release RC3 early, as an exception to our usual policy, in order to get these fixes out as quickly as possible so that more users can test 4.2 for longer before the eventual stable release.
 
 ## Main changes from RC2 to RC3
 
@@ -22,7 +22,7 @@ For an overview of major changes from Qubes 4.1 to 4.2, please see the [Qubes OS
 
 ## When is the stable release?
 
-That depends on the number of bugs discovered in this RC and their severity. As explained in our [release schedule](/doc/version-scheme/#release-schedule) documentation, our usual process after issuing a new RC is to collect bug reports, triage the bugs, and fix them. This usually takes around five weeks, depending on the bugs discovered. If warranted, we then issue a new RC that includes the fixes and repeat the whole process again. We continue this iterative procedure until we're left with an RC that's good enough to be declared the stable release. No one can predict, at the outset, how many iterations will be required (and hence how many RCs will be needed before a stable release), but we tend to get a clearer picture of this with each successive RC, which we share in this section in each RC announcement.
+That depends on the number of bugs discovered in this RC and their severity. As explained in our [release schedule](https://doc.qubes-os.org/en/latest/developer/releases/version-scheme.html#release-schedule) documentation, our usual process after issuing a new RC is to collect bug reports, triage the bugs, and fix them. This usually takes around five weeks, depending on the bugs discovered. If warranted, we then issue a new RC that includes the fixes and repeat the whole process again. We continue this iterative procedure until we're left with an RC that's good enough to be declared the stable release. No one can predict, at the outset, how many iterations will be required (and hence how many RCs will be needed before a stable release), but we tend to get a clearer picture of this with each successive RC, which we share in this section in each RC announcement.
 
 At this point, we can say that there will be at least one more RC after this one.
 
@@ -36,7 +36,7 @@ A full list of issues affecting Qubes 4.2.0 is available [here](https://github.c
 
 ## Upgrading to Qubes 4.2.0-rc3
 
-If you're currently running any Qubes 4.2.0 RC, you can upgrade to the latest RC by [enabling the `current-testing` repo in dom0](/doc/how-to-install-software-in-dom0/#testing-repositories), then [updating normally](/doc/how-to-update/). However, please note that there have been some recent template changes, which are detailed in the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/).
+If you're currently running any Qubes 4.2.0 RC, you can upgrade to the latest RC by [enabling the `current-testing` repo in dom0](https://doc.qubes-os.org/en/latest/user/advanced-topics/how-to-install-software-in-dom0.html#testing-repositories), then [updating normally](/doc/how-to-update/). However, please note that there have been some recent template changes, which are detailed in the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/).
 
 If you're currently on Qubes 4.1 and wish to test 4.2, please see [how to upgrade to Qubes 4.2](/doc/upgrade/4.2/), which details both clean installation and in-place upgrade options. As always, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand.
 
@@ -46,9 +46,9 @@ As a reminder, we published the following special announcement in [Qubes Canary 
 
 > We plan to create a new Release Signing Key (RSK) for Qubes OS 4.2. Normally, we have only one RSK for each major release. However, for the 4.2 release, we will be using Qubes Builder version 2, which is a complete rewrite of the Qubes Builder. Out of an abundance of caution, we would like to isolate the build processes of the current stable 4.1 release and the upcoming 4.2 release from each other at the cryptographic level in order to minimize the risk of a vulnerability in one affecting the other. We are including this notice as a canary special announcement since introducing a new RSK for a minor release is an exception to our usual RSK management policy.
 
-As always, we encourage you to [authenticate](/security/pack/#how-to-obtain-and-authenticate) this canary by [verifying its PGP signatures](/security/verifying-signatures/). Specific instructions are also included in the [canary announcement](/news/2022/09/14/canary-032/).
+As always, we encourage you to [authenticate](https://doc.qubes-os.org/en/latest/project-security/security-pack.html#how-to-obtain-and-authenticate) this canary by [verifying its PGP signatures](/security/verifying-signatures/). Specific instructions are also included in the [canary announcement](/news/2022/09/14/canary-032/).
 
-As with all Qubes signing keys, we also encourage you to [authenticate](/security/verifying-signatures/#how-to-import-and-authenticate-release-signing-keys) the new Qubes OS Release 4.2 Signing Key, which is available in the [Qubes Security Pack (qubes-secpack)](/security/pack/) as well as on the [downloads](/downloads/) page under the Qubes OS 4.2.0-rc3 ISO.
+As with all Qubes signing keys, we also encourage you to [authenticate](https://doc.qubes-os.org/en/latest/project-security/verifying-signatures.html#how-to-import-and-authenticate-release-signing-keys) the new Qubes OS Release 4.2 Signing Key, which is available in the [Qubes Security Pack (qubes-secpack)](/security/pack/) as well as on the [downloads](/downloads/) page under the Qubes OS 4.2.0-rc3 ISO.
 
 ## What is a release candidate?
 

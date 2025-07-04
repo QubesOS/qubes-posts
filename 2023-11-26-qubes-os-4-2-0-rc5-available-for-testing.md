@@ -3,13 +3,15 @@ layout: post
 title: "Qubes OS 4.2.0-rc5 is available for testing"
 categories: releases
 download_url: /downloads/
+layout: post
+title: Qubes OS 4.2.0-rc5 is available for testing
 ---
 
 We're pleased to announce that the fifth [release candidate (RC)](#what-is-a-release-candidate) for Qubes OS 4.2.0 is now available for [testing](/doc/testing/). The ISO and associated [verification files](/security/verifying-signatures/) are available on the [downloads](/downloads/) page. For more information about the changes included in this version, see the [full list of issues completed between RC4 and RC5](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue+is%3Aclosed+reason%3Acompleted+closed%3A2023-10-13..2023-11-26+-label%3A%22R%3A+cannot+reproduce%22+-label%3A%22R%3A+declined%22+-label%3A%22R%3A+duplicate%22+-label%3A%22R%3A+not+applicable%22+-label%3A%22R%3A+self-closed%22+-label%3A%22R%3A+upstream+issue%22) and the [Qubes OS 4.2.0 release notes](/doc/releases/4.2/release-notes/).
 
 ## When is the stable release?
 
-That depends on the number of bugs discovered in this RC and their severity. As explained in our [release schedule](/doc/version-scheme/#release-schedule) documentation, our usual process after issuing a new RC is to collect bug reports, triage the bugs, and fix them. This usually takes around five weeks, depending on the bugs discovered. If warranted, we then issue a new RC that includes the fixes and repeat the whole process again. We continue this iterative procedure until we're left with an RC that's good enough to be declared the stable release. No one can predict, at the outset, how many iterations will be required (and hence how many RCs will be needed before a stable release), but we tend to get a clearer picture of this with each successive RC, which we share in this section in each RC announcement. Here is the latest update:
+That depends on the number of bugs discovered in this RC and their severity. As explained in our [release schedule](https://doc.qubes-os.org/en/latest/developer/releases/version-scheme.html#release-schedule) documentation, our usual process after issuing a new RC is to collect bug reports, triage the bugs, and fix them. This usually takes around five weeks, depending on the bugs discovered. If warranted, we then issue a new RC that includes the fixes and repeat the whole process again. We continue this iterative procedure until we're left with an RC that's good enough to be declared the stable release. No one can predict, at the outset, how many iterations will be required (and hence how many RCs will be needed before a stable release), but we tend to get a clearer picture of this with each successive RC, which we share in this section in each RC announcement. Here is the latest update:
 
 At this point, we are hopeful that RC5 will be the final RC.
 
@@ -33,9 +35,9 @@ As a reminder, we published the following special announcement in [Qubes Canary 
 
 > We plan to create a new Release Signing Key (RSK) for Qubes OS 4.2. Normally, we have only one RSK for each major release. However, for the 4.2 release, we will be using Qubes Builder version 2, which is a complete rewrite of the Qubes Builder. Out of an abundance of caution, we would like to isolate the build processes of the current stable 4.1 release and the upcoming 4.2 release from each other at the cryptographic level in order to minimize the risk of a vulnerability in one affecting the other. We are including this notice as a canary special announcement since introducing a new RSK for a minor release is an exception to our usual RSK management policy.
 
-As always, we encourage you to [authenticate](/security/pack/#how-to-obtain-and-authenticate) this canary by [verifying its PGP signatures](/security/verifying-signatures/). Specific instructions are also included in the [canary announcement](/news/2022/09/14/canary-032/).
+As always, we encourage you to [authenticate](https://doc.qubes-os.org/en/latest/project-security/security-pack.html#how-to-obtain-and-authenticate) this canary by [verifying its PGP signatures](/security/verifying-signatures/). Specific instructions are also included in the [canary announcement](/news/2022/09/14/canary-032/).
 
-As with all Qubes signing keys, we also encourage you to [authenticate](/security/verifying-signatures/#how-to-import-and-authenticate-release-signing-keys) the new Qubes OS Release 4.2 Signing Key, which is available in the [Qubes Security Pack (qubes-secpack)](/security/pack/) as well as on the [downloads](/downloads/) page under the Qubes OS 4.2.0-rc5 ISO.
+As with all Qubes signing keys, we also encourage you to [authenticate](https://doc.qubes-os.org/en/latest/project-security/verifying-signatures.html#how-to-import-and-authenticate-release-signing-keys) the new Qubes OS Release 4.2 Signing Key, which is available in the [Qubes Security Pack (qubes-secpack)](/security/pack/) as well as on the [downloads](/downloads/) page under the Qubes OS 4.2.0-rc5 ISO.
 
 ## What is a release candidate?
 

@@ -73,9 +73,8 @@ further assistance, please consult the [Whonix support page].
 
 [Whonix Project]: https://www.whonix.org/
 [Whonix TemplateVMs]: https://www.whonix.org/wiki/Qubes
-[templatevm-support]: /doc/supported-releases/#templates
+[templatevm-support]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#templates
 [whonix-13-eol]: /news/2018/08/24/whonix-13-approaching-eol/
-[Whonix version support policy]: /doc/supported-releases/#note-on-whonix-support
+[Whonix version support policy]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#note-on-whonix-support
 [qubes-3.2-eol]: /news/2018/03/28/qubes-40/#the-past-and-the-future
 [Whonix support page]: https://www.whonix.org/wiki/Support
-

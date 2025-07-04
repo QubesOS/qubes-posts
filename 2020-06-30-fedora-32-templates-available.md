@@ -35,5 +35,4 @@ old template to use the new one][switching].
 [Fedora]: /doc/templates/fedora/
 [Minimal]: /doc/templates/minimal/
 [update]: /doc/how-to-install-software/
-[switching]: /doc/templates/#switching
-
+[switching]: https://doc.qubes-os.org/en/latest/user/templates/templates.html#switching

@@ -77,13 +77,12 @@ you for working to keep Qubes secure!
 [Marek Marczykowski-Górecki]: /team/#marek-marczykowski-g%C3%B3recki
 [Joanna's Announcement]: /news/2018/10/25/the-next-chapter/
 [Marek's announcement]: /news/2018/10/25/thank-you-joanna/
-[Qubes Security Team (QST)]: /security/#qubes-security-team
+[Qubes Security Team (QST)]: https://doc.qubes-os.org/en/latest/project-security/security.html#qubes-security-team
 [Qubes Team]: /team/
-[reported security issues]: /security/#reporting-security-issues-in-qubes-os
+[reported security issues]: https://doc.qubes-os.org/en/latest/project-security/security.html#reporting-security-issues-in-qubes-os
 [Xen Security Advisories (XSAs)]: /security/xsa/
 [Qubes Security Bulletins (QSBs)]: /security/qsb/
 [Qubes Canaries]: /security/canary/
 [PGP keys]: https://keys.qubes-os.org/keys/
-[Qubes Master Signing Key (QMSK)]: /security/verifying-signatures/#how-to-import-and-authenticate-the-qubes-master-signing-key
+[Qubes Master Signing Key (QMSK)]: https://doc.qubes-os.org/en/latest/project-security/verifying-signatures.html#how-to-import-and-authenticate-the-qubes-master-signing-key
 [Simon]: /team/#simon-gaiser-aka-hw42
-

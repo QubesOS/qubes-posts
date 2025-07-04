@@ -27,10 +27,9 @@ dom0. For details, please see our [note on dom0 and EOL].
 
 
 [end-of-life]: https://fedoraproject.org/wiki/End_of_life
-[upgrade]: /doc/templates/fedora/#upgrading
-[installation instructions]: /doc/templates/fedora/#installing
+[upgrade]: https://doc.qubes-os.org/en/latest/user/templates/fedora/fedora.html#upgrading
+[installation instructions]: https://doc.qubes-os.org/en/latest/user/templates/fedora/fedora.html#installing
 [performing an in-place upgrade]: /doc/templates/fedora/in-place-upgrade/
-[Supported TemplateVM Versions]: /doc/supported-releases/#templates
-[switching]: /doc/templates/#switching
-[note on dom0 and EOL]: /doc/supported-releases/#note-on-dom0-and-eol
-
+[Supported TemplateVM Versions]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#templates
+[switching]: https://doc.qubes-os.org/en/latest/user/templates/templates.html#switching
+[note on dom0 and EOL]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#note-on-dom0-and-eol

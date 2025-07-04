@@ -209,7 +209,7 @@ In order to install the packages one has to send the Xen and GRUB RPMs to the
 Dom0. Please note that moving any external files or data to Dom0 is potentially
 dangerous. Ensure that your environment is safe and the RPMs have the right
 checksums after copying them to Dom0. If you don't know how to copy files to
-Dom0, refer to the [Qubes OS documentation](/doc/how-to-copy-from-dom0/#copying-to-dom0).
+Dom0, refer to the [Qubes OS documentation](https://doc.qubes-os.org/en/latest/user/how-to-guides/how-to-copy-from-dom0.html#copying-to-dom0).
 
 1. Even before installing packages, it is required to enable the
    `current-testing` repository to avoid the need to install additional

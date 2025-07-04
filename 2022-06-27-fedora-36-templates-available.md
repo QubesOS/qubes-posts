@@ -34,13 +34,13 @@ includes a Fedora 36 template by default, so no action is required on
 your part.
 
 
-[scheduled to reach end-of-life (EOL) soon]: /doc/supported-releases/#qubes-os
+[scheduled to reach end-of-life (EOL) soon]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#qubes-os
 [already available]: /news/2022/05/26/fedora-34-approaching-eol-fedora-35-templates-available/
 [Fedora 34 has reached EOL]: /news/2022/06/07/fedora-34-eol/
-[upgrade]: /doc/templates/fedora/#upgrading
-[installation instructions]: /doc/templates/fedora/#installing
+[upgrade]: https://doc.qubes-os.org/en/latest/user/templates/fedora/fedora.html#upgrading
+[installation instructions]: https://doc.qubes-os.org/en/latest/user/templates/fedora/fedora.html#installing
 [performing an in-place upgrade]: /doc/templates/fedora/in-place-upgrade/
-[switching]: /doc/templates/#switching
-[supported template releases]: /doc/supported-releases/#templates
-[note on dom0 and EOL]: /doc/supported-releases/#note-on-dom0-and-eol
+[switching]: https://doc.qubes-os.org/en/latest/user/templates/templates.html#switching
+[supported template releases]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#templates
+[note on dom0 and EOL]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#note-on-dom0-and-eol
 [Qubes OS R4.1.1-rc1]: /news/2022/06/27/qubes-4-1-1-rc1/

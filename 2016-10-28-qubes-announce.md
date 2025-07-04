@@ -15,6 +15,5 @@ announced here. Instructions for subscribing to the list are available
 [here][qubes-announce].
 
 
-[qubes-announce]: /support/#qubes-announce
+[qubes-announce]: https://doc.qubes-os.org/en/latest/introduction/support.html#qubes-announce
 [qsb]: /doc/security-bulletins/
-

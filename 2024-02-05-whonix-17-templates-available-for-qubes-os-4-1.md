@@ -9,7 +9,7 @@ Until now, Whonix 17 has been available only on Qubes OS 4.2. Since [Whonix 16 r
 
 There are two ways to upgrade to Whonix 17 on Qubes OS 4.1:
 
-- **Recommended:** [Install fresh Whonix templates to replace the existing ones.](https://www.whonix.org/wiki/Qubes/Install) After you install the new templates, redo all desired template modifications and [switch everything that was set to the old templates to the new templates](/doc/templates/#switching).
+- **Recommended:** [Install fresh Whonix templates to replace the existing ones.](https://www.whonix.org/wiki/Qubes/Install) After you install the new templates, redo all desired template modifications and [switch everything that was set to the old templates to the new templates](https://doc.qubes-os.org/en/latest/user/templates/templates.html#switching).
 
 - **Advanced:** Perform an [in-place upgrade from Whonix 16 to Whonix 17](https://www.whonix.org/wiki/Release_Upgrade_16_to_17). This option will preserve any modifications you've made to the templates, **but it may be more complicated for less experienced users.**
 

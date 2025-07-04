@@ -16,5 +16,5 @@ This list is for non-technical discussion and coordination around the Qubes OS p
 * Outreach/propaganda materials
 * Most GitHub issues tagged “[business][business]”
 
-[qubes-project]: /support/#qubes-project
+[qubes-project]: https://doc.qubes-os.org/en/latest/introduction/support.html#qubes-project
 [business]: https://github.com/QubesOS/qubes-issues/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Abusiness

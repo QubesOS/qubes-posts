@@ -32,7 +32,7 @@ appropriate qubes (VMs) to the new template. This can be done either with Qubes
 Manager (in qube settings) or with the `qvm-prefs` command-line tool.
 
 
-[TemplateVM version]: /doc/supported-releases/#templates
+[TemplateVM version]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#templates
 [fedora-maintenance-schedule]: https://fedoraproject.org/wiki/Fedora_Release_Life_Cycle#Maintenance_Schedule
-[Upgrade]: /doc/templates/fedora/#upgrading
+[Upgrade]: https://doc.qubes-os.org/en/latest/user/templates/fedora/fedora.html#upgrading
 [minimal]: /doc/templates/fedora-minimal/

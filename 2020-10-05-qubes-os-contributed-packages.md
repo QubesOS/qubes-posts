@@ -36,7 +36,7 @@ In a Debian-based template, use `apt`:
 
 [QubesOS-contrib]: https://github.com/QubesOS-contrib/
 [package-contrib]: /doc/package-contributions/
-[review process]: /doc/package-contributions/#review-procedure
+[review process]: https://doc.qubes-os.org/en/latest/developer/general/package-contributions.html#review-procedure
 [Frédéric Pierret]: /team/#fr%C3%A9d%C3%A9ric-pierret
 [Qubes build security]: /news/2016/05/30/build-security/
 [package contributions]: /doc/package-contributions/

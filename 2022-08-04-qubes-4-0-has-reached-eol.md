@@ -17,6 +17,6 @@ If you're already using Qubes 4.1, then no action is required on your part. This
 If you're still using Qubes 4.0 (including the most recent 4.0.4 patch release), then you should upgrade to 4.1 immediately. You have two options:
 
 - Perform a clean reinstallation using the latest stable [Qubes 4.1.1 ISO](/downloads/), which was [published on 2022-07-18](/news/2022/07/18/qubes-4-1-1/).
-- Perform an [in-place upgrade](/doc/upgrade/4.1/#in-place-upgrade) to 4.1.
+- Perform an [in-place upgrade](https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/upgrade/4_1.html#in-place-upgrade) to 4.1.
 
 Both of these options are covered in further detail in the [Qubes 4.0 to 4.1 upgrade guide](/doc/upgrade/4.1/). If you need help, please consult our [help and support](/support/) page.

@@ -646,4 +646,4 @@ technologies, and possibly even more!
 [paranoid backups]: /news/2017/04/26/qubes-compromise-recovery/
 [xsa_tracker]: /security/xsa/
 [qubes.InstallPackage ticket]: https://github.com/QubesOS/qubes-issues/issues/2867
-[backup profiles]: /doc/admin-api/#backup-profile
+[backup profiles]: https://doc.qubes-os.org/en/latest/developer/services/admin-api.html#backup-profile

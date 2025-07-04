@@ -230,6 +230,6 @@ to announce in the near future. Stay tuned.
 [Browser support]: #templatevm-and-browser-support
 [report any bugs you encounter]: /doc/issue-tracking/
 [ff-u2f-addon]: https://addons.mozilla.org/en-US/firefox/addon/u2f-support-add-on/?src=api
-[qubes-devel]: /support/#qubes-devel
+[qubes-devel]: https://doc.qubes-os.org/en/latest/introduction/support.html#qubes-devel
 
 <!-- vim: set ft=markdown tw=80 ts=4 sts=4 sw=4 et : -->

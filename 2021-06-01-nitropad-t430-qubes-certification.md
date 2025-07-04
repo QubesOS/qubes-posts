@@ -72,14 +72,13 @@ purchasing information.
 
 [NitroPad T430]: https://shop.nitrokey.com/shop/product/nitropad-t430-119
 [Nitrokey]: https://www.nitrokey.com/
-[laptop]: /doc/certified-hardware/#qubes-certified-computers
-[NitroPad X230]: /doc/certified-hardware/#nitropad-x230
+[laptop]: https://doc.qubes-os.org/en/latest/user/hardware/certified-hardware/certified-hardware.html#qubes-certified-computers
+[NitroPad X230]: https://doc.qubes-os.org/en/latest/user/hardware/certified-hardware/certified-hardware.html#nitropad-x230
 [Qubes Certified Hardware]: /doc/certified-hardware/
-[requirements]: /doc/certified-hardware/#hardware-certification-requirements
+[requirements]: https://doc.qubes-os.org/en/latest/user/hardware/certified-hardware/certified-hardware.html#hardware-certification-requirements
 [ThinkPad T430]: https://www.thinkwiki.org/wiki/Category:T430
 [Coreboot]: https://www.coreboot.org/
 [Heads]: https://github.com/osresearch/heads/
 [Anti Evil Maid (AEM)]: /doc/anti-evil-maid/
 [Intel Management Engine]: https://libreboot.org/faq.html#intelme
 [interdiction]: https://en.wikipedia.org/wiki/Interdiction
-

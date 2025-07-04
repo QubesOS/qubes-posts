@@ -42,5 +42,5 @@ regarding this template.
 [upgrading Fedora TemplateVMs]: /doc/templates/fedora/in-place-upgrade/
 [Standard]: /doc/templates/fedora/
 [Minimal]: /doc/templates/minimal/
-[switching]: /doc/templates/#switching
-[testing and feedback]: /doc/testing/#providing-feedback
+[switching]: https://doc.qubes-os.org/en/latest/user/templates/templates.html#switching
+[testing and feedback]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/testing.html#providing-feedback

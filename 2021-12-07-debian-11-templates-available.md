@@ -25,8 +25,8 @@ candidates already include the Debian 11 template by default, so no
 action is required.
 
 
-[installation instructions]: /doc/templates/debian/#installing
+[installation instructions]: https://doc.qubes-os.org/en/latest/user/templates/debian/debian.html#installing
 [performing an in-place upgrade]: /doc/templates/debian/in-place-upgrade/
-[switching]: /doc/templates/#switching
-[supported template releases]: /doc/supported-releases/#templates
-[note on dom0 and EOL]: /doc/supported-releases/#note-on-dom0-and-eol
+[switching]: https://doc.qubes-os.org/en/latest/user/templates/templates.html#switching
+[supported template releases]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#templates
+[note on dom0 and EOL]: https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#note-on-dom0-and-eol

@@ -5,7 +5,7 @@ categories: articles
 image: /attachment/doc/howto_use_qubes_alice_2.png
 ---
 
-_The following is a new [how-to guide](/doc/#how-to-guides) for users who are
+_The following is a new [how-to guide](https://doc.qubes-os.org/en/latest/en/latest/index.html#how-to-guides) for users who are
 starting out with Qubes OS. You can also find it in our [documentation](/doc/)
 under [How to organize your qubes](/doc/how-to-organize-your-qubes/)._
 

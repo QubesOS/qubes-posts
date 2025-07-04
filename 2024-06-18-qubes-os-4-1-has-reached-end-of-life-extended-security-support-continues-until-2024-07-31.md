@@ -15,8 +15,8 @@ If you're already using Qubes 4.2, then you don't have to do anything. This anno
 
 If you're still using Qubes 4.1, then you should upgrade to Qubes 4.2 at your earliest convenience but no later than 2024-07-31. There are two ways to do this:
 
-1. Perform a [clean reinstallation](/doc/upgrade/4.2/#clean-installation) using the latest stable [Qubes OS 4.2.1 ISO](/downloads/).
-2. Perform an [in-place upgrade to Qubes 4.2](/doc/upgrade/4.2/#in-place-upgrade).
+1. Perform a [clean reinstallation](https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/upgrade/4_2.html#clean-installation) using the latest stable [Qubes OS 4.2.1 ISO](/downloads/).
+2. Perform an [in-place upgrade to Qubes 4.2](https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/upgrade/4_2.html#in-place-upgrade).
 
 Both of these options are covered in further detail in the [Qubes 4.1 to 4.2 upgrade guide](/doc/upgrade/4.2/). In either case, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand. If you need help, please consult our [help and support](/support/) page.
 
@@ -26,7 +26,7 @@ When a Qubes OS release reaches end-of-life (EOL), it is no longer supported. In
 
 ## What is extended security support?
 
-Extended security support means that the [Qubes security team](/security/#qubes-security-team) will continue to publish [Qubes security bulletins (QSBs)](/security/qsb/) and release security updates for security vulnerabilities affecting Qubes 4.1, as it deems appropriate, until 2024-07-31. Extended security support does *not* cover regular bug fixes, improvements, or the implementation of new features.
+Extended security support means that the [Qubes security team](https://doc.qubes-os.org/en/latest/project-security/security.html#qubes-security-team) will continue to publish [Qubes security bulletins (QSBs)](/security/qsb/) and release security updates for security vulnerabilities affecting Qubes 4.1, as it deems appropriate, until 2024-07-31. Extended security support does *not* cover regular bug fixes, improvements, or the implementation of new features.
 
 ## What about patch releases?
 

@@ -69,9 +69,9 @@ more information.
 
 [NitroPad X230]: https://shop.nitrokey.com/shop/product/nitropad-x230-67
 [Nitrokey]: https://www.nitrokey.com/
-[laptop]: /doc/certified-hardware/#qubes-certified-computers
+[laptop]: https://doc.qubes-os.org/en/latest/user/hardware/certified-hardware/certified-hardware.html#qubes-certified-computers
 [Qubes Certified Hardware]: /doc/certified-hardware/
-[requirements]: /doc/certified-hardware/#hardware-certification-requirements
+[requirements]: https://doc.qubes-os.org/en/latest/user/hardware/certified-hardware/certified-hardware.html#hardware-certification-requirements
 [ThinkPad X230]: https://www.thinkwiki.org/wiki/Category:X230
 [Coreboot]: https://www.coreboot.org/
 [Heads]: https://github.com/osresearch/heads/

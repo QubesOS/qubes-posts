@@ -17,7 +17,7 @@ According to the Qubes OS Project's [release support policy](/doc/supported-rele
 
 ## What does extended security support cover?
 
-The [Qubes security team](/security/#qubes-security-team) will continue to publish [Qubes security bulletins (QSBs)](/security/qsb/) and release security updates for security vulnerabilities affecting Qubes 4.1, as it deems appropriate, until 2024-07-31. Extended security support does *not* cover regular bug fixes, improvements, or the implementation of new features.
+The [Qubes security team](https://doc.qubes-os.org/en/latest/project-security/security.html#qubes-security-team) will continue to publish [Qubes security bulletins (QSBs)](/security/qsb/) and release security updates for security vulnerabilities affecting Qubes 4.1, as it deems appropriate, until 2024-07-31. Extended security support does *not* cover regular bug fixes, improvements, or the implementation of new features.
 
 In short, if you currently have a Qubes 4.1 installation that serves your needs, you may safely continue to use it until 2024-07-31, but we strongly recommend [upgrading to Qubes 4.2](/doc/upgrade/4.2/) by that date.
 

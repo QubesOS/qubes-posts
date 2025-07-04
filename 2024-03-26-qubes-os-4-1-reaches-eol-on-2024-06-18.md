@@ -14,7 +14,7 @@ If you're already using Qubes 4.2, then you don't have to do anything. This anno
 
 If you're still using Qubes 4.1, then now is the perfect opportunity to upgrade, since a brand new [Qubes OS 4.2.1 ISO was just released today](/news/2024/03/26/qubes-os-4-2-1-has-been-released/)! (This is also the best way to get started with Qubes if you don't have it installed yet.)
 
-If you'd prefer not to reinstall, you can instead perform an [in-place upgrade from Qubes 4.1 to 4.2](/doc/upgrade/4.2/#in-place-upgrade).
+If you'd prefer not to reinstall, you can instead perform an [in-place upgrade from Qubes 4.1 to 4.2](https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/upgrade/4_2.html#in-place-upgrade).
 
 Whichever option you choose, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand and ensuring you're on Qubes 4.2 by 2024-06-18.
 

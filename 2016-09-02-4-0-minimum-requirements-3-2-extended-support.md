@@ -104,5 +104,4 @@ the 4.x series.
 [Intel-list]: https://ark.intel.com/Search/FeatureFilter?productType=processors&InstructionSet=64-bit&ExtendedPageTables=true&VTD=true&EM64=true
 [IOMMU-list]: https://en.wikipedia.org/wiki/List_of_IOMMU-supporting_hardware
 [HCL]: /hcl/
-[submitting an HCL report]: /doc/how-to-use-the-hcl/#generating-and-submitting-new-reports
-
+[submitting an HCL report]: https://doc.qubes-os.org/en/latest/user/hardware/how-to-use-the-hcl.html#generating-and-submitting-new-reports

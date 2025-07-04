@@ -23,5 +23,4 @@ The summit will take place October 1--3 in Redmond, Washington.
 [Insurgo Open Technologies]: https://insurgo.ca/
 [pss-thierry]: https://www.platformsecuritysummit.com/#laurion
 [x230]: /news/2019/07/18/insurgo-privacybeast-qubes-certification/
-[Qubes-certified Laptop]: /doc/certified-hardware/#qubes-certified-computers
-
+[Qubes-certified Laptop]: https://doc.qubes-os.org/en/latest/user/hardware/certified-hardware/certified-hardware.html#qubes-certified-computers

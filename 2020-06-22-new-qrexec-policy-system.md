@@ -337,7 +337,7 @@ control, as the policy can allow only certain commands, not everything
 that can be executed in a shell. Moreover, all the arguments are
 explicitly defined and unambiguous, freeing the user from quotation mark
 purgatory. (The syntax is described
-[here](/doc/vm-interface/#qubes-rpc).) Other
+[here](https://doc.qubes-os.org/en/latest/developer/debugging/vm-interface.html#qubes-rpc).) Other
 services will also benefit, such as the U2F implementation that, due to
 previous limitations, required some awkward wrangling of the public key
 hash. (Details can be found
