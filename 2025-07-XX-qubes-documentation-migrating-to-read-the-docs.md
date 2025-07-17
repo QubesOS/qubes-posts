@@ -4,7 +4,7 @@ title: "The Qubes documentation is migrating to Read the Docs!"
 categories: announcements
 ---
 
-We're pleased to announce that we're officially migrating to [Read the Docs](https://readthedocs.com/) as our documentation generation and hosting platform. Our documentation source files will continue to reside in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository with [PGP-signed tags and commits](https://www.qubes-os.org/security/verifying-signatures/#how-to-verify-signatures-on-git-repository-tags-and-commits), and the live documentation published on the web will continue to be located on the official Qubes website, but Read the Docs will handle generating the documentation from our source files and hosting the generated documentation on the backend so that it can be served to Qubes website visitors. Migrating to Read the Docs will enable us to localize the documentation, maintain release-specific documentation, support offline documentation, and more. Today marks the beginning of a 20-day community testing period for the new documentation, which is already live at <https://doc.qubes-os.org/en/latest/>.
+We're pleased to announce that we're officially migrating to [Read the Docs](https://readthedocs.com/) as our documentation generation and hosting platform. Our documentation source files will continue to reside in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository with [PGP-signed tags and commits](/security/verifying-signatures/#how-to-verify-signatures-on-git-repository-tags-and-commits), and the live documentation published on the web will continue to be located on the official Qubes website, but Read the Docs will handle generating the documentation from our source files and hosting the generated documentation on the backend so that it can be served to Qubes website visitors. Migrating to Read the Docs will enable us to localize the documentation, maintain release-specific documentation, support offline documentation, and more. Today marks the beginning of a 20-day community testing period for the new documentation, which is already live at <https://doc.qubes-os.org/en/latest/>.
 
 ## What is Read the Docs?
 
@@ -20,7 +20,7 @@ Trying to implement all of these features and manage all of this complexity manu
 
 ## How is the documentation currently set up, and what will change?
 
-At present, the official Qubes documentation consists of a set of plain text [Markdown](https://en.wikipedia.org/wiki/Markdown) source files that are stored in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository, which is a subrepository of the Qubes website repository, [qubesos.github.io](https://github.com/QubesOS/qubesos.github.io). We then use [GitHub Pages](https://pages.github.com/) to generate the [Qubes website](https://www.qubes-os.org/), which includes the [current documentation](https://www.qubes-os.org/doc/).
+At present, the official Qubes documentation consists of a set of plain text [Markdown](https://en.wikipedia.org/wiki/Markdown) source files that are stored in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository, which is a subrepository of the Qubes website repository, [qubesos.github.io](https://github.com/QubesOS/qubesos.github.io). We then use [GitHub Pages](https://pages.github.com/) to generate the [Qubes website](/), which includes the [current documentation](/doc/).
 
 Read the Docs also generates documentation from plain text source files in Git repositories. However, it primarily uses [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText) instead of Markdown. Furthermore, Read the Docs hosts HTML content that is usually generated using tools like [Sphinx](https://www.sphinx-doc.org/), whereas GitHub Pages uses [Jekyll](https://jekyllrb.com/) for static site generation.
 
@@ -28,11 +28,11 @@ Accordingly, the Qubes documentation source files will continue to reside in the
 
 ## How will this affect the security of the documentation?
 
-The source files for all official Qubes documentation will continue to be stored in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository with [PGP-signed tags and commits](https://www.qubes-os.org/security/verifying-signatures/#how-to-verify-signatures-on-git-repository-tags-and-commits), just as they are now. In that sense, the security of the documentation won't change at all. The main change is that Read the Docs will replace GitHub as the platform that generates the documentation from the source files and hosts the generated documentation.
+The source files for all official Qubes documentation will continue to be stored in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository with [PGP-signed tags and commits](/security/verifying-signatures/#how-to-verify-signatures-on-git-repository-tags-and-commits), just as they are now. In that sense, the security of the documentation won't change at all. The main change is that Read the Docs will replace GitHub as the platform that generates the documentation from the source files and hosts the generated documentation.
 
 ## How will the migration proceed?
 
-Over the next 20 days, the community will test the new documentation. During this period, the current documentation will be frozen, which means that no pull requests will be merged. After the testing period has concluded, the documentation team will evaluate the results and make any changes that are needed. Once the migration is complete, we'll make a final announcement, and the new documentation hosted on Read the Docs will officially replace the current documentation.
+Over the next 20 days, between now and <TODO_YYYY-MM-DD>, the community will test the new documentation. During this period, the current documentation will be frozen, which means that no pull requests will be merged. After the testing period has concluded, the documentation team will evaluate the results and make any changes that are needed. Once the migration is complete, we'll make a final announcement, and the new documentation hosted on Read the Docs will officially replace the current documentation.
 
 ## What can I do to help?
 
@@ -46,3 +46,7 @@ If you're looking for a place to start, the following pages were created manuall
 - https://doc.qubes-os.org/en/latest/developer/services/admin-api.html
 
 While we want to know about any problems you spot, please feel free to share any positive feedback you have, as well!
+
+## Acknowledgments
+
+The Qubes OS Project is especially grateful to [Maiska (aka m)](/team/#m) and [Tobias Killer (aka tokidev)](/team/#tobias-killer) for their many hours of work over the course of several years on the conversion of the documentation to Sphinx and reStructuredText. We would also like to thank [unman](/team/#unman), [Solène Rapenne](/team/#solène-rapenne), and [Maiska (aka m)](/team/#m) for serving the Qubes community as official documentation maintainers.
