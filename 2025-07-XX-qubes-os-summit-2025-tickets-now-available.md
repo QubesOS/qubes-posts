@@ -7,7 +7,7 @@ author: The 3mdeb and Qubes teams
 
 You can now purchase on-site tickets to attend [Qubes OS Summit 2025](https://events.dasharo.com/event/2/qubes-os-summit-2025) in person! Please note that a limited number of on-site tickets are available, and tickets are more heavily discounted the earlier they're purchased.
 
-For those who would prefer to participate remotely instead, the event will be broadcast live on YouTube, where anyone can watch, and where those with a YouTube account can chat and ask questions, with no ticket required. We'll also use Jitsi for remote attendees who wish to participate actively without using YouTube (including remote speakers). This latter option requires a free virtual ticket.
+For those who would prefer to participate remotely instead, the event will be broadcast live on YouTube, where anyone can watch with no ticket required. We'll also use Jitsi for remote attendees who wish to participate actively without using YouTube (including remote speakers). This latter option requires a free virtual ticket.
 
 [![Qubes OS Summit 2025 event poster](/attachment/posts/qubes-os-summit-2025.jpg)](https://events.dasharo.com/event/2/qubes-os-summit-2025)
 
