@@ -49,4 +49,4 @@ While we want to know about any problems you spot, please feel free to share any
 
 ## Acknowledgments
 
-The Qubes OS Project is especially grateful to [Maiska (aka m)](/team/#m) and [Tobias Killer (aka tokidev)](/team/#tobias-killer) for their many hours of work over the course of several years on the conversion of the documentation to Sphinx and reStructuredText. We would also like to thank [unman](/team/#unman), [Solène Rapenne](/team/#solène-rapenne), and [Maiska (aka m)](/team/#m) for serving the Qubes community as official documentation maintainers.
+The Qubes OS Project is especially grateful to [Maiska (aka m)](/team/#m) and [Tobias Killer (aka tokidev)](/team/#tobias-killer) for their many hours of work over the course of several years on the conversion of the documentation to Sphinx and reStructuredText. We would also like to thank [unman](/team/#unman) and [Solène Rapenne](/team/#solène-rapenne), in addition to Maiska, for serving the Qubes community as official documentation maintainers.
