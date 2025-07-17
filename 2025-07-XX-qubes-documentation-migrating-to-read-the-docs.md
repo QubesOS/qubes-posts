@@ -36,7 +36,9 @@ Over the next 20 days, between now and <TODO_YYYY-MM-DD>, the community will tes
 
 ## What can I do to help?
 
-Please have a look at the new documentation located at <https://doc.qubes-os.org/en/latest/> and [open an issue](/doc/issue-tracking/) to report any bugs you find or any features you'd like to request. (For feedback that you feel is too minor for a new issue, you can add a comment to [this existing issue](https://github.com/QubesOS/qubes-issues/issues/8180) instead.) It would be especially helpful to compare the new documentation to the current documentation located at <https://qubes-os.org/doc> and point out any inconsistencies. (When doing this, please focus on accuracy and correctness rather than visual aspects.) If you'd like to submit a change to the new documentation and are familiar with reStructuredText, please open a pull request against this branch: <https://github.com/QubesOS/qubes-doc/tree/rst>.
+Please review the new documentation located at <https://doc.qubes-os.org/en/latest/>. It would be especially helpful to compare the new documentation to the current documentation located at <https://qubes-os.org/doc> and point out any inconsistencies. (When doing this, please focus on accuracy and correctness rather than visual aspects.)
+
+There's a full list of new documentation pages to be reviewed in issue [#8180](https://github.com/QubesOS/qubes-issues/issues/8180). After you've reviewed a page, please leave a comment on that issue to let us know your findings. You can simply copy the entries you reviewed from that list into your comment and with a brief note on what you found problematic, found acceptable, and so on. If you'd like to report a more significant bug or request a feature, you can also [open a separate issue](/doc/issue-tracking/). If you're familiar with reStructuredText and would like to submit a change to the new documentation, please open a pull request against this branch: <https://github.com/QubesOS/qubes-doc/tree/rst>.
 
 If you're looking for a place to start, the following pages were created manually rather than being processed automatically and may merit extra scrutiny:
 
