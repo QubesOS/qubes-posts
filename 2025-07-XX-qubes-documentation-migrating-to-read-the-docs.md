@@ -40,12 +40,12 @@ Please review the new documentation located at <https://doc.qubes-os.org/en/late
 
 There's a full list of new documentation pages to be reviewed in issue [#8180](https://github.com/QubesOS/qubes-issues/issues/8180). After you've reviewed a page, please leave a comment on that issue to let us know your findings. You can simply copy the entries you reviewed from that list into your comment and add a brief note on what you found problematic, found acceptable, and so on. If you'd like to report a more significant bug or request a feature, you can also [open a separate issue](/doc/issue-tracking/). If you're familiar with reStructuredText and would like to submit a change to the new documentation, please open a pull request against this branch: <https://github.com/QubesOS/qubes-doc/tree/rst>.
 
-If you're looking for a place to start, the following pages were created manually rather than being processed automatically and may merit extra scrutiny:
+Note that the following pages were created manually rather than being processed automatically and may merit extra scrutiny:
 
-- https://doc.qubes-os.org/en/latest/introduction/intro.html
-- https://doc.qubes-os.org/en/latest/introduction/video-tours.html
-- https://doc.qubes-os.org/en/latest/developer/general/research.html
-- https://doc.qubes-os.org/en/latest/developer/services/admin-api.html
+- <https://doc.qubes-os.org/en/latest/introduction/intro.html>
+- <https://doc.qubes-os.org/en/latest/introduction/video-tours.html>
+- <https://doc.qubes-os.org/en/latest/developer/general/research.html>
+- <https://doc.qubes-os.org/en/latest/developer/services/admin-api.html>
 
 While we want to know about any problems you spot, please feel free to share any positive feedback you have, as well!
 
