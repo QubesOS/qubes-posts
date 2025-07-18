@@ -51,4 +51,4 @@ While we want to know about any problems you spot, please feel free to share any
 
 ## Acknowledgments
 
-The Qubes OS Project is especially grateful to [Maiska (aka m)](/team/#m) and [Tobias Killer (aka tokidev)](/team/#tobias-killer) for their many hours of work over the course of several years on the conversion of the documentation to Sphinx and reStructuredText. We would also like to thank [unman](/team/#unman) and [Solène Rapenne](/team/#solène-rapenne), in addition to Maiska, for serving the Qubes community as official documentation maintainers.
+This migration is the culmination of many hours of work over the course of several years, for which the Qubes OS Project owes a debt of gratitude. The Sphinx conversion tooling was done by [Maiska (aka m)](/team/#m), with support from [Marek Marczykowski-Górecki](/team/#marek-marczykowski-górecki). [Tobias Killer (aka tokidev)](/team/#tobias-killer) thoroughly and repeatedly tested the converted and deployed reStructuredText documentation. More recently, [unman](/team/#unman) and [Solène Rapenne](/team/#solène-rapenne) have supported the transition in the capacities as documentation maintainers.
