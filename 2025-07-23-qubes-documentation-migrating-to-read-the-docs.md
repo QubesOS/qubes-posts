@@ -32,7 +32,7 @@ The source files for all official Qubes documentation will continue to be stored
 
 ## How will the migration proceed?
 
-Over the next 20 days, between now and <TODO_YYYY-MM-DD>, the community will test the new documentation. During this period, the current documentation will be frozen, which means that no pull requests will be merged. After the testing period has concluded, the documentation team will evaluate the results and make any changes that are needed. Once the migration is complete, we'll make a final announcement, and the new documentation hosted on Read the Docs will officially replace the current documentation.
+Over the next 20 days, between now and 2025-08-12, the community will test the new documentation. During this period, the current documentation will be frozen, which means that no pull requests will be merged. After the testing period has concluded, the documentation team will evaluate the results and make any changes that are needed. Once the migration is complete, we'll make a final announcement, and the new documentation hosted on Read the Docs will officially replace the current documentation.
 
 ## What can I do to help?
 
