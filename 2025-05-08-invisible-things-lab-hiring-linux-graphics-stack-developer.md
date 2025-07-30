@@ -5,6 +5,10 @@ categories: announcements
 author: Invisible Things Lab
 ---
 
+**Update:** The position below has been filled. Thank you for your interest in Invisible Things Lab!
+
+-----
+
 **Position:** Linux graphics stack developer  
 **Company:** [Invisible Things Lab](https://invisiblethingslab.com/)  
 **Location:** Fully remote  
