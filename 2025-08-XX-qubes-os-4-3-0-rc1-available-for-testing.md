@@ -28,6 +28,10 @@ That depends on the number of bugs discovered in this RC and their severity. As 
 
 If you're willing to [test](/doc/testing/) this new RC, you can help us improve the eventual stable release by [reporting any bugs you encounter](/doc/issue-tracking/). We encourage experienced users to join the [testing team](https://forum.qubes-os.org/t/joining-the-testing-team/5190). The best way to test Qubes 4.3.0-rc1 is by performing a [clean installation](/doc/installation-guide/) with the new ISO. We strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand. (Please note that [in-place upgrades from 4.2 to 4.3](https://github.com/QubesOS/qubes-issues/issues/9317) have not yet been implemented as of RC1.)
 
+## Known issues in Qubes OS 4.3.0-rc1
+
+Templates restored in 4.3 from a pre-4.3 backup continue to target their original Qubes OS release repos. If you are using fresh templates on a clean 4.3.0-rc1 installation, then this does not affect you. (For more information, see issue [#8701](https://github.com/QubesOS/qubes-issues/issues/8701).)
+
 A full list of known bugs affecting Qubes 4.3 is available [here](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue%20type%3ABug%20label%3Aaffects-4.3%20-label%3A%22R%3A%20cannot%20reproduce%22%20-label%3A%22R%3A%20declined%22%20-label%3A%22R%3A%20duplicate%22%20-label%3A%22R%3A%20not%20applicable%22%20-label%3A%22R%3A%20self-closed%22%20-label%3A%22R%3A%20upstream%20issue%22). We strongly recommend [updating Qubes OS](/doc/how-to-update/) immediately after installation in order to apply all available bug fixes.
 
 ## What is a release candidate?
