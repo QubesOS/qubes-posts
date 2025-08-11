@@ -13,12 +13,12 @@ We're pleased to announce that the first release candidate (RC) for Qubes OS 4.3
 - Xen upgraded to version 4.19 ([#9420](https://github.com/QubesOS/qubes-issues/issues/9420)).
 - Default Fedora template upgraded to Fedora 42 (older releases not supported).
 - Default Debian template upgraded to Debian 13 (older releases not supported).
-- Default Whonix templates upgraded to Whonix 17.4.3 (older releases not supported).
+- Default Whonix templates upgraded to Whonix 17.4.3 (versions older than release 17 not supported).
 - Preloaded disposables ([#1512](https://github.com/QubesOS/qubes-issues/issues/1512))
 - Device "self-identity oriented" assignment (a.k.a. New Devices API) ([#9325](https://github.com/QubesOS/qubes-issues/issues/9325))
 - QWT (Qubes Windows Tools) reintroduced with improved features ([#1861](https://github.com/QubesOS/qubes-issues/issues/1861)).
 
-These are just a few highlights of the many changes included in this release. For a more comprehensive list of changes, see the [Qubes OS 4.3.0 release notes](https://qubes-doc--1504.org.readthedocs.build/en/1504/developer/releases/4_3/release-notes.html). (**Note:** This is a temporary link to an early preview of the release notes, which are continually being updated as we progress toward the eventual stable release.)
+These are just a few highlights from the many changes included in this release. For a more comprehensive list of changes, see the [Qubes OS 4.3.0 release notes](https://qubes-doc--1504.org.readthedocs.build/en/1504/developer/releases/4_3/release-notes.html). (This is a temporary link to an early preview of the release notes, which are continually being updated as we progress toward the eventual stable release.)
 
 ## When is the stable release?
 
@@ -26,11 +26,11 @@ That depends on the number of bugs discovered in this RC and their severity. As 
 
 ## How to test Qubes 4.3.0-rc1
 
-If you're willing to [test](/doc/testing/) this release candidate, you can help us improve the eventual stable release by [reporting any bugs you encounter](/doc/issue-tracking/). You can [upgrade to Qubes 4.3.0-rc1](https://qubes-doc--1504.org.readthedocs.build/en/1504/user/downloading-installing-upgrading/upgrade/4_3.html) with either a clean installation or an in-place upgrade from Qubes 4.2. (Note for in-place upgrade testers: `qubes-dist-upgrade` now requires `--releasever=4.3` and may require `--enable-current-testing` for testing releases.) As always, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand and [updating Qubes OS](/doc/how-to-update/) immediately afterward in order to apply all available bug fixes. We encourage experienced users to join the [testing team](https://forum.qubes-os.org/t/joining-the-testing-team/5190). 
+If you're willing to [test](/doc/testing/) this release candidate, you can help us improve the eventual stable release by [reporting any bugs you encounter](/doc/issue-tracking/). You can [upgrade to Qubes 4.3.0-rc1](https://qubes-doc--1504.org.readthedocs.build/en/1504/user/downloading-installing-upgrading/upgrade/4_3.html) with either a clean installation or an in-place upgrade from Qubes 4.2. (Note for in-place upgrade testers: `qubes-dist-upgrade` now requires `--releasever=4.3` and may require `--enable-current-testing` for testing releases like this RC.) As always, we strongly recommend [making a full backup](/doc/how-to-back-up-restore-and-migrate/) beforehand and [updating Qubes OS](/doc/how-to-update/) immediately afterward in order to apply all available bug fixes. We encourage experienced users to [join the testing team](https://forum.qubes-os.org/t/joining-the-testing-team/5190). 
 
 ## Known issues in Qubes OS 4.3.0-rc1
 
-Templates restored in 4.3 from a pre-4.3 backup continue to target their original Qubes OS release repos. This does not affect fresh templates on a clean 4.3.0-rc1 installation. For more information, see issue [#8701](https://github.com/QubesOS/qubes-issues/issues/8701).
+Templates restored in 4.3.0-rc1 from a pre-4.3 backup continue to target their original Qubes OS release repos. This does not affect fresh templates on a clean 4.3.0-rc1 installation. For more information, see issue [#8701](https://github.com/QubesOS/qubes-issues/issues/8701).
 
 [View the full list of known bugs affecting Qubes 4.3](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue%20type%3ABug%20label%3Aaffects-4.3%20-label%3A%22R%3A%20cannot%20reproduce%22%20-label%3A%22R%3A%20declined%22%20-label%3A%22R%3A%20duplicate%22%20-label%3A%22R%3A%20not%20applicable%22%20-label%3A%22R%3A%20self-closed%22%20-label%3A%22R%3A%20upstream%20issue%22) in our [issue tracker](/doc/issue-tracking/).
 
