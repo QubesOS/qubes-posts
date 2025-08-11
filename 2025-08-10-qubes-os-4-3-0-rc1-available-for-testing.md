@@ -5,9 +5,9 @@ categories: releases
 download_url: /downloads/
 ---
 
-We're pleased to announce that the first release candidate (RC) for Qubes OS 4.3.0 is now available for [download](/downloads/) and [signature verification](/security/verifying-signatures/). This minor release includes many new features and improvements over Qubes OS 4.2.
+We're pleased to announce that the first release candidate (RC) for Qubes OS 4.3.0 is now available for testing. This minor release includes many new features and improvements over Qubes OS 4.2.
 
-## What's new in Qubes 4.3.0?
+## What's new in Qubes 4.3?
 
 - Dom0 upgraded to Fedora 41 ([#9402](https://github.com/QubesOS/qubes-issues/issues/9402)).
 - Xen upgraded to version 4.19 ([#9420](https://github.com/QubesOS/qubes-issues/issues/9420)).
@@ -16,9 +16,9 @@ We're pleased to announce that the first release candidate (RC) for Qubes OS 4.3
 - Default Whonix templates upgraded to Whonix 17.4.3 (versions older than release 17 not supported).
 - Preloaded disposables ([#1512](https://github.com/QubesOS/qubes-issues/issues/1512))
 - Device "self-identity oriented" assignment (a.k.a. New Devices API) ([#9325](https://github.com/QubesOS/qubes-issues/issues/9325))
-- QWT (Qubes Windows Tools) reintroduced with improved features ([#1861](https://github.com/QubesOS/qubes-issues/issues/1861)).
+- Qubes Windows Tools reintroduced with improved features ([#1861](https://github.com/QubesOS/qubes-issues/issues/1861)).
 
-These are just a few highlights from the many changes included in this release. For a more comprehensive list of changes, see the [Qubes OS 4.3.0 release notes](https://qubes-doc--1504.org.readthedocs.build/en/1504/developer/releases/4_3/release-notes.html). (This is a temporary link to an early preview of the release notes, which are continually being updated as we progress toward the eventual stable release.)
+These are just a few highlights from the many changes included in this release. For a more comprehensive list of changes, see the [Qubes OS 4.3 release notes](https://qubes-doc--1504.org.readthedocs.build/en/1504/developer/releases/4_3/release-notes.html). (This is a temporary link to an early preview of the release notes, which are continually being updated as we progress toward the eventual stable release.)
 
 ## When is the stable release?
 
