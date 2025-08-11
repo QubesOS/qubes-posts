@@ -5,7 +5,7 @@ categories: releases
 download_url: /downloads/
 ---
 
-We're pleased to announce that the first release candidate (RC) for Qubes OS 4.3.0 is now available for [testing](/doc/testing/). This minor release includes many new features and improvements over Qubes OS 4.2. The ISO and associated [verification files](/security/verifying-signatures/) are available on the [downloads](/downloads/) page.
+We're pleased to announce that the first release candidate (RC) for Qubes OS 4.3.0 is now available for [download](/downloads/) and [signature verification](/security/verifying-signatures/). This minor release includes many new features and improvements over Qubes OS 4.2.
 
 ## What's new in Qubes 4.3.0?
 
