@@ -24,7 +24,7 @@ When a Qubes OS release reaches end-of-life (EOL), it is no longer supported. Th
 
 ## What about patch releases?
 
-The Qubes OS Project uses the [semantic versioning](https://semver.org/) standard. Version numbers are written as `<major>.<minor>.<patch>`. When a major or minor release reaches EOL, all of its patch releases also reach EOL. For example, in this case, when we say that "Qubes 4.1" (without specifying a `<patch>` number) is approaching EOL, we're specifying a particular minor release, inclusive of all patch releases within it. This means that Qubes 4.1.0, 4.1.1, and 4.1.2 will all reach EOL at the same time (on 2024-06-18), since they are all just patch releases of the same minor release.
+The Qubes OS Project uses the [semantic versioning](https://semver.org/) standard. Version numbers are written as `[major].[minor].[patch]`. When a major or minor release reaches EOL, all of its patch releases also reach EOL. For example, in this case, when we say that "Qubes 4.1" (without specifying a `<patch>` number) is approaching EOL, we're specifying a particular minor release, inclusive of all patch releases within it. This means that Qubes 4.1.0, 4.1.1, and 4.1.2 will all reach EOL at the same time (on 2024-06-18), since they are all just patch releases of the same minor release.
 
 ## How are EOL dates determined?
 
