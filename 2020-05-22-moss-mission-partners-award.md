@@ -10,7 +10,7 @@ We're proud to announce that the Qubes OS Project has won a
 [Mozilla Open Source Support (MOSS)] award in the amount
 of 128,000 USD. This generous one-year award will fund the work of
 [Frédéric Pierret] on making Qubes more robust and stable, as well as
-several key parts of [Nina Alter]'s extensive work on making Qubes more
+several key parts of Nina Alter's extensive work on making Qubes more
 user-friendly.
 
 There are three separate tracks for MOSS awards. Qubes has won an
@@ -23,6 +23,5 @@ that this award will enable.
 
 [Mozilla Open Source Support (MOSS)]: https://www.mozilla.org/en-US/moss/
 [Frédéric Pierret]: /team/#frédéric-pierret
-[Nina Alter]: /team/#nina-eleanor-alter
 [Mission Partners]: https://www.mozilla.org/en-US/moss/mission-partners/
 
