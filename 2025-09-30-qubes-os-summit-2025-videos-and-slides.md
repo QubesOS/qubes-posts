@@ -10,10 +10,10 @@ categories:
 
 ## Qubes OS Summit 2025: Day 1
 
-<iframe width="700" height="393" src="https://www.youtube-nocookie.com/embed/HwisqKFEQ0g?si=kDFxl-i9A7Dk2aZB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="393" src="https://www.youtube-nocookie.com/embed/videoseries?si=wEGxAC7GRdk4AfTA&amp;list=PLuISieMwVBpJI7QKSiC6ZiHSpkFQHf64F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Qubes OS Summit 2025: Day 2
 
-<iframe width="700" height="393" src="https://www.youtube-nocookie.com/embed/F9eRaa1w4KM?si=dQyTnMhVwU0JYn7f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="393" src="https://www.youtube-nocookie.com/embed/videoseries?si=1KBJH0g6Ng1hjj4Q&amp;list=PLuISieMwVBpLns-3Lcw2MqLCkQ78r-ZdO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
