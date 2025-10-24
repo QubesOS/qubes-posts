@@ -11,9 +11,9 @@ We're pleased to announce that the third release candidate (RC) for Qubes OS 4.3
 
 - Dom0 upgraded to Fedora 41 ([#9402](https://github.com/QubesOS/qubes-issues/issues/9402)).
 - Xen upgraded to version 4.19 ([#9420](https://github.com/QubesOS/qubes-issues/issues/9420)).
-- Default Fedora template upgraded to Fedora 42 (versions older than release 41 not supported).
-- Default Debian template upgraded to Debian 13 (versions older than release 12 not supported).
-- Default Whonix templates upgraded to Whonix 18 (older releases not supported).
+- Default Fedora template upgraded to Fedora 42 (versions older than 41 not supported).
+- Default Debian template upgraded to Debian 13 (versions older than 12 not supported).
+- Default Whonix templates upgraded to Whonix 18 (upgraded from 17.4.3 in RC2; versions older than 18 no longer supported).
 - Preloaded disposables ([#1512](https://github.com/QubesOS/qubes-issues/issues/1512))
 - Device "self-identity oriented" assignment (a.k.a. New Devices API) ([#9325](https://github.com/QubesOS/qubes-issues/issues/9325))
 - Qubes Windows Tools reintroduced with improved features ([#1861](https://github.com/QubesOS/qubes-issues/issues/1861)).
