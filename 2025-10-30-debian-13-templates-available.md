@@ -10,4 +10,4 @@ New Debian 13 templates are now available for both Qubes OS 4.2 (stable) and Qub
 
 - **Advanced:** [Perform an in-place upgrade of an existing Debian template.](https://doc.qubes-os.org/en/latest/user/templates/debian/debian-upgrade.html) This option will preserve any modifications you've made to the template, but it may be more complicated for less experienced users.
 
-**Note:** No user action is required regarding the OS version in dom0 (see our [note on dom0 and EOL](/doc/supported-releases/#note-on-dom0-and-eol)).
+**Note:** No user action is required regarding the OS version in dom0 (see our [note on dom0 and EOL](https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#note-on-dom0-and-eol)).
