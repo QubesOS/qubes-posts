@@ -24,7 +24,7 @@ These are just a few highlights from the many changes included in this release. 
 
 That depends on the number of bugs discovered in this RC and their severity. As explained in our [release schedule](https://doc.qubes-os.org/en/latest/developer/releases/version-scheme.html#release-schedule) documentation, our usual process after issuing a new RC is to collect bug reports, triage the bugs, and fix them. If warranted, we then issue a new RC that includes the fixes and repeat the process. We continue this iterative procedure until we're left with an RC that's good enough to be declared the stable release. No one can predict, at the outset, how many iterations will be required (and hence how many RCs will be needed before a stable release), but we tend to get a clearer picture of this as testing progresses.
 
-Barring any surprises uncovered by testing, we expect this fourth RC to be the final one, which means that we hope to declare this RC to be the stable 4.3.0 release.
+Barring any surprises uncovered by testing, we expect this fourth RC to be the final one, which means that we hope to declare this RC to be the stable 4.3.0 release at the conclusion of its testing period.
 
 ## How to test Qubes 4.3.0-rc4
 
