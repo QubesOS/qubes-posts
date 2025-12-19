@@ -32,7 +32,16 @@ In all cases, we strongly recommend [making a full backup](https://doc.qubes-os.
 
 ## Known issues in Qubes OS 4.3.0
 
-It is possible that templates restored in 4.3.0 from a pre-4.3 backup may continue to target their original Qubes OS release repos. This does not affect fresh templates on a clean 4.3.0 installation. For more information, see issue [#8701](https://github.com/QubesOS/qubes-issues/issues/8701).
+Templates restored in 4.3.0 from a pre-4.3 backup may continue to target their original Qubes OS release repos ([#8701](https://github.com/QubesOS/qubes-issues/issues/8701)). After restoring such templates in 4.3.0, you must perform the following additional steps:
+
+```
+sudo qubes-dom0-update -y qubes-dist-upgrade
+qubes-dist-upgrade --releasever=4.3 --template-standalone-upgrade -y
+```
+
+This will automatically choose the templates that need to be updated.
+
+Fresh templates on a clean 4.3.0 installation are not affected. Users who perform an in-place upgrade from 4.2 to 4.3 (instead of restoring templates from a backup) are also not affected, since the in-place upgrade process already includes the above fix in stage 4. For more information, see issue [#8701](https://github.com/QubesOS/qubes-issues/issues/8701).
 
 [View the full list of known bugs affecting Qubes 4.3](https://github.com/QubesOS/qubes-issues/issues?q=is%3Aissue%20type%3ABug%20label%3Aaffects-4.3%20-label%3A%22R%3A%20cannot%20reproduce%22%20-label%3A%22R%3A%20declined%22%20-label%3A%22R%3A%20duplicate%22%20-label%3A%22R%3A%20not%20applicable%22%20-label%3A%22R%3A%20self-closed%22%20-label%3A%22R%3A%20upstream%20issue%22) in our [issue tracker](https://doc.qubes-os.org/en/latest/introduction/issue-tracking.html).
 
