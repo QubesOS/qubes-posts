@@ -47,7 +47,7 @@ Fresh templates on a clean 4.3.0 installation are not affected. Users who perfor
 
 ## Support for older releases
 
-In accordance with our [release support policy](https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#qubes-os), Qubes 4.2 will remain supported for six months after the release of Qubes 4.3, until 2026-06-[TODO]. After that, Qubes 4.2 will no longer receive security updates or bug fixes.
+In accordance with our [release support policy](https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/supported-releases.html#qubes-os), Qubes 4.2 will remain supported for six months after the release of Qubes 4.3, until 2026-06-21. After that, Qubes 4.2 will no longer receive security updates or bug fixes.
 
 [Whonix templates](https://www.whonix.org/wiki/Qubes) are created and supported by our partner, the [Whonix Project](https://www.whonix.org/). The Whonix Project has set its own support policy for Whonix templates in Qubes. For more information, see the [Whonix Support Schedule](https://www.whonix.org/wiki/About#Support_Schedule).
 
