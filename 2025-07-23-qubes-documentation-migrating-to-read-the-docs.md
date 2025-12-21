@@ -4,7 +4,7 @@ title: "The Qubes documentation is migrating to Read the Docs!"
 categories: announcements
 ---
 
-We're pleased to announce that we're officially migrating to [Read the Docs](https://readthedocs.com/) as our documentation generation and hosting platform. Our documentation source files will continue to reside in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository with [PGP-signed tags and commits](/security/verifying-signatures/#how-to-verify-signatures-on-git-repository-tags-and-commits), and the live documentation published on the web will continue to be located on the official Qubes website, but Read the Docs will handle generating the documentation from our source files and hosting the generated documentation on the backend so that it can be served to Qubes website visitors. Migrating to Read the Docs will enable us to localize the documentation, maintain release-specific documentation, support offline documentation, and more. Today marks the beginning of a 20-day community testing period for the new documentation, which is already live at <https://doc.qubes-os.org/en/latest/>.
+We're pleased to announce that we're officially migrating to [Read the Docs](https://readthedocs.com/) as our documentation generation and hosting platform. Our documentation source files will continue to reside in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository with [PGP-signed tags and commits](https://doc.qubes-os.org/en/latest/project-security/verifying-signatures.html#how-to-verify-signatures-on-git-repository-tags-and-commits), and the live documentation published on the web will continue to be located on the official Qubes website, but Read the Docs will handle generating the documentation from our source files and hosting the generated documentation on the backend so that it can be served to Qubes website visitors. Migrating to Read the Docs will enable us to localize the documentation, maintain release-specific documentation, support offline documentation, and more. Today marks the beginning of a 20-day community testing period for the new documentation, which is already live at <https://doc.qubes-os.org/en/latest/>.
 
 ## What is Read the Docs?
 
@@ -28,7 +28,7 @@ Accordingly, the Qubes documentation source files will continue to reside in the
 
 ## How will this affect the security of the documentation?
 
-The source files for all official Qubes documentation will continue to be stored in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository with [PGP-signed tags and commits](/security/verifying-signatures/#how-to-verify-signatures-on-git-repository-tags-and-commits), just as they are now. In that sense, the security of the documentation won't change at all. The main change is that Read the Docs will replace GitHub as the platform that generates the documentation from the source files and hosts the generated documentation.
+The source files for all official Qubes documentation will continue to be stored in the [qubes-doc](https://github.com/QubesOS/qubes-doc) Git repository with [PGP-signed tags and commits](https://doc.qubes-os.org/en/latest/project-security/verifying-signatures.html#how-to-verify-signatures-on-git-repository-tags-and-commits), just as they are now. In that sense, the security of the documentation won't change at all. The main change is that Read the Docs will replace GitHub as the platform that generates the documentation from the source files and hosts the generated documentation.
 
 ## How will the migration proceed?
 
