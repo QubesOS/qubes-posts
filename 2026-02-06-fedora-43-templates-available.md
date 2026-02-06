@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fedora 43 templates available"
+title: "Fedora 43 templates available for Qubes OS 4.3"
 categories: announcements
 ---
 
@@ -9,6 +9,8 @@ The following new [Fedora 43 templates](https://doc.qubes-os.org/en/latest/user/
 - `fedora-43-xfce` (default Fedora template with the [Xfce](https://xfce.org/) desktop environment)
 - `fedora-43` (alternative Fedora template with the [GNOME](https://www.gnome.org/) desktop environment)
 - `fedora-43-minimal` ([minimal template](https://doc.qubes-os.org/en/latest/user/templates/minimal-templates.html) for advanced users)
+
+**Note:** Fedora 43 template availability for Qubes OS 4.2 will be announced separately.
 
 There are two ways to upgrade a template to a new Fedora release:
 
