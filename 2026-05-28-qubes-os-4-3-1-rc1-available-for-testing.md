@@ -10,7 +10,7 @@ The first release candidate (RC) for Qubes OS 4.3.1 is now available for testing
 ## What's new in Qubes 4.3.1?
 
 - Default Fedora template upgraded to Fedora 43. (Note: [Fedora 42 has reached end of life.](https://www.qubes-os.org/news/2026/03/13/fedora-42-approaching-end-of-life/))
-- Many bugs fixes
+- Many bug fixes
 
 ## When is the stable release?
 
