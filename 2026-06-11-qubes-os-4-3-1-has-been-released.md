@@ -11,7 +11,7 @@ We're pleased to announce the stable release of Qubes OS 4.3.1! This patch relea
 
 - [Qubes 4.2 will reach end of life (EOL) on 2026-06-21](https://www.qubes-os.org/news/2026/04/27/qubes-os-4-2-approaching-end-of-life/). If you're a current 4.2 user who's been waiting to upgrade to 4.3, the release of Qubes 4.3.1 is the perfect opportunity to do so.
 
-- [Qubes OS User Survey 2026](https://pad.itl.space/form/#/2/form/view/4+jrJP2pyim2EyFwrbXrOVbQpzUg71Kt+DWR6p2M3IU/) is now live! Whether you're a long-time Qubes user or haven't even installed it yet, we want to hear about your experiences and about what matters to you. Help us make Qubes the best reasonably secure operating system it can be. If you've ever wanted to influence the development of Qubes, now is your chance. Make your voice heard! (Note: This survey is fully anonymous. We do not collect any data except for the answers you provide.)
+- [Qubes OS User Survey 2026](https://pad.itl.space/form/#/2/form/view/4+jrJP2pyim2EyFwrbXrOVbQpzUg71Kt+DWR6p2M3IU/) is now live! Whether you're a long-time Qubes user or haven't even installed it yet, we want to hear about your experiences and about what matters to you. Help us make Qubes the best reasonably secure operating system it can be. The survey takes 10-20 minutes and is fully anonymous. We do not collect any data except for the answers you provide. If you've ever wanted to influence the development of Qubes, now is your chance. Make your voice heard!
 
 ## What's new in Qubes 4.3.1?
 
