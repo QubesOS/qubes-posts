@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Qubes OS User Survey 2026: Shape the future of Qubes! (10-20 minutes)
+title: "Qubes OS User Survey 2026: Shape the future of Qubes! (10-20 minutes)"
 categories: announcements
 ---
 
