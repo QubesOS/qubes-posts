@@ -5,9 +5,9 @@ categories: releases
 download_url: /downloads/
 ---
 
-We're pleased to announce the stable release of Qubes OS 4.3.1! This patch release aims to consolidate all the security patches, bug fixes, and other updates that have occurred since the previous stable release. Our goal is to provide a secure and convenient way for users to install (or reinstall) the latest stable Qubes release with an up-to-date ISO. The ISO and associated [verification files](https://doc.qubes-os.org/en/latest/project-security/verifying-signatures.html) are available on the [downloads](https://www.qubes-os.org/downloads/) page.
+We're pleased to announce the stable release of Qubes OS 4.3.1! This patch release aims to consolidate all the security updates and bug fixes that have occurred since the previous stable release. Our goal is to provide a secure and convenient way for users to install (or reinstall) the latest stable Qubes release with an up-to-date ISO. The ISO and associated [verification files](https://doc.qubes-os.org/en/latest/project-security/verifying-signatures.html) are available on the [downloads](https://www.qubes-os.org/downloads/) page.
 
-## Important reminders
+## Announcements
 
 - [Qubes 4.2 will reach end of life (EOL) on 2026-06-21](https://www.qubes-os.org/news/2026/04/27/qubes-os-4-2-approaching-end-of-life/). If you're a current 4.2 user who's been waiting to upgrade to 4.3, the release of Qubes 4.3.1 is the perfect opportunity to do so.
 
