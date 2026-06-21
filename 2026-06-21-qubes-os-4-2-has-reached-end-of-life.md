@@ -6,7 +6,7 @@ categories:
  - releases
 ---
 
-As [previously announced](https://www.qubes-os.org/news/2026/04/27/qubes-os-4-2-approaching-end-of-life/), the Qubes OS 4.2 release series has officially reached end of life (EOL) as of today, 2026-06-21. We strongly urge any remaining Qubes 4.2 users to [upgrade to Qubes 4.3](https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/upgrade/4_3.html) immediately.
+As [previously announced](https://www.qubes-os.org/news/2026/04/27/qubes-os-4-2-approaching-end-of-life/), the Qubes OS 4.2 release series has officially reached end of life (EOL) as of today, 2026-06-21. We strongly urge all remaining Qubes 4.2 users to [upgrade to Qubes 4.3](https://doc.qubes-os.org/en/latest/user/downloading-installing-upgrading/upgrade/4_3.html) immediately.
 
 ## Recommended actions
 
