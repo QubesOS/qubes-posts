@@ -20,7 +20,7 @@ All three options allow you to watch and listen to the presentations. If you att
 - Build cool stuff together in a hackathon.
 - Socialize, network, and mingle with like-minded individuals who are passionate about secure computing.
 
-The free virtual tickets are for those who are presenting remotely and for remote attendees who wish to engage in active discussion online during the Summit. If you just want to watch the presentations online, no ticket or registration is required. The streams and recordings will be publicly available, and you can simply view them at your convenience.
+Neither of the online options include access to these activities. The free virtual tickets are for those who are presenting remotely and for remote attendees who wish to engage in active discussion online during the Summit. If you just want to watch the presentations online, no ticket or registration is required. The streams and recordings will be publicly available, and you can simply view them at your convenience.
 
 [Get tickets.](https://pretix.eu/qubes/summit2026/)
 
