@@ -8,23 +8,34 @@ categories: announcements
 
 ## Attend in person or online
 
-There are three ways to attend:
+There are three ways to attend the Summit:
 
-- In person at [Refugio Berlin](https://refugio.berlin/) (paid on-site ticket required)
-- Actively participate online (free virtual ticket required)
-- Passively view online (no ticket or registration required)
+1. In person at [Refugio Berlin](https://refugio.berlin/)
+   - Requires a [paid on-site ticket](https://pretix.eu/qubes/summit2026/)
+   - Grants access to interactive workshops, design sessions, and the hackathon
+   - Provides the opportunity to socialize, network, and mingle with like-minded individuals who are passionate about secure computing
+   - Grants exclusive access to any non-livestreamed, non-recorded presentations (see below)
+   - Grants access to attend presentations and participate as a live audience member
 
-All three options allow you to watch and listen to the presentations. If you attend in person, you'll also:
+2. Actively participate online
+   - Requires a [free virtual ticket](https://pretix.eu/qubes/summit2026/)
+   - For those who are presenting remotely
+   - For those who are attending presentations remotely and wish to ask questions or engage in active discussion in a live chat during the presentations
+   - Does not grant access to interactive workshops, design sessions, or the hackathon
+   - Does not provide the opportunity to socialize, network, or mingle with like-minded individuals who are passionate about secure computing
+   - Does not grant access to any non-livestreamed, non-recorded presentations (see below)
+   - Does not grant access to attend presentations as a live audience member
 
-- Get hands-on experience in interactive workshops and design sessions.
-- Build cool stuff together in a hackathon.
-- Socialize, network, and mingle with like-minded individuals who are passionate about secure computing.
+3. Passively view online
+   - No ticket or registration required
+   - For those who simply wish to watch the presentations via the public livestream and recorded videos
+   - Does not provide the ability to ask questions or engage in active discussion during the presentations
+   - Does not grant access to interactive workshops, design sessions, or the hackathon
+   - Does not provide the opportunity to socialize, network, or mingle with like-minded individuals who are passionate about secure computing
+   - Does not grant access to any non-livestreamed, non-recorded presentations (see below)
+   - Does not grant access to attend presentations as a live audience member
 
-The free virtual tickets are for those who are presenting remotely and for remote attendees who wish to engage in active discussion online during the Summit. If you just want to watch the presentations online, no ticket or registration is required. The streams and recordings will be publicly available, and you can simply view them at your convenience.
-
-[Get tickets.](https://pretix.eu/qubes/summit2026/)
-
-**Note:** Presenters have the option to request that their presentations not be recorded. If a presenter opts out of recording, there will be a "no recording" icon next to that presentation in the conference schedule. Only on-site attendees will be able to view that presentation. It will not be streamed or recorded for later viewing.
+**Note:** Presenters have the option to request that their presentations not be recorded. If a presenter opts out of recording, there will be a "no recording" icon next to that presentation in the conference schedule. Only on-site attendees will be able to view that presentation. It will not be livestreamed or recorded for later viewing.
 
 ## Become a presenter
 
@@ -32,7 +43,7 @@ If you'd like to present at the Summit, please [submit your proposal](https://pr
 
 - You may present either on site or virtually from anywhere in the world.
 - If your proposal is accepted and you wish to present in person, you'll be issued an on-site ticket free of charge, no purchase necessary.
-- If you select "Don't record this session" when submitting your proposal, your presentation will not be recorded or streamed. Online attendees will not be able to view it.
+- If you select "Don't record this session" when submitting your proposal, your presentation will not be livestreamed or recorded. Online attendees will not be able to view it.
 
 ## Conference schedule
 
