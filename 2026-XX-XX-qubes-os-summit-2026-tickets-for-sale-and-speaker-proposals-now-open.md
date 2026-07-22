@@ -6,13 +6,23 @@ categories: announcements
 
 [Qubes OS Summit 2026](https://pretix.eu/qubes/summit2026/) is a three-day gathering of security enthusiasts, open-source developers, and digital privacy experts.
 
+## When and where
+
+**Friday, October 30 @ 9:30 AM — Sunday, November 1 @ 3:00 PM (GMT+1)**  
+(A more specific schedule will be published after the speaker lineup is finalized.)
+
+[Refugio Berlin](https://refugio.berlin/)  
+Lenaustraße 3-4  
+12047 Berlin  
+[View on OpenStreetMap](https://www.openstreetmap.org/way/263350430)
+
 ## Attend in person or online
 
 There are three ways to attend the Summit:
 
 1. **In person at [Refugio Berlin](https://refugio.berlin/)**
    - Requires a [paid on-site ticket](https://pretix.eu/qubes/summit2026/)
-   - Grants access to interactive workshops, design sessions, and the hackathon
+   - Grants access to the hackathon (including interactive workshops) and any design sessions (depending on conference schedule)
    - Provides the opportunity to socialize, network, and mingle with like-minded individuals who are passionate about secure computing
    - Grants exclusive access to any non-livestreamed, non-recorded presentations (see below)
    - Grants access to attend presentations and participate as a live audience member
@@ -21,7 +31,7 @@ There are three ways to attend the Summit:
    - Requires a [free virtual ticket](https://pretix.eu/qubes/summit2026/)
    - For those who are presenting remotely
    - For those who are attending presentations remotely and wish to ask questions or engage in active discussion in a live chat during the presentations
-   - Does not grant access to interactive workshops, design sessions, or the hackathon
+   - Does not grant access to the hackathon or any design sessions
    - Does not provide the opportunity to socialize, network, or mingle with like-minded individuals who are passionate about secure computing
    - Does not grant access to any non-livestreamed, non-recorded presentations (see below)
    - Does not grant access to attend presentations as a live audience member
@@ -30,7 +40,7 @@ There are three ways to attend the Summit:
    - No ticket or registration required
    - For those who simply wish to watch the presentations via the public livestream and recorded videos
    - Does not provide the ability to ask questions or engage in active discussion during the presentations
-   - Does not grant access to interactive workshops, design sessions, or the hackathon
+   - Does not grant access to the hackathon or any design sessions
    - Does not provide the opportunity to socialize, network, or mingle with like-minded individuals who are passionate about secure computing
    - Does not grant access to any non-livestreamed, non-recorded presentations (see below)
    - Does not grant access to attend presentations as a live audience member
