@@ -1,15 +1,18 @@
 ---
 layout: post
-title: "Qubes OS Summit 2026: Freedom of the Press Foundation sponsorship; conference schedule available!"
+title: "Qubes OS Summit 2026: Freedom of the Press Foundation and NovaCustom sponsorships; conference schedule available!"
 categories: announcements
-image: /attachment/site/fpf-logo.svg
 ---
 
-We're proud to announce that the [Freedom of the Press Foundation (FPF)](https://freedom.press/) has agreed to support [Qubes OS Summit 2026](https://pretix.eu/qubes/summit2026/) as a Gold tier sponsor!
+We're proud to announce two new [Qubes OS Summit 2026](https://pretix.eu/qubes/summit2026/) sponsorships: [Freedom of the Press Foundation (FPF)](https://freedom.press/) as a Gold tier sponsor and [NovaCustom](https://novacustom.com/) as a Silver tier sponsor!
 
 [![Freedom of the Press Foundation logo](/attachment/site/fpf-logo.svg)](https://freedom.press/)
 
 The FPF is a long-standing [Qubes Partner](https://www.qubes-os.org/partners/). As a nonprofit organization, it is dedicated to supporting and defending public interest journalism. It leads the development of [SecureDrop](https://securedrop.org/), an open-source whistleblower submission platform used by more than 50 media organizations around the world to securely accept documents from anonymous sources. FPF uses Qubes OS in the development of an integrated [SecureDrop Workstation](https://github.com/freedomofpress/securedrop-workstation).
+
+[![NovaCustom logo](/attachment/site/novacustom-logo.png)](https://novacustom.com/)
+
+NovaCustom builds custom laptops, mini PCs, and smartphones with a focus on privacy, security, and customization. They offer the freedom of Dasharo coreboot firmware, true repairability, and a plethora of customization options. Several NovaCustom models are [officially certified for Qubes OS](https://doc.qubes-os.org/en/latest/user/hardware/certified-hardware/certified-hardware.html).
 
 ## Conference schedule
 
@@ -63,7 +66,7 @@ There are three ways to attend the Summit:
 
 ## Become a sponsor
 
-If you or your organization are interested in joining the FPF as a sponsor for Qubes OS Summit 2026 or as a [Qubes Partner](https://www.qubes-os.org/partners/), please contact us at <funding@qubes-os.org>.
+If you or your organization are interested in sponsoring Qubes OS Summit 2026 or becoming a [Qubes Partner](https://www.qubes-os.org/partners/), please contact us at <funding@qubes-os.org>.
 
 ## Code of conduct
 
