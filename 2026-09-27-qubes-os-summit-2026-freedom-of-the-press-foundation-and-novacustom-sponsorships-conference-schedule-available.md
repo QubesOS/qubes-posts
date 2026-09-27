@@ -4,7 +4,7 @@ title: "Qubes OS Summit 2026: Freedom of the Press Foundation and NovaCustom spo
 categories: announcements
 ---
 
-We're proud to announce two new [Qubes OS Summit 2026](https://pretix.eu/qubes/summit2026/) sponsorships: [Freedom of the Press Foundation (FPF)](https://freedom.press/) as a Gold tier sponsor and [NovaCustom](https://novacustom.com/) as a Silver tier sponsor!
+We're proud to announce two new [Qubes OS Summit 2026](https://pretix.eu/qubes/summit2026/) sponsorships: [Freedom of the Press Foundation (FPF)](https://freedom.press/) as a Gold-tier sponsor and [NovaCustom](https://novacustom.com/) as a Silver-tier sponsor!
 
 [![Freedom of the Press Foundation logo](/attachment/site/fpf-logo.svg)](https://freedom.press/)
 
