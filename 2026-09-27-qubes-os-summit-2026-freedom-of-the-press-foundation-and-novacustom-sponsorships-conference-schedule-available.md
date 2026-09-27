@@ -18,7 +18,7 @@ NovaCustom builds custom laptops, mini PCs, and smartphones with a focus on priv
 
 We're also pleased to share the official conference schedule, including a list of sessions and speakers, which you can find here:
 
-https://pretalx.com/qubes-os-summit-2026/schedule/
+<https://pretalx.com/qubes-os-summit-2026/schedule/>
 
 (Please note that we're still waiting on a few speakers to confirm their attendance, so this schedule is subject to change.)
 
