@@ -2,6 +2,7 @@
 layout: post
 title: "Qubes OS Summit 2026 starts today!"
 categories: announcements
+redirect_from: /news/2026/10/30/qubes-os-summit-2026-goes-live-today/
 ---
 
 [Qubes OS Summit 2026](https://pretix.eu/qubes/summit2026/) is finally here! Today, Friday, October 30, marks the first day of the Summit, which will begin at 9:30am CET (UTC+1) in Berlin, Germany. Whether you're joining us in person at [Refugio Berlin](https://refugio.berlin/) or [online via the livestream](https://streaming.media.ccc.de/qubes_os/main), we're excited for you to see the [presentations](https://pretalx.com/qubes-os-summit-2026/schedule/) our speakers have prepared for you!
